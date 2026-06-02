@@ -617,7 +617,7 @@
   { "id": "k4g096", "question": "「きょうは　うみが　あおいですね。」の漢字は？", "choices": ["山", "川", "海", "田"], "answer": 2, "explanation": "海 (うみ): Biển.", "category": "kanji", "level": "N4" },
   { "id": "k4g097",
     "question": "「あした　でんわを　かけます。」の漢字は？", 
-    "choices": ["電話", "電話", "電話", "電話"], 
+    "choices": ["電和", "電護", "電語", "電話"], 
     "answer": 3, 
     "explanation": "電話 (でんわ): Điện thoại.", 
     "category": "kanji", "level": "N4" 
