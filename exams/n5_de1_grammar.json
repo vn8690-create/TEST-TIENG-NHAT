@@ -1,0 +1,22 @@
+[
+  {"id": 1, "question": "わたしは日本( )来ました。", "options": ["が", "を", "から", "に"], "correct": 2, "explanation": "Xuất xứ dùng から."},
+  {"id": 2, "question": "毎日7時( )起きます。", "options": ["に", "を", "が", "へ"], "correct": 0, "explanation": "Thời gian xác định dùng に."},
+  {"id": 3, "question": "英語( )話せます。", "options": ["を", "が", "に", "へ"], "correct": 1, "explanation": "Khả năng dùng が."},
+  {"id": 4, "question": "机の上( )本があります。", "options": ["に", "を", "が", "へ"], "correct": 0, "explanation": "Chỉ vị trí tồn tại dùng に."},
+  {"id": 5, "question": "ここで写真を( )。", "options": ["とります", "とってもいいです", "とらない", "とりました"], "correct": 1, "explanation": "Xin phép dùng てもいいです."},
+  {"id": 6, "question": "日本語を勉強する( )好きです。", "options": ["を", "が", "のが", "のを"], "correct": 2, "explanation": "Danh từ hóa hành động dùng の."},
+  {"id": 7, "question": "このケーキはおいしそう( )。", "options": ["に", "な", "だ", "です"], "correct": 3, "explanation": "Kết thúc câu dùng です."},
+  {"id": 8, "question": "昨日映画を( )。", "options": ["見ます", "見ました", "見る", "見て"], "correct": 1, "explanation": "Quá khứ dùng ました."},
+  {"id": 9, "question": "今お金が( )。", "options": ["あります", "ありません", "ありました", "あるです"], "correct": 1, "explanation": "Hiện tại không có dùng ありません."},
+  {"id": 10, "question": "日本へ行ったことが( )。", "options": ["います", "あります", "なります", "できます"], "correct": 1, "explanation": "Kinh nghiệm dùng ことがあります."},
+  {"id": 11, "question": "この本は( )です。", "options": ["おもしろい", "おもしろ", "おもしろく", "おもしろかった"], "correct": 0, "explanation": "Tính từ đuôi i bổ nghĩa danh từ."},
+  {"id": 12, "question": "わたしは毎日学校( )行きます。", "options": ["を", "に", "が", "で"], "correct": 1, "explanation": "Hướng đến dùng に."},
+  {"id": 13, "question": "昨日はとても( )。", "options": ["あつい", "あつかった", "あつく", "あつさ"], "correct": 1, "explanation": "Quá khứ tính từ đuôi i dùng かった."},
+  {"id": 14, "question": "これはだれ( )かばんですか。", "options": ["が", "の", "に", "を"], "correct": 1, "explanation": "Sở hữu dùng の."},
+  {"id": 15, "question": "わたしはりんご( )好きです。", "options": ["が", "を", "に", "で"], "correct": 0, "explanation": "Thích cái gì dùng が."},
+  {"id": 16, "question": "明日雨( )降るでしょう。", "options": ["を", "が", "に", "で"], "correct": 1, "explanation": "Chủ thể của hành động dùng が."},
+  {"id": 17, "question": "早く( )ください。", "options": ["来る", "来ます", "来て", "来た"], "correct": 2, "explanation": "Yêu cầu dùng てください."},
+  {"id": 18, "question": "母は料理が( )。", "options": ["上手", "上手な", "上手に", "上手です"], "correct": 3, "explanation": "Kết thúc câu dùng です."},
+  {"id": 19, "question": "日本語は( )です。", "options": ["むずかしい", "むずかし", "むずかしく", "むずかしかった"], "correct": 0, "explanation": "Tính từ đuôi i."},
+  {"id": 20, "question": "田中さんは今勉強( )います。", "options": ["を", "が", "して", "する"], "correct": 2, "explanation": "Đang làm gì dùng ています."}
+]
