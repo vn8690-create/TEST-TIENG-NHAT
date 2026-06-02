@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本語クエスト — NihongoQuest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Press+Start+2P&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════════════════════
+   DESIGN TOKENS — Anime Dark Theme
+═══════════════════════════════════════════════════════════ */
+:root {
+  --bg:          #0D0D1A;
+  --bg2:         #13132A;
+  --bg3:         #1A1A35;
+  --panel:       #1E1E40;
+  --panel2:      #252550;
+  --border:      #3A3A70;
+  --border2:     #5050A0;
+
+  --sakura:      #FF6B9D;
+  --sakura2:     #FF8FB3;
+  --gold:        #FFD700;
+  --gold2:       #FFF176;
+  --teal:        #00F5D4;
+  --teal2:       #7FFFEA;
+  --purple:      #9B59B6;
+  --purple2:     #C39BD3;
+  --blue:        #4ECDC4;
+  --red:         #FF4757;
+  --green:       #2ED573;
+
+  --text:        #E8E8FF;
+  --text2:       #A0A0C8;
+  --text3:       #6060A0;
+
+  --font-pixel:  'Press Start 2P', monospace;
+  --font-jp:     'Noto Sans JP', sans-serif;
+  --font-body:   'Sawarabi Gothic', sans-serif;
+
+  --glow-sakura: 0 0 20px rgba(255,107,157,0.5);
+  --glow-gold:   0 0 20px rgba(255,215,0,0.5);
+  --glow-teal:   0 0 20px rgba(0,245,212,0.4);
+  --shadow:      0 8px 32px rgba(0,0,0,0.6);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   RESET & BASE
+═══════════════════════════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Animated starfield bg */
+body::before {
+  content: '';
+  position: fixed; inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 80% 20%, rgba(255,107,157,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 50% 60%, rgba(0,245,212,0.3) 0%, transparent 100%),
+    radial-gradient(2px 2px at 70% 80%, rgba(155,89,182,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 10% 70%, rgba(255,215,0,0.3) 0%, transparent 100%);
+  background-size: 400px 400px, 300px 300px, 500px 500px, 350px 350px, 450px 450px;
+  animation: starDrift 30s linear infinite;
+  pointer-events: none; z-index: 0;
+}
+
+@keyframes starDrift {
+  0%   { background-position: 0 0, 0 0, 0 0, 0 0, 0 0; }
+  100% { background-position: 400px 400px, -300px 300px, 500px -500px, -350px 350px, 450px -450px; }
+}
+
+/* Sakura petals */
+.petal {
+  position: fixed;
+  font-size: 1.2rem;
+  pointer-events: none;
+  animation: petalFall linear infinite;
+  z-index: 1;
+  opacity: 0.6;
+}
+@keyframes petalFall {
+  0%   { transform: translateY(-20px) rotate(0deg); opacity: 0.6; }
+  100% { transform: translateY(105vh) rotate(720deg); opacity: 0; }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   LAYOUT
+═══════════════════════════════════════════════════════════ */
+.app-wrapper {
+  position: relative; z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px 80px;
+  min-height: 100vh;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   HEADER
+═══════════════════════════════════════════════════════════ */
+.app-header {
+  text-align: center;
+  padding: 24px 0 8px;
+  position: relative;
+}
+
+.logo-title {
+  font-family: var(--font-pixel);
+  font-size: clamp(0.7rem, 2.5vw, 1rem);
+  color: var(--gold);
+  text-shadow: var(--glow-gold), 0 0 40px rgba(255,215,0,0.3);
+  letter-spacing: 2px;
+  line-height: 1.8;
+}
+
+.logo-subtitle {
+  font-family: var(--font-jp);
+  font-size: 0.75rem;
+  color: var(--sakura);
+  letter-spacing: 4px;
+  margin-top: 4px;
+  text-shadow: var(--glow-sakura);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   NAV BAR
+═══════════════════════════════════════════════════════════ */
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 0;
+  flex-wrap: wrap;
+}
+
+.nav-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text2);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+.nav-btn:hover {
+  border-color: var(--sakura);
+  color: var(--sakura);
+  box-shadow: var(--glow-sakura);
+}
+
+.badge {
+  position: absolute;
+  top: -6px; right: -6px;
+  background: var(--red);
+  color: #fff;
+  font-size: 0.6rem;
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-pixel);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SCREENS
+═══════════════════════════════════════════════════════════ */
+.screen { display: none; }
+.screen.active { display: block; animation: fadeIn 0.3s ease; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   HOME SCREEN
+═══════════════════════════════════════════════════════════ */
+
+/* Level select */
+.section-title {
+  font-family: var(--font-pixel);
+  font-size: 0.55rem;
+  color: var(--teal);
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+  text-shadow: var(--glow-teal);
+}
+
+.level-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.level-btn {
+  flex: 1; min-width: 70px;
+  background: var(--panel);
+  border: 2px solid var(--border);
+  color: var(--text2);
+  padding: 12px 8px;
+  border-radius: 12px;
+  font-family: var(--font-pixel);
+  font-size: 0.65rem;
+  cursor: pointer;
+  transition: all 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.level-btn::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, transparent 40%, rgba(255,255,255,0.05));
+  pointer-events: none;
+}
+.level-btn:hover, .level-btn.active {
+  border-color: var(--gold);
+  color: var(--gold);
+  box-shadow: var(--glow-gold), inset 0 0 20px rgba(255,215,0,0.05);
+  transform: translateY(-2px);
+}
+
+/* Progress mini */
+.progress-mini {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.pm-badge {
+  font-family: var(--font-pixel);
+  font-size: 0.7rem;
+  color: var(--gold);
+  background: var(--bg);
+  border: 1px solid var(--gold);
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+.pm-stat { font-size: 0.78rem; color: var(--text2); }
+.pm-stat strong { color: var(--teal); font-family: var(--font-jp); }
+.pm-data-status { margin-left: auto; font-size: 0.72rem; color: var(--green); }
+
+/* Mode grid */
+.mode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.mode-btn {
+  background: var(--panel);
+  border: 2px solid var(--border);
+  color: var(--text);
+  padding: 18px 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.25s;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+.mode-btn::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--accent, var(--sakura));
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+.mode-btn:hover::before { transform: scaleX(1); }
+.mode-btn:hover {
+  border-color: var(--accent, var(--sakura));
+  box-shadow: 0 0 20px rgba(var(--accent-rgb, 255,107,157), 0.3);
+  transform: translateY(-3px);
+}
+
+.mode-btn[data-mode="mock"]     { --accent: var(--gold);   --accent-rgb: 255,215,0; }
+.mode-btn[data-mode="random"]   { --accent: var(--sakura); --accent-rgb: 255,107,157; }
+.mode-btn[data-mode="quick"]    { --accent: var(--teal);   --accent-rgb: 0,245,212; }
+.mode-btn[data-mode="survival"] { --accent: var(--red);    --accent-rgb: 255,71,87; }
+.mode-btn[data-mode="review"]   { --accent: var(--purple); --accent-rgb: 155,89,182; }
+
+.mode-icon { font-size: 1.8rem; display: block; margin-bottom: 10px; }
+.mode-name {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  color: var(--accent, var(--sakura));
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+  display: block;
+}
+.mode-desc { font-size: 0.72rem; color: var(--text2); line-height: 1.4; }
+
+/* ═══════════════════════════════════════════════════════════
+   EXAM SCREEN
+═══════════════════════════════════════════════════════════ */
+.exam-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  flex-wrap: wrap;
+}
+.exam-id-tag {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  color: var(--text3);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+.exam-info-tag {
+  font-size: 0.72rem;
+  color: var(--text2);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+.exam-timer {
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  color: var(--teal);
+  margin-left: auto;
+  padding: 4px 10px;
+  border: 1px solid var(--teal);
+  border-radius: 6px;
+  text-shadow: var(--glow-teal);
+}
+.exam-timer.urgent {
+  color: var(--red);
+  border-color: var(--red);
+  animation: urgentPulse 0.5s ease infinite alternate;
+}
+@keyframes urgentPulse {
+  from { opacity: 1; } to { opacity: 0.5; }
+}
+
+#lives-display { display: flex; gap: 4px; align-items: center; }
+.heart { font-size: 1.1rem; transition: transform 0.3s; }
+.heart.dead { filter: grayscale(1); opacity: 0.4; }
+
+#survival-score {
+  font-family: var(--font-pixel);
+  font-size: 0.55rem;
+  color: var(--gold);
+  margin-left: 8px;
+}
+
+/* Progress bar */
+.exam-progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--panel);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--sakura), var(--purple));
+  border-radius: 3px;
+  transition: width 0.4s ease;
+  box-shadow: 0 0 10px rgba(255,107,157,0.5);
+}
+#progress-count { font-size: 0.72rem; color: var(--text3); white-space: nowrap; }
+
+/* Question card */
+.question-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 28px;
+  margin-bottom: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.question-card::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background: radial-gradient(ellipse at center, rgba(155,89,182,0.05) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.question-card.slide-in {
+  animation: slideIn 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(30px) scale(0.97); }
+  to   { opacity: 1; transform: translateX(0) scale(1); }
+}
+
+.q-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+.q-category {
+  font-family: var(--font-pixel);
+  font-size: 0.45rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.q-number {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  color: var(--text3);
+}
+
+.q-kanji {
+  font-family: var(--font-jp);
+  font-size: clamp(3rem, 10vw, 5rem);
+  font-weight: 900;
+  text-align: center;
+  color: var(--gold2);
+  text-shadow: var(--glow-gold);
+  display: block;
+  margin: 12px 0 20px;
+  display: none;
+}
+
+.q-text {
+  font-family: var(--font-jp);
+  font-size: clamp(1rem, 3vw, 1.25rem);
+  line-height: 1.7;
+  color: var(--text);
+  font-weight: 700;
+}
+
+/* Choices */
+.choices-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+  .choices-grid { grid-template-columns: 1fr; }
+}
+
+.choice-btn {
+  background: var(--bg2);
+  border: 2px solid var(--border);
+  color: var(--text);
+  padding: 14px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  text-align: left;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.choice-btn:hover:not(:disabled) {
+  border-color: var(--sakura);
+  background: rgba(255,107,157,0.08);
+  transform: translateX(4px);
+}
+.choice-btn:disabled { cursor: not-allowed; }
+
+.choice-label {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  color: var(--text3);
+  min-width: 20px;
+}
+
+.choice-btn.correct {
+  border-color: var(--green) !important;
+  background: rgba(46,213,115,0.12);
+  box-shadow: 0 0 16px rgba(46,213,115,0.3);
+}
+.choice-btn.correct .choice-label { color: var(--green); }
+
+.choice-btn.wrong {
+  border-color: var(--red) !important;
+  background: rgba(255,71,87,0.12);
+  animation: wrongShake 0.4s ease;
+}
+@keyframes wrongShake {
+  0%, 100% { transform: translateX(0); }
+  25%       { transform: translateX(-8px); }
+  75%       { transform: translateX(8px); }
+}
+.choice-btn.wrong .choice-label { color: var(--red); }
+
+/* Explanation */
+.explanation-box {
+  background: rgba(0,245,212,0.06);
+  border: 1px solid rgba(0,245,212,0.3);
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-top: 14px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--teal2);
+  animation: fadeIn 0.3s ease;
+}
+.explanation-box.hidden { display: none; }
+
+/* Exam action buttons */
+.exam-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--sakura), var(--purple));
+  color: #fff;
+  box-shadow: var(--glow-sakura);
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 30px rgba(255,107,157,0.6); }
+
+.btn-secondary {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: var(--text2);
+}
+.btn-secondary:hover { border-color: var(--border2); color: var(--text); }
+
+.btn-danger {
+  background: transparent;
+  border: 1px solid var(--red);
+  color: var(--red);
+}
+.btn-danger:hover { background: rgba(255,71,87,0.1); }
+
+.hidden { display: none !important; }
+
+/* ═══════════════════════════════════════════════════════════
+   RESULT SCREEN
+═══════════════════════════════════════════════════════════ */
+.result-container {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.result-rank-display {
+  font-family: var(--font-pixel);
+  font-size: clamp(4rem, 15vw, 7rem);
+  line-height: 1;
+  margin-bottom: 8px;
+  filter: drop-shadow(0 0 30px currentColor);
+}
+.result-rank-display.pop {
+  animation: popIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+@keyframes popIn {
+  0%   { transform: scale(0) rotate(-10deg); opacity: 0; }
+  60%  { transform: scale(1.2) rotate(5deg); }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+.result-label {
+  font-family: var(--font-jp);
+  font-size: 1rem;
+  color: var(--text2);
+  margin-bottom: 32px;
+}
+
+.result-stats {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.stat-item { }
+.stat-label {
+  font-size: 0.7rem;
+  color: var(--text3);
+  margin-bottom: 4px;
+  font-family: var(--font-pixel);
+  font-size: 0.45rem;
+  letter-spacing: 1px;
+}
+.stat-value {
+  font-family: var(--font-jp);
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--gold);
+}
+
+.result-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   HISTORY / WRONGLIST
+═══════════════════════════════════════════════════════════ */
+.screen-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+.screen-title {
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+}
+
+.history-list, .wronglist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.history-item, .wrong-item {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: border-color 0.2s;
+}
+.history-item:hover, .wrong-item:hover {
+  border-color: var(--border2);
+}
+
+.hi-rank {
+  font-family: var(--font-pixel);
+  font-size: 1.2rem;
+  min-width: 32px;
+}
+.hi-id {
+  font-family: var(--font-pixel);
+  font-size: 0.45rem;
+  color: var(--text3);
+}
+.hi-center { flex: 1; font-size: 0.8rem; color: var(--text2); display: flex; flex-direction: column; gap: 4px; }
+.hi-time { font-size: 0.72rem; color: var(--text3); }
+
+.wi-q { flex: 1; font-size: 0.85rem; color: var(--text); }
+.wi-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.wi-count { font-size: 0.72rem; color: var(--red); }
+.wi-cat, .wi-level {
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text3);
+}
+.wi-remove {
+  font-size: 0.7rem;
+  background: transparent;
+  border: 1px solid var(--red);
+  color: var(--red);
+  padding: 2px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.wi-remove:hover { background: rgba(255,71,87,0.1); }
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: var(--text3);
+  font-family: var(--font-jp);
+  font-size: 0.9rem;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SETTINGS
+═══════════════════════════════════════════════════════════ */
+.settings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.setting-row {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.setting-info { }
+.setting-label { font-family: var(--font-jp); font-size: 0.9rem; color: var(--text); }
+.setting-desc  { font-size: 0.72rem; color: var(--text3); margin-top: 2px; }
+
+/* Toggle */
+.toggle { position: relative; width: 44px; height: 24px; }
+.toggle input { opacity: 0; width: 0; height: 0; }
+.toggle-slider {
+  position: absolute; inset: 0;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.toggle-slider::before {
+  content: '';
+  position: absolute;
+  width: 18px; height: 18px;
+  left: 2px; top: 2px;
+  background: var(--text3);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.toggle input:checked + .toggle-slider {
+  background: var(--sakura);
+  border-color: var(--sakura);
+  box-shadow: var(--glow-sakura);
+}
+.toggle input:checked + .toggle-slider::before {
+  background: #fff;
+  transform: translateX(20px);
+}
+
+select.setting-select {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   TOAST
+═══════════════════════════════════════════════════════════ */
+.toast {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-80px);
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  border-radius: 30px;
+  padding: 10px 24px;
+  font-family: var(--font-jp);
+  font-size: 0.85rem;
+  z-index: 1000;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  white-space: nowrap;
+}
+.toast.show { transform: translateX(-50%) translateY(0); }
+.toast.success { border-color: var(--green); color: var(--green); box-shadow: 0 0 20px rgba(46,213,115,0.3); }
+.toast.error   { border-color: var(--red);   color: var(--red);   box-shadow: 0 0 20px rgba(255,71,87,0.3); }
+.toast.info    { border-color: var(--teal);  color: var(--teal);  box-shadow: var(--glow-teal); }
+
+/* ═══════════════════════════════════════════════════════════
+   SCROLLBAR
+═══════════════════════════════════════════════════════════ */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+
+/* ═══════════════════════════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════════════════════════ */
+@media (max-width: 600px) {
+  .result-stats { grid-template-columns: 1fr 1fr; }
+  .exam-header { gap: 6px; }
+  .question-card { padding: 18px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Sakura petals (JS generated) -->
+
+<div class="app-wrapper">
+
+  <!-- HEADER -->
+  <header class="app-header">
+    <div class="logo-title">🌸 NIHONGO QUEST 🌸</div>
+    <div class="logo-subtitle">日本語検定トレーナー</div>
+  </header>
+
+  <!-- NAV BAR -->
+  <nav class="nav-bar">
+    <button class="nav-btn" id="nav-home">🏠 ホーム</button>
+    <button class="nav-btn" id="nav-history">📊 履歴</button>
+    <button class="nav-btn" id="nav-wrong" style="position:relative">
+      ✗ 間違い
+      <span class="badge" id="wrong-badge" style="display:none"></span>
+    </button>
+    <button class="nav-btn" id="nav-settings">⚙ 設定</button>
+  </nav>
+
+  <!-- ═══ HOME SCREEN ═══ -->
+  <section class="screen" id="screen-home">
+
+    <div class="section-title">── LEVEL SELECT ──</div>
+    <div class="level-grid">
+      <button class="level-btn active" data-level="N5">N5</button>
+      <button class="level-btn" data-level="N4">N4</button>
+      <button class="level-btn" data-level="N3">N3</button>
+      <button class="level-btn" data-level="N2">N2</button>
+      <button class="level-btn" data-level="N1">N1</button>
+    </div>
+
+    <div class="progress-mini">
+      <span class="pm-badge" id="selected-level-badge">N5</span>
+      <span class="pm-stat">答えた: <strong id="progress-answered">0</strong></span>
+      <span class="pm-stat">正解: <strong id="progress-correct">0</strong></span>
+      <span class="pm-stat">最高: <strong id="progress-best">0%</strong></span>
+      <span class="pm-data-status" id="data-status">読み込み中…</span>
+    </div>
+
+    <div class="section-title">── GAME MODE ──</div>
+    <div class="mode-grid">
+
+      <button class="mode-btn" data-mode="mock">
+        <span class="mode-icon">📋</span>
+        <span class="mode-name">MOCK TEST</span>
+        <span class="mode-desc">60問・本番形式<br>漢字20・語彙20・文法20</span>
+      </button>
+
+      <button class="mode-btn" data-mode="random">
+        <span class="mode-icon">🎲</span>
+        <span class="mode-name">RANDOM EXAM</span>
+        <span class="mode-desc">60問・ランダム<br>シード番号で共有可</span>
+      </button>
+
+      <button class="mode-btn" data-mode="quick">
+        <span class="mode-icon">⚡</span>
+        <span class="mode-name">QUICK TEST</span>
+        <span class="mode-desc">10問・10分<br>スキマ時間に最適</span>
+      </button>
+
+      <button class="mode-btn" data-mode="survival">
+        <span class="mode-icon">💀</span>
+        <span class="mode-name">SURVIVAL</span>
+        <span class="mode-desc">❤️❤️❤️ 3ミス終了<br>どこまで続けられる？</span>
+      </button>
+
+      <button class="mode-btn" data-mode="review">
+        <span class="mode-icon">🔁</span>
+        <span class="mode-name">OÔN TẬP</span>
+        <span class="mode-desc">間違えた問題だけ<br>弱点を克服しよう</span>
+      </button>
+
+    </div>
+  </section>
+
+  <!-- ═══ EXAM SCREEN ═══ -->
+  <section class="screen" id="screen-exam">
+
+    <div class="exam-header">
+      <span class="exam-id-tag" id="exam-id">#00000</span>
+      <span class="exam-info-tag" id="exam-level">N5</span>
+      <span class="exam-info-tag" id="exam-mode">Mock Test</span>
+      <div id="lives-display"></div>
+      <span id="survival-score"></span>
+      <span class="exam-timer" id="exam-timer"></span>
+    </div>
+
+    <div class="exam-progress">
+      <div class="progress-bar">
+        <div class="progress-bar-fill" id="progress-bar-fill" style="width:0%"></div>
+      </div>
+      <span id="progress-count">0 / 60</span>
+    </div>
+
+    <div class="question-card" id="question-card">
+      <div class="q-meta">
+        <span class="q-category" id="q-category">KANJI</span>
+        <span class="q-number" id="q-number">Q1</span>
+      </div>
+      <span class="q-kanji" id="q-kanji"></span>
+      <div class="q-text" id="q-text">Loading...</div>
+
+      <div class="choices-grid" id="choices"></div>
+
+      <div class="explanation-box hidden" id="explanation-box">
+        💡 <span id="explanation-text"></span>
+      </div>
+    </div>
+
+    <div class="exam-actions">
+      <button class="btn btn-danger" id="quit-exam-btn">← 中止</button>
+      <button class="btn btn-primary hidden" id="next-btn">次へ →</button>
+    </div>
+  </section>
+
+  <!-- ═══ RESULT SCREEN ═══ -->
+  <section class="screen" id="screen-result">
+    <div class="result-container">
+
+      <div class="result-rank-display" id="result-rank">S</div>
+      <div class="result-label" id="result-label">素晴らしい！</div>
+
+      <div class="result-stats">
+        <div class="stat-item">
+          <div class="stat-label">SCORE</div>
+          <div class="stat-value"><span id="result-correct">0</span>/<span id="result-total">0</span></div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">PERCENT</div>
+          <div class="stat-value" id="result-pct">0%</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">TIME</div>
+          <div class="stat-value" id="result-time">--:--</div>
+        </div>
+        <div class="stat-item" id="result-survival-row" style="display:none">
+          <div class="stat-label">SURVIVED</div>
+          <div class="stat-value" id="result-survival-score">0</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">EXAM ID</div>
+          <div class="stat-value" style="font-size:0.8rem;font-family:var(--font-pixel)" id="result-exam-id">#00000</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">LEVEL</div>
+          <div class="stat-value" id="result-level">N5</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">MODE</div>
+          <div class="stat-value" style="font-size:0.75rem" id="result-mode">Mock</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">WRONG BANK</div>
+          <div class="stat-value" id="result-wrong-count">0</div>
+        </div>
+      </div>
+
+      <div class="result-actions">
+        <button class="btn btn-secondary" id="result-home-btn">🏠 ホーム</button>
+        <button class="btn btn-secondary" id="result-retry-btn">🔄 再受験</button>
+        <button class="btn btn-primary" id="result-review-btn">✗ 間違い復習</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ HISTORY SCREEN ═══ -->
+  <section class="screen" id="screen-history">
+    <div class="screen-header">
+      <button class="btn btn-secondary" id="history-back-btn">← 戻る</button>
+      <span class="screen-title">📊 受験履歴</span>
+    </div>
+    <div class="history-list" id="history-list"></div>
+  </section>
+
+  <!-- ═══ WRONGLIST SCREEN ═══ -->
+  <section class="screen" id="screen-wronglist">
+    <div class="screen-header">
+      <button class="btn btn-secondary" id="wronglist-back-btn">← 戻る</button>
+      <span class="screen-title">✗ 間違いリスト (<span id="wronglist-count">0</span>問)</span>
+      <button class="btn btn-primary" style="margin-left:auto" id="wronglist-start-btn">▶ ôn tập</button>
+    </div>
+    <div class="wronglist-items" id="wronglist-items"></div>
+    <button class="btn btn-danger" id="wronglist-clear-btn">🗑 全部削除</button>
+  </section>
+
+  <!-- ═══ SETTINGS SCREEN ═══ -->
+  <section class="screen" id="screen-settings">
+    <div class="screen-header">
+      <button class="btn btn-secondary" id="settings-back-btn">← 戻る</button>
+      <span class="screen-title">⚙ 設定</span>
+    </div>
+
+    <div class="settings-list">
+      <div class="setting-row">
+        <div class="setting-info">
+          <div class="setting-label">解説を表示</div>
+          <div class="setting-desc">回答後に説明を見る</div>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="setting-explanation" checked>
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <div class="setting-row">
+        <div class="setting-info">
+          <div class="setting-label">タイマー有効</div>
+          <div class="setting-desc">制限時間カウントダウン</div>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="setting-timer" checked>
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <div class="setting-row">
+        <div class="setting-info">
+          <div class="setting-label">表示言語 / Ngôn ngữ</div>
+          <div class="setting-desc">問題文・解説の言語</div>
+        </div>
+        <select class="setting-select" id="setting-lang">
+          <option value="vi">Tiếng Việt</option>
+          <option value="ja">日本語</option>
+        </select>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <button class="btn btn-primary" id="settings-save-btn">💾 保存</button>
+      <button class="btn btn-danger" id="settings-clear-btn">🗑 全データ削除</button>
+    </div>
+  </section>
+
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// Create sakura petals
+(() => {
+  const petals = ['🌸','🌺','🌼','✿'];
+  for (let i = 0; i < 12; i++) {
+    const p = document.createElement('div');
+    p.className = 'petal';
+    p.textContent = petals[Math.floor(Math.random() * petals.length)];
+    p.style.left  = Math.random() * 100 + 'vw';
+    p.style.animationDuration  = (8 + Math.random() * 12) + 's';
+    p.style.animationDelay     = (-Math.random() * 15) + 's';
+    p.style.fontSize = (0.8 + Math.random() * 0.8) + 'rem';
+    document.body.appendChild(p);
+  }
+})();
+</script>
+
+<script src="storage.js"></script>
+<script src="questionEngine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
