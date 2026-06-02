@@ -178,8 +178,13 @@ const App = (() => {
     // Question number
     $('q-number').textContent = `Q${state.currentIndex + 1}`;
 
-    // Question text
-    const questionText = (settings.language === 'vi' && q.questionVi) ? q.questionVi : q.question;
+    // Question text - Display both Japanese and Vietnamese
+    let questionText = q.question || '';
+    if (settings.language === 'vi' && q.questionVi) {
+      questionText = `${q.question}\n${q.questionVi}`;
+    } else if (settings.language === 'vi') {
+      questionText = q.questionVi || q.question;
+    }
     $('q-text').textContent = questionText;
 
     // Kanji display (if present)
@@ -253,9 +258,14 @@ const App = (() => {
       }
     }
 
-    // Show explanation
+    // Show explanation - Display both Japanese and Vietnamese
     if (settings.showExplanation) {
-      const explanationText = (settings.language === 'vi' && q.explanationVi) ? q.explanationVi : q.explanation;
+      let explanationText = q.explanation || '';
+      if (settings.language === 'vi' && q.explanationVi) {
+        explanationText = `${q.explanation}\n${q.explanationVi}`;
+      } else if (settings.language === 'vi') {
+        explanationText = q.explanationVi || q.explanation;
+      }
       $('explanation-text').textContent = explanationText;
       $('explanation-box').classList.remove('hidden');
     }
