@@ -25,8 +25,8 @@
   },
   {
     "id": "n5v003",
-    "question": "電話番号を___する。（教える）",
-    "questionVi": "Điền vào chỗ trống: 電話番号を___する。（cho biết số điện thoại）",
+    "question": "電話番号を___る。（教える）",
+    "questionVi": "Điền vào chỗ trống: 電話番号を___る。（cho biết số điện thoại）",
     "choices": ["おしえ", "いれ", "もち", "かい"],
     "answer": 0,
     "explanation": "「教える（おしえる）」はto teach / to tell を意味します。",
