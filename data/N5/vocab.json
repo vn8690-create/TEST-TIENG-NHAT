@@ -229,5 +229,1793 @@
     "explanationVi": "「くうこう」viết là「空港」, nghĩa là sân bay.",
     "category": "vocab",
     "level": "N5"
-  }
+  },
+  {
+    "id": "n5v021",
+    "question": "「たべる」の反対の動作は？",
+    "questionVi": "Hành động trái ngược với「たべる」(ăn) là?",
+    "choices": ["のむ", "やすむ", "おきる", "ねる"],
+    "choicesVi": ["Uống", "Nghỉ", "Thức dậy", "Ngủ"],
+    "answer": 0,
+    "explanation": "Ăn (たべる) và Uống (のむ) thường đi cặp với nhau trong các bài tập.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v022",
+    "question": "「さむい」を漢字で書くと？",
+    "questionVi": "「さむい」viết bằng kanji là?",
+    "choices": ["暑い", "寒い", "熱い", "冷たい"],
+    "answer": 1,
+    "explanation": "「寒い」là lạnh (thời tiết).",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v023",
+    "question": "「おく」の意味は？",
+    "questionVi": "Nghĩa của「おく」là?",
+    "choices": ["Đặt/Để", "Gửi", "Nhận", "Mua"],
+    "answer": 0,
+    "explanation": "「置く (おく)」nghĩa là đặt, để vật gì đó ở đâu.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v024",
+    "question": "「ちかい」の反対語は？",
+    "questionVi": "Từ trái nghĩa với「ちかい」(gần) là?",
+    "choices": ["ながい", "とおいい", "はやい", "ひろい"],
+    "choicesVi": ["Dài", "Xa", "Nhanh", "Rộng"],
+    "answer": 1,
+    "explanation": "「近い (ちかい)」(gần) trái nghĩa với「遠い (とおい)」(xa).",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v025",
+    "question": "「きく」の漢字として正しいのは？",
+    "questionVi": "Cách viết Kanji đúng của「きく」(nghe) là?",
+    "choices": ["聞く", "話す", "言う", "見る"],
+    "answer": 0,
+    "explanation": "「聞く (きく)」là nghe.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v026",
+    "question": "「おおい」の意味は？",
+    "questionVi": "Nghĩa của「おおい」là?",
+    "choices": ["Nhiều", "Ít", "Dài", "Ngắn"],
+    "answer": 0,
+    "explanation": "「多い (おおい)」nghĩa là nhiều.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v027",
+    "question": "「あかるい」部屋（へや）の反対は？",
+    "questionVi": "Trái nghĩa với căn phòng「あかるい」(sáng) là?",
+    "choices": ["くらい", "ひろい", "せまい", "きれいない"],
+    "choicesVi": ["Tối", "Rộng", "Hẹp", "Bẩn"],
+    "answer": 0,
+    "explanation": "「明るい (あかるい)」(sáng) trái với「暗い (くらい)」(tối).",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v028",
+    "question": "「はしる」を漢字で書くと？",
+    "questionVi": "「はしる」(chạy) viết bằng kanji là?",
+    "choices": ["歩く", "走る", "泳ぐ", "飛ぶ"],
+    "choicesVi": ["Đi bộ", "Chạy", "Bơi", "Bay"],
+    "answer": 1,
+    "explanation": "「走る (はしる)」là chạy.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v029",
+    "question": "「はやい」の漢字（時間・時期）は？",
+    "questionVi": "Kanji của「はやい」(sớm về thời gian) là?",
+    "choices": ["早い", "速い", "長い", "短い"],
+    "answer": 0,
+    "explanation": "「早い (はやい)」là sớm,「速い (はやい)」là nhanh.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v030",
+    "question": "「ねる」の意味は？",
+    "questionVi": "Nghĩa của「ねる」là?",
+    "choices": ["Ngủ", "Thức dậy", "Đứng", "Ngồi"],
+    "answer": 0,
+    "explanation": "「寝る (ねる)」là ngủ.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v031",
+    "question": "「せまい」の意味は？",
+    "questionVi": "Nghĩa của「せまい」là?",
+    "choices": ["Hẹp", "Rộng", "Dài", "Cao"],
+    "answer": 0,
+    "explanation": "「狭い (せまい)」nghĩa là hẹp.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v032",
+    "question": "「およぐ」の漢字は？",
+    "questionVi": "Kanji của「およぐ」(bơi) là?",
+    "choices": ["泳ぐ", "歩く", "走る", "飛ぶ"],
+    "answer": 0,
+    "explanation": "「泳ぐ (およぐ)」là bơi.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v033",
+    "question": "「おもい」の反対語は？",
+    "questionVi": "Trái nghĩa với「おもい」(nặng) là?",
+    "choices": ["かるい", "たかい", "よい", "わるい"],
+    "choicesVi": ["Nhẹ", "Cao", "Tốt", "Xấu"],
+    "answer": 0,
+    "explanation": "「重い (おもい)」(nặng) trái với「軽い (かるい)」(nhẹ).",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v034",
+    "question": "「よむ」を漢字で書くと？",
+    "questionVi": "「よむ」(đọc) viết bằng kanji là?",
+    "choices": ["読む", "書く", "聞く", "話す"],
+    "answer": 0,
+    "explanation": "「読む (よむ)」là đọc.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v035",
+    "question": "「つよい」の漢字は？",
+    "questionVi": "Kanji của「つよい」(mạnh) là?",
+    "choices": ["強い", "弱い", "高い", "低い"],
+    "answer": 0,
+    "explanation": "「強い (つよい)」là mạnh.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v036",
+    "question": "「あう」を漢字で書くと？",
+    "questionVi": "「あう」(gặp) viết bằng kanji là?",
+    "choices": ["会う", "合う", "開く", "閉まる"],
+    "answer": 0,
+    "explanation": "「会う (あう)」là gặp người.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v037",
+    "question": "「よわい」の意味は？",
+    "questionVi": "Nghĩa của「よわい」là?",
+    "choices": ["Yếu", "Mạnh", "Tốt", "Xấu"],
+    "answer": 0,
+    "explanation": "「弱い (よわい)」nghĩa là yếu.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v038",
+    "question": "「かえす」の意味は？",
+    "questionVi": "Nghĩa của「かえす」là?",
+    "choices": ["Trả lại", "Mua", "Bán", "Gửi"],
+    "answer": 0,
+    "explanation": "「返す (かえす)」là trả lại vật gì đó.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v039",
+    "question": "「たかい」の反対（値段）は？",
+    "questionVi": "Trái nghĩa với「たかい」(đắt - về giá cả) là?",
+    "choices": ["やすい", "おおきい", "ちいさい", "ふるい"],
+    "choicesVi": ["Rẻ", "To", "Nhỏ", "Cũ"],
+    "answer": 0,
+    "explanation": "「高い (たかい)」(đắt) trái với「安い (やすい)」(rẻ).",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v040",
+    "question": "「もつ」を漢字で書くと？",
+    "questionVi": "「もつ」(cầm/mang) viết bằng kanji là?",
+    "choices": ["持つ", "待つ", "歌う", "笑う"],
+    "answer": 0,
+    "explanation": "「持つ (もつ)」là cầm, mang.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v041",
+    "question": "「おきる」の漢字は？",
+    "questionVi": "Kanji của「おきる」(thức dậy) là?",
+    "choices": ["起きる", "起こる", "置く", "歩く"],
+    "answer": 0,
+    "explanation": "起きる là thức dậy.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v042",
+    "question": "「みせる」の意味は？",
+    "questionVi": "Nghĩa của「みせる」là?",
+    "choices": ["Cho xem", "Nhìn", "Đọc", "Viết"],
+    "answer": 0,
+    "explanation": "見せる (みせる) là cho xem.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v043",
+    "question": "「あける」の反対は？",
+    "questionVi": "Trái nghĩa với「あける」(mở) là?",
+    "choices": ["しめる", "きえる", "こわす", "ならぶ"],
+    "choicesVi": ["Đóng", "Tắt", "Làm hỏng", "Xếp hàng"],
+    "answer": 0,
+    "explanation": "開ける (あける) mở - 閉める (しめる) đóng.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v044",
+    "question": "「べんきょう」を動詞にすると？",
+    "questionVi": "Chuyển「べんきょう」(học tập) thành động từ là?",
+    "choices": ["べんきょうする", "べんきょうくる", "べんきょういく", "べんきょうみる"],
+    "answer": 0,
+    "explanation": "Danh từ + する = Động từ (nhóm 3).",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v045",
+    "question": "「くる」の漢字は？",
+    "questionVi": "Kanji của「くる」(đến) là?",
+    "choices": ["来る", "行る", "出る", "入る"],
+    "answer": 0,
+    "explanation": "来る (くる) là đến.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v046",
+    "question": "「しずか」の意味は？",
+    "questionVi": "Nghĩa của「しずか」(tính từ đuôi な) là?",
+    "choices": ["Yên tĩnh", "Ồn ào", "Đẹp", "Sạch"],
+    "answer": 0,
+    "explanation": "静か (しずか) là yên tĩnh.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v047",
+    "question": "「きれい」の意味は？",
+    "questionVi": "Nghĩa của「きれい」(tính từ đuôi な) là?",
+    "choices": ["Đẹp/Sạch", "Bẩn", "Giỏi", "Dở"],
+    "answer": 0,
+    "explanation": "綺麗 (きれい) là đẹp hoặc sạch.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v048",
+    "question": "「いそがしい」の意味は？",
+    "questionVi": "Nghĩa của「いそがしい」là?",
+    "choices": ["Bận rộn", "Rảnh rỗi", "Vui", "Buồn"],
+    "answer": 0,
+    "explanation": "忙しい (いそがしい) là bận rộn.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v049",
+    "question": "「あつい」の漢字（天気）は？",
+    "questionVi": "Kanji của「あつい」(nóng - thời tiết) là?",
+    "choices": ["暑い", "熱い", "厚い", "寒い"],
+    "answer": 0,
+    "explanation": "暑い (あつい) - thời tiết nóng.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v050",
+    "question": "「ちいさい」の漢字は？",
+    "questionVi": "Kanji của「ちいさい」(nhỏ) là?",
+    "choices": ["小さい", "大きい", "多い", "少ない"],
+    "answer": 0,
+    "explanation": "小さい (ちいさい) là nhỏ.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v051",
+    "question": "「わすれる」の意味は？",
+    "questionVi": "Nghĩa của「わすれる」là?",
+    "choices": ["Quên", "Nhớ", "Biết", "Hiểu"],
+    "answer": 0,
+    "explanation": "忘れる (わすれる) là quên.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v052",
+    "question": "「にぎやか」の意味は？",
+    "questionVi": "Nghĩa của「にぎやか」là?",
+    "choices": ["Náo nhiệt", "Yên tĩnh", "Rộng", "Hẹp"],
+    "answer": 0,
+    "explanation": "賑やか (にぎやか) là náo nhiệt.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v053",
+    "question": "「たかい」の漢字（高い所）は？",
+    "questionVi": "Kanji của「たかい」(cao) là?",
+    "choices": ["高い", "安い", "大きい", "小さい"],
+    "answer": 0,
+    "explanation": "高い (たかい) dùng cho chiều cao hoặc giá cả.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v054",
+    "question": "「しる」の漢字は？",
+    "questionVi": "Kanji của「しる」(biết) là?",
+    "choices": ["知る", "作る", "使う", "住む"],
+    "answer": 0,
+    "explanation": "知る (しる) là biết.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v055",
+    "question": "「げんき」の漢字は？",
+    "questionVi": "Kanji của「げんき」(khỏe mạnh) là?",
+    "choices": ["元気", "病気", "天気", "電気"],
+    "answer": 0,
+    "explanation": "元気 (げんき) là khỏe mạnh.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v056",
+    "question": "「うたう」の漢字は？",
+    "questionVi": "Kanji của「うたう」(hát) là?",
+    "choices": ["歌う", "笑う", "会う", "合う"],
+    "answer": 0,
+    "explanation": "歌う (うたう) là hát.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v057",
+    "question": "「ひま」の意味は？",
+    "questionVi": "Nghĩa của「ひま」(tính từ đuôi な) là?",
+    "choices": ["Rảnh rỗi", "Bận rộn", "Đắt", "Rẻ"],
+    "answer": 0,
+    "explanation": "暇 (ひま) là rảnh rỗi.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v058",
+    "question": "「ひくい」の漢字は？",
+    "questionVi": "Kanji của「ひくい」(thấp) là?",
+    "choices": ["低い", "高い", "短い", "長い"],
+    "answer": 0,
+    "explanation": "低い (ひくい) là thấp.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v059",
+    "question": "「つくる」の漢字は？",
+    "questionVi": "Kanji của「つくる」(làm/chế tạo) là?",
+    "choices": ["作る", "使う", "知る", "住む"],
+    "answer": 0,
+    "explanation": "作る (つくる) là làm ra vật gì đó.",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v060",
+    "question": "「あつい」の漢字（熱い飲み物）は？",
+    "questionVi": "Kanji của「あつい」(nóng - đồ uống) là?",
+    "choices": ["熱い", "暑い", "厚い", "寒い"],
+    "answer": 0,
+    "explanation": "熱い (あつい) - nóng (dùng cho vật/đồ uống).",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+"id": "n5v061",
+"question": "「あした」の漢字は？",
+"questionVi": "Kanji của「あした」(ngày mai) là?",
+"choices": ["明日", "今日", "昨日", "毎日"],
+"answer": 0,
+"explanation": "明日 (あした/あす/みょうにち) là ngày mai.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v062",
+"question": "「うしろ」の意味は？",
+"questionVi": "Nghĩa của「うしろ」(phía sau) là?",
+"choices": ["Phía sau", "Phía trước", "Bên cạnh", "Bên trong"],
+"answer": 0,
+"explanation": "後ろ (うしろ) là phía sau.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v063",
+"question": "「まんなか」の意味は？",
+"questionVi": "Nghĩa của「まんなか」(chính giữa) là?",
+"choices": ["Chính giữa", "Bên cạnh", "Phía trước", "Bên ngoài"],
+"answer": 0,
+"explanation": "真ん中 (まんなか) là ở chính giữa.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v064",
+"question": "「となえ」の漢字は？",
+"questionVi": "Kanji của「となり」(bên cạnh) là?",
+"choices": ["隣", "前", "後", "中"],
+"answer": 0,
+"explanation": "隣 (となり) là bên cạnh.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v065",
+"question": "「うえ」の漢字は？",
+"questionVi": "Kanji của「うえ」(trên) là?",
+"choices": ["上", "下", "中", "外"],
+"answer": 0,
+"explanation": "上 (うえ) là phía trên.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v066",
+"question": "「した」の漢字は？",
+"questionVi": "Kanji của「した」(dưới) là?",
+"choices": ["下", "上", "中", "右"],
+"answer": 0,
+"explanation": "下 (した) là phía dưới.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v067",
+"question": "「ひだり」の漢字は？",
+"questionVi": "Kanji của「ひだり」(bên trái) là?",
+"choices": ["左", "右", "前", "後"],
+"answer": 0,
+"explanation": "左 (ひだり) là bên trái.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v068",
+"question": "「みぎ」の漢字は？",
+"questionVi": "Kanji của「みぎ」(bên phải) là?",
+"choices": ["右", "左", "上", "下"],
+"answer": 0,
+"explanation": "右 (みぎ) là bên phải.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v069",
+"question": "「ことし」の意味は？",
+"questionVi": "Nghĩa của「ことし」(năm nay) là?",
+"choices": ["Năm nay", "Năm ngoái", "Năm sau", "Mỗi năm"],
+"answer": 0,
+"explanation": "今年 (ことし) là năm nay.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v070",
+"question": "「おととい」の意味は？",
+"questionVi": "Nghĩa của「おととい」(hôm kia) là?",
+"choices": ["Hôm kia", "Hôm qua", "Ngày mai", "Ngày kia"],
+"answer": 0,
+"explanation": "一昨日 (おととい) là hôm kia.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v071",
+"question": "「あさって」の意味は？",
+"questionVi": "Nghĩa của「あさって」(ngày kia) là?",
+"choices": ["Ngày kia", "Ngày mai", "Hôm nay", "Hôm qua"],
+"answer": 0,
+"explanation": "明後日 (あさって) là ngày kia.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v072",
+"question": "「まいにち」の漢字は？",
+"questionVi": "Kanji của「まいにち」(mỗi ngày) là?",
+"choices": ["毎日", "明日", "今日", "昨日"],
+"answer": 0,
+"explanation": "毎日 (まいにち) là mỗi ngày.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v073",
+"question": "「せんしゅう」の意味は？",
+"questionVi": "Nghĩa của「せんしゅう」(tuần trước) là?",
+"choices": ["Tuần trước", "Tuần này", "Tuần sau", "Mỗi tuần"],
+"answer": 0,
+"explanation": "先週 (せんしゅう) là tuần trước.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v074",
+"question": "「らいねん」の漢字は？",
+"questionVi": "Kanji của「らいねん」(năm sau) là?",
+"choices": ["来年", "去年", "今年", "毎年"],
+"answer": 0,
+"explanation": "来年 (らいねん) là năm sau.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v075",
+"question": "「ときどき」の意味は？",
+"questionVi": "Nghĩa của「ときどき」(thỉnh thoảng) là?",
+"choices": ["Thỉnh thoảng", "Luôn luôn", "Không bao giờ", "Thường xuyên"],
+"answer": 0,
+"explanation": "時々 (ときどき) là thỉnh thoảng.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v076",
+"question": "「いつも」の意味は？",
+"questionVi": "Nghĩa của「いつも」(luôn luôn) là?",
+"choices": ["Luôn luôn", "Không bao giờ", "Thỉnh thoảng", "Đôi khi"],
+"answer": 0,
+"explanation": "いつも là luôn luôn.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v077",
+"question": "「ぜんぜん」の意味は？",
+"questionVi": "Nghĩa của「ぜんぜん」(hoàn toàn không) là?",
+"choices": ["Hoàn toàn không", "Luôn luôn", "Thường", "Một chút"],
+"answer": 0,
+"explanation": "全然 (ぜんぜん) dùng với phủ định, nghĩa là hoàn toàn không.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v078",
+"question": "「あまり」の意味は？",
+"questionVi": "Nghĩa của「あまり」(không ~ lắm) là?",
+"choices": ["Không ~ lắm", "Rất", "Thường", "Luôn"],
+"answer": 0,
+"explanation": "あまり dùng với phủ định, nghĩa là không ~ lắm.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v079",
+"question": "「たくさん」の意味は？",
+"questionVi": "Nghĩa của「たくさん」(nhiều) là?",
+"choices": ["Nhiều", "Ít", "Dài", "Ngắn"],
+"answer": 0,
+"explanation": "たくさん là nhiều.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v080",
+"question": "「ちょっと」の意味は？",
+"questionVi": "Nghĩa của「ちょっと」(một chút) là?",
+"choices": ["Một chút", "Rất nhiều", "Hoàn toàn", "Không có"],
+"answer": 0,
+"explanation": "ちょっと là một chút.",
+"category": "vocab",
+"level": "N5"
+},
+  {
+"id": "n5v081",
+"question": "「ちち」の意味は？",
+"questionVi": "Nghĩa của「ちち」(cách gọi bố mình) là?",
+"choices": ["Bố tôi", "Mẹ tôi", "Anh trai tôi", "Chị gái tôi"],
+"answer": 0,
+"explanation": "父 (ちち) là bố của mình.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v082",
+"question": "「はは」の漢字は？",
+"questionVi": "Kanji của「はは」(mẹ mình) là?",
+"choices": ["母", "父", "姉", "妹"],
+"answer": 0,
+"explanation": "母 (はは) là mẹ của mình.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v083",
+"question": "「あに」の意味は？",
+"questionVi": "Nghĩa của「あに」(cách gọi anh trai mình) là?",
+"choices": ["Anh trai tôi", "Em trai tôi", "Anh trai người khác", "Em trai người khác"],
+"answer": 0,
+"explanation": "兄 (あに) là anh trai của mình.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v084",
+"question": "「あね」の漢字は？",
+"questionVi": "Kanji của「あね」(chị gái mình) là?",
+"choices": ["姉", "妹", "兄", "弟"],
+"answer": 0,
+"explanation": "姉 (あね) là chị gái của mình.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v085",
+"question": "「おとうと」の意味は？",
+"questionVi": "Nghĩa của「おとうと」(em trai) là?",
+"choices": ["Em trai", "Anh trai", "Chị gái", "Em gái"],
+"answer": 0,
+"explanation": "弟 (おとうと) là em trai.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v086",
+"question": "「しろい」の意味は？",
+"questionVi": "Nghĩa của「しろい」(màu sắc) là?",
+"choices": ["Màu trắng", "Màu đen", "Màu đỏ", "Màu xanh"],
+"answer": 0,
+"explanation": "白い (しろい) là màu trắng.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v087",
+"question": "「くろい」の漢字は？",
+"questionVi": "Kanji của「くろい」(màu đen) là?",
+"choices": ["黒い", "白い", "赤い", "青い"],
+"answer": 0,
+"explanation": "黒い (くろい) là màu đen.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v088",
+"question": "「あかい」の意味は？",
+"questionVi": "Nghĩa của「あかい」(màu sắc) là?",
+"choices": ["Màu đỏ", "Màu vàng", "Màu xanh", "Màu nâu"],
+"answer": 0,
+"explanation": "赤い (あかい) là màu đỏ.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v089",
+"question": "「あおい」の漢字は？",
+"questionVi": "Kanji của「あおい」(màu xanh) là?",
+"choices": ["青い", "赤い", "白い", "黒い"],
+"answer": 0,
+"explanation": "青い (あおい) là màu xanh dương/xanh lá.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v090",
+"question": "「えんぴつ」の意味は？",
+"questionVi": "Nghĩa của「えんぴつ」là?",
+"choices": ["Bút chì", "Bút bi", "Cục tẩy", "Thước kẻ"],
+"answer": 0,
+"explanation": "鉛筆 (えんぴつ) là bút chì.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v091",
+"question": "「ノート」の意味は？",
+"questionVi": "Nghĩa của「ノート」là?",
+"choices": ["Vở ghi chép", "Sách", "Từ điển", "Bút"],
+"answer": 0,
+"explanation": "ノート là vở ghi chép.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v092",
+"question": "「かさ」の意味は？",
+"questionVi": "Nghĩa của「かさ」là?",
+"choices": ["Cái ô", "Cái mũ", "Đôi giày", "Cái túi"],
+"answer": 0,
+"explanation": "傘 (かさ) là cái ô.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v093",
+"question": "「くつ」の意味は？",
+"questionVi": "Nghĩa của「くつ」là?",
+"choices": ["Giày", "Tất", "Quần", "Áo"],
+"answer": 0,
+"explanation": "靴 (くつ) là giày.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v094",
+"question": "「かばん」の意味は？",
+"questionVi": "Nghĩa của「かばん」là?",
+"choices": ["Cái túi/cặp", "Cái ô", "Cái bàn", "Cái ghế"],
+"answer": 0,
+"explanation": "鞄 (かばん) là cái túi xách hoặc cặp.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v095",
+"question": "「つくえ」の漢字は？",
+"questionVi": "Kanji của「つくえ」(cái bàn) là?",
+"choices": ["机", "椅子", "本", "棚"],
+"answer": 0,
+"explanation": "机 (つくえ) là cái bàn học/làm việc.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v096",
+"question": "「いす」の漢字は？",
+"questionVi": "Kanji của「いす」(cái ghế) là?",
+"choices": ["椅子", "机", "床", "窓"],
+"answer": 0,
+"explanation": "椅子 (いす) là cái ghế.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v097",
+"question": "「ほん」の意味は？",
+"questionVi": "Nghĩa của「ほん」là?",
+"choices": ["Quyển sách", "Quyển vở", "Từ điển", "Bút"],
+"answer": 0,
+"explanation": "本 (ほん) là quyển sách.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v098",
+"question": "「じしょ」の意味は？",
+"questionVi": "Nghĩa của「じしょ」là?",
+"choices": ["Từ điển", "Sách", "Vở", "Báo"],
+"answer": 0,
+"explanation": "辞書 (じしょ) là từ điển.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v099",
+"question": "「かみ」の漢字は？",
+"questionVi": "Kanji của「かみ」(tờ giấy) là?",
+"choices": ["紙", "神", "髪", "亀"],
+"answer": 0,
+"explanation": "紙 (かみ) là tờ giấy.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v100",
+"question": "「はさみ」の意味は？",
+"questionVi": "Nghĩa của「はさみ」là?",
+"choices": ["Cái kéo", "Cái dao", "Thước", "Bút"],
+"answer": 0,
+"explanation": "鋏 (はさみ) là cái kéo.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v101",
+"question": "「あつい」の漢字はどれですか。",
+"questionVi": "Kanji của「あつい」(thời tiết nóng) là gì?",
+"choices": ["暑い", "熱い", "厚い", "寒い"],
+"answer": 0,
+"explanation": "暑い: thời tiết nóng.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v102",
+"question": "「まど」を漢字で書くと？",
+"questionVi": "「まど」(cửa sổ) viết bằng kanji là?",
+"choices": ["窓", "戸", "門", "屋"],
+"answer": 0,
+"explanation": "窓: cửa sổ.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v103",
+"question": "「あした」の反対の意味に近いのはどれですか。",
+"questionVi": "Từ nào gần với nghĩa trái ngược của「あした」(ngày mai)?",
+"choices": ["昨日", "今日", "毎日", "時々"],
+"answer": 0,
+"explanation": "明日 (ngày mai) trái ngược với 昨日 (hôm qua).",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v104",
+"question": "「かぞく」の読み方は？",
+"questionVi": "Cách đọc của「かぞく」(gia đình) là?",
+"choices": ["かぞく", "かずく", "かぞぐ", "かずぐ"],
+"answer": 0,
+"explanation": "家族 (かぞく): gia đình.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v105",
+"question": "「ねる」と反対の意味の言葉は？",
+"questionVi": "Từ trái nghĩa với「ねる」(ngủ) là?",
+"choices": ["起きる", "休む", "座る", "立つ"],
+"answer": 0,
+"explanation": "寝る (ngủ) đối lập với 起きる (thức dậy).",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v106",
+"question": "「おとこ」の漢字は？",
+"questionVi": "Kanji của「おとこ」(nam giới) là?",
+"choices": ["男", "女", "父", "兄"],
+"answer": 0,
+"explanation": "男: nam.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v107",
+"question": "「しんぶん」を漢字で書くと？",
+"questionVi": "「しんぶん」(báo) viết bằng kanji là?",
+"choices": ["新聞", "新文", "信文", "親分"],
+"answer": 0,
+"explanation": "新聞: báo.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v108",
+"question": "「おちゃ」の漢字は？",
+"questionVi": "Kanji của「おちゃ」(trà) là?",
+"choices": ["お茶", "お湯", "水", "酒"],
+"answer": 0,
+"explanation": "お茶: trà.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v109",
+"question": "「わかい」の意味は？",
+"questionVi": "Nghĩa của「わかい」là?",
+"choices": ["Trẻ", "Già", "Mới", "Cũ"],
+"answer": 0,
+"explanation": "若い: trẻ.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v110",
+"question": "「てんき」の漢字は？",
+"questionVi": "Kanji của「てんき」(thời tiết) là?",
+"choices": ["天気", "電気", "元気", "病気"],
+"answer": 0,
+"explanation": "天気: thời tiết.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v111",
+"question": "「うみ」を漢字で書くと？",
+"questionVi": "「うみ」(biển) viết bằng kanji là?",
+"choices": ["海", "川", "山", "池"],
+"answer": 0,
+"explanation": "海: biển.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v112",
+"question": "「しごと」の漢字は？",
+"questionVi": "Kanji của「しごと」(công việc) là?",
+"choices": ["仕事", "私事", "仕事", "止事"],
+"answer": 0,
+"explanation": "仕事: công việc.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v113",
+"question": "「けさ」の意味は？",
+"questionVi": "Nghĩa của「けさ」(sáng nay) là?",
+"choices": ["Sáng nay", "Sáng mai", "Tối qua", "Tối nay"],
+"answer": 0,
+"explanation": "今朝: sáng nay.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v114",
+"question": "「ちかい」の反対は？",
+"questionVi": "Trái nghĩa với「ちかい」(gần) là?",
+"choices": ["遠い", "長い", "広い", "狭い"],
+"answer": 0,
+"explanation": "近い (gần) trái với 遠い (xa).",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v115",
+"question": "「あう」を漢字で書くと？",
+"questionVi": "「あう」(gặp) viết bằng kanji là?",
+"choices": ["会う", "合う", "空う", "開う"],
+"answer": 0,
+"explanation": "会う: gặp.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v116",
+"question": "「あまい」の漢字は？",
+"questionVi": "Kanji của「あまい」(ngọt) là?",
+"choices": ["甘い", "辛い", "苦い", "酸っぱい"],
+"answer": 0,
+"explanation": "甘い: ngọt.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v117",
+"question": "「からい」の意味は？",
+"questionVi": "Nghĩa của「からい」là?",
+"choices": ["Cay", "Ngọt", "Đắng", "Chua"],
+"answer": 0,
+"explanation": "辛い: cay.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v118",
+"question": "「たべる」を漢字で書くと？",
+"questionVi": "「たべる」(ăn) viết bằng kanji là?",
+"choices": ["食べる", "飲む", "買う", "売る"],
+"answer": 0,
+"explanation": "食べる: ăn.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v119",
+"question": "「のむ」の漢字は？",
+"questionVi": "Kanji của「のむ」(uống) là?",
+"choices": ["飲む", "噛む", "読む", "編む"],
+"answer": 0,
+"explanation": "飲む: uống.",
+"category": "vocab",
+"level": "N5"
+},
+{
+"id": "n5v120",
+"question": "「とおく」の意味は？",
+"questionVi": "Nghĩa của「とおく」(xa) là?",
+"choices": ["Xa", "Gần", "Cao", "Thấp"],
+"answer": 0,
+"explanation": "遠く: xa.",
+"category": "vocab",
+"level": "N5"
+},
+{
+    "id": "n5v121",
+    "question": "「わたしは まいにち ６じに おきます。そして、７じに あさごはんを たべて、７じはんの でんしゃに のります。」\nこの人は 何時に 電車に 乗りますか。",
+    "questionVi": "Đọc đoạn văn và chọn đáp án đúng: 「Tôi thức dậy lúc 6 giờ mỗi ngày. Sau đó, 7 giờ tôi ăn sáng và lên tàu lúc 7 giờ 30.」 Người này lên tàu lúc mấy giờ?",
+    "choices": ["6:00", "7:00", "7:30", "8:00"],
+    "answer": 2,
+    "explanation": "Câu cuối đoạn văn xác nhận: ７じはん (7:30) の でんしゃに のります。",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v122",
+    "question": "「きのう、デパートで あかい かばんを ２つ かいました。１つは ともだちに あげました。」\n今、この人は かばんを 何個 持っていますか。",
+    "questionVi": "「Hôm qua, tôi đã mua 2 cái túi màu đỏ ở cửa hàng bách hóa. Tôi đã tặng 1 cái cho bạn.」 Hiện tại, người này còn mấy cái túi?",
+    "choices": ["0", "1", "2", "3"],
+    "answer": 1,
+    "explanation": "Mua 2 trừ đi 1 tặng bạn còn 1.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v123",
+    "question": "「この へやは せまいですが、とても きれいです。あかるい へやです。」\nこの部屋について 正しいのは どれですか。",
+    "questionVi": "「Căn phòng này hẹp nhưng rất sạch. Nó là một căn phòng sáng sủa.」 Câu nào đúng về căn phòng này?",
+    "choices": ["Hẹp và bẩn", "Rộng và sạch", "Hẹp và sáng", "Rộng và tối"],
+    "answer": 2,
+    "explanation": "Đoạn văn nói: せまい (hẹp) và あかるい (sáng).",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v124",
+    "question": "「あしたは やまへ 行きます。だれと 行きますか。一人で 行きます。」\nこの人は 誰と 行きますか。",
+    "questionVi": "「Ngày mai tôi đi núi. Bạn đi với ai? Tôi đi một mình.」 Người này đi với ai?",
+    "choices": ["Bạn", "Gia đình", "Một mình", "Không đi"],
+    "answer": 2,
+    "explanation": "一人で (hitori de) là một mình.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v125",
+    "question": "「おととい、テストを しました。あまり むずかしくなかったです。」\nテストはどうでしたか。",
+    "questionVi": "「Hôm kia, tôi đã làm bài kiểm tra. Nó không khó lắm.」 Bài kiểm tra thế nào?",
+    "choices": ["Rất khó", "Không khó lắm", "Dễ lắm", "Không làm"],
+    "answer": 1,
+    "explanation": "あまり むずかしくなかった (không khó lắm).",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v126",
+    "question": "「わたしは にほんごを べんきょうして います。まいにち ３じかん べんきょうします。」\n一週間に 何時間 べんきょうしますか。",
+    "questionVi": "「Tôi đang học tiếng Nhật. Mỗi ngày tôi học 3 tiếng.」 Một tuần học mấy tiếng?",
+    "choices": ["3時間", "7時間", "21時間", "30時間"],
+    "answer": 2,
+    "explanation": "Mỗi ngày 3 giờ x 7 ngày = 21 giờ.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v127",
+    "question": "「たなかさんは ８じに ねました。そして、４じに おきました。」\n何時間 ねましたか。",
+    "questionVi": "「Anh Tanaka ngủ lúc 8 giờ. Sau đó, 4 giờ sáng anh ấy dậy.」 Anh ấy ngủ mấy tiếng?",
+    "choices": ["4時間", "6時間", "8時間", "12時間"],
+    "answer": 2,
+    "explanation": "Từ 8 giờ tối đến 4 giờ sáng là 8 tiếng.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v128",
+    "question": "「きょうは 日曜日です。がっこうは やすみです。うちで 本を よみます。」\nきょうは 何を しますか。",
+    "questionVi": "「Hôm nay là Chủ Nhật. Trường nghỉ học. Tôi đọc sách ở nhà.」 Hôm nay làm gì?",
+    "choices": ["Đi học", "Làm việc", "Đọc sách", "Đi chơi"],
+    "answer": 2,
+    "explanation": "Cuối đoạn nói: うちで 本を よみます。",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v129",
+    "question": "「あまい ものが すきです。とくに チョコレートが だいすきです。」\nこの人は 何が いちばん すきですか。",
+    "questionVi": "「Tôi thích đồ ngọt. Đặc biệt là tôi rất thích socola.」 Người này thích cái gì nhất?",
+    "choices": ["Đồ ngọt", "Socola", "Hoa quả", "Bánh mì"],
+    "answer": 1,
+    "explanation": "Đặc biệt thích nhất là チョコレート.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v130",
+    "question": "「この かさは ３０００えんです。あの かさは １０００えんです。」\nあの かさは この かさより どうですか。",
+    "questionVi": "「Cái ô này giá 3000 yên. Cái ô kia giá 1000 yên.」 Cái ô kia so với cái ô này thế nào?",
+    "choices": ["Đắt hơn", "Rẻ hơn", "Bằng nhau", "To hơn"],
+    "answer": 1,
+    "explanation": "1000 yên rẻ hơn 3000 yên.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v131",
+    "question": "どれが 正しい文ですか。",
+    "questionVi": "Câu nào đúng ngữ pháp?",
+    "choices": ["わたしは 学校へ 行きます。", "わたしは 学校に 行きます。", "わたしは 学校を 行きます。", "わたしは 学校で 行きます。"],
+    "answer": 0,
+    "explanation": "Động từ di chuyển 行きます đi với trợ từ へ hoặc に.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v132",
+    "question": "どれが 間違っている文ですか。",
+    "questionVi": "Câu nào SAI ngữ pháp?",
+    "choices": ["本を 読みます。", "パンを 食べます。", "公園へ 散歩します。", "テレビを 見ます。"],
+    "answer": 2,
+    "explanation": "散歩する (đi dạo) thường đi với trợ từ を (đi dạo trên phố: 公園を散歩します).",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v133",
+    "question": "どれが 正しい文ですか。",
+    "questionVi": "Câu nào đúng ngữ pháp?",
+    "choices": ["きのう 勉強しました。", "きのう 勉強します。", "きのう 勉強する。", "きのう 勉強して。"],
+    "answer": 0,
+    "explanation": "Quá khứ của động từ phải là ました.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v134",
+    "question": "どれが 間違っている文ですか。",
+    "questionVi": "Câu nào SAI ngữ pháp?",
+    "choices": ["これは わたしの 本です。", "それは 誰の 傘ですか。", "ここが わたしの うちです。", "あれは 誰の カバンか？"],
+    "answer": 3,
+    "explanation": "Câu hỏi cuối câu phải dùng ですか hoặc か (thân mật) nhưng không dùng か? ở cuối câu trần thuật lịch sự.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v135",
+    "question": "どれが 正しい文ですか。",
+    "questionVi": "Câu nào đúng ngữ pháp?",
+    "choices": ["あそこに 猫が います。", "あそこに 猫が あります。", "あそこに 猫を います。", "あそこに 猫に います。"],
+    "answer": 0,
+    "explanation": "Người/động vật dùng います, vật vô tri dùng あります.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v136",
+    "question": "どれが 間違っている文ですか。",
+    "questionVi": "Câu nào SAI ngữ pháp?",
+    "choices": ["私は 8時に 起きます。", "私は 8時に 寝ます。", "私は 8時に 食べます。", "私は 8時に 行きます。"],
+    "answer": 2,
+    "explanation": "Ăn (食べます) thường cần tân ngữ (ăn cái gì?), không nói chỉ là ăn lúc 8 giờ mà thiếu tân ngữ.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v137",
+    "question": "どれが 正しい文ですか。",
+    "questionVi": "Câu nào đúng ngữ pháp?",
+    "choices": ["おなかが すきました。", "おなかが すきます。", "おなかが すく。", "おなかが すいて。"],
+    "answer": 0,
+    "explanation": "Cảm giác đói đã xảy ra nên dùng thể た.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v138",
+    "question": "どれが 間違っている文ですか。",
+    "questionVi": "Câu nào SAI ngữ pháp?",
+    "choices": ["今日は 暑いです。", "この 料理は 美味しいです。", "とても 綺麗です。", "すごく 寒いです。"],
+    "answer": 0,
+    "explanation": "Câu 1 và 4 đều đúng, nhưng xét về sự kết hợp: 美味しい đi với 料理 là chuẩn. Câu 0 sai ở mức độ diễn đạt không tự nhiên bằng câu khác.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v139",
+    "question": "どれが 正しい文ですか。",
+    "questionVi": "Câu nào đúng ngữ pháp?",
+    "choices": ["明日、デパートへ 行きます。", "明日、デパートを 行きます。", "明日、デパートで 行きます。", "明日、デパートに 行きます。"],
+    "answer": 0,
+    "explanation": "Cả 0 và 3 đều đúng, nhưng へ nhấn mạnh hướng đi, に nhấn mạnh đích đến. Trong N5 chọn へ là chuẩn nhất.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v140",
+    "question": "どれが 間違っている文ですか。",
+    "questionVi": "Câu nào SAI ngữ pháp?",
+    "choices": ["私は 日本語が 分かります。", "私は 日本語を 分かります。", "私は 日本語が 好きです。", "私は 日本語が 上手です。"],
+    "answer": 1,
+    "explanation": "Các tính từ/động từ chỉ trạng thái như 分かる, 好き, 上手 luôn đi với trợ từ が.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v141",
+    "question": "「わたしは ２ねんまえに にほんへ きました。それから、ずっと このまちに すんで います。」\nこの人は 今 どこに いますか。",
+    "questionVi": "「Tôi đến Nhật 2 năm trước. Kể từ đó, tôi vẫn luôn sống ở thị trấn này.」 Hiện tại người này đang ở đâu?",
+    "choices": ["Nhật Bản", "Việt Nam", "Mỹ", "Trung Quốc"],
+    "answer": 0,
+    "explanation": "Đoạn văn nói đến Nhật 2 năm trước và vẫn sống ở đó.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v142",
+    "question": "「あしたの かいぎは １０じから １１じまで です。かいぎの あとで、ランチを たべます。」\nランチは 何時に 食べますか。",
+    "questionVi": "「Cuộc họp ngày mai từ 10 giờ đến 11 giờ. Sau cuộc họp, tôi sẽ ăn trưa.」 Người này ăn trưa lúc mấy giờ?",
+    "choices": ["10:00", "11:00", "Trước 10:00", "Sau 11:00"],
+    "answer": 3,
+    "explanation": "Ăn sau cuộc họp (kết thúc lúc 11:00).",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v143",
+    "question": "「この じしょは ３００ページ あります。きのう １００ページ よみました。」\nあと 何ページ よみますか。",
+    "questionVi": "「Quyển từ điển này có 300 trang. Hôm qua tôi đã đọc 100 trang.」 Còn bao nhiêu trang nữa phải đọc?",
+    "choices": ["100", "200", "300", "400"],
+    "answer": 1,
+    "explanation": "300 trừ 100 bằng 200.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v144",
+    "question": "「たなかさんは ３人に こどもが います。おとこのこが ２人と、おんなのこが １人です。」\nこの 人には むすめが 何人 いますか。",
+    "questionVi": "「Anh Tanaka có 3 người con. 2 con trai và 1 con gái.」 Anh ấy có bao nhiêu con gái?",
+    "choices": ["0", "1", "2", "3"],
+    "answer": 1,
+    "explanation": "おんなのこ (bé gái/con gái) chỉ có 1 người.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v145",
+    "question": "「わたしの うちから えきまで バスで ２０ぷん かかります。あるくと １じかん かかります。」\nどっちの ほうが はやいですか。",
+    "questionVi": "「Từ nhà tôi đến ga đi xe buýt mất 20 phút. Nếu đi bộ mất 1 tiếng.」 Cách nào nhanh hơn?",
+    "choices": ["Đi bộ", "Đi xe buýt", "Giống nhau", "Không biết"],
+    "answer": 1,
+    "explanation": "20 phút nhanh hơn 1 tiếng.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v146",
+    "question": "「あしたは 雨です。だから、ピクニックは 中止します。」\n明日の ピクニックは どうしますか。",
+    "questionVi": "「Ngày mai trời mưa. Vì vậy, chuyến dã ngoại sẽ bị hủy.」 Chuyến dã ngoại ngày mai thế nào?",
+    "choices": ["Tiếp tục", "Hủy bỏ", "Hoãn sang ngày khác", "Vẫn đi"],
+    "answer": 1,
+    "explanation": "中止 (chushi) nghĩa là hủy bỏ.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v147",
+    "question": "「きのうの パーティーは １０時まででした。とても 楽しかったです。」\nパーティーは どうでしたか。",
+    "questionVi": "「Bữa tiệc hôm qua kéo dài đến 10 giờ. Rất vui.」 Bữa tiệc thế nào?",
+    "choices": ["Chán", "Vui", "Ồn ào", "Ngắn"],
+    "answer": 1,
+    "explanation": "楽しかった (vui).",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v148",
+    "question": "「私は 毎日 漢字を 10個 覚えます。今日は 15個 覚えました。」\n今日は 頑張りましたか。",
+    "questionVi": "「Mỗi ngày tôi học 10 chữ Kanji. Hôm nay tôi đã học 15 chữ.」 Hôm nay có nỗ lực không?",
+    "choices": ["Có", "Không", "Bình thường", "Chưa xong"],
+    "answer": 0,
+    "explanation": "Học vượt chỉ tiêu (15 > 10) nghĩa là có nỗ lực.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v149",
+    "question": "「この ズボンは 少し 大きいです。もっと 小さいのは ありますか。」\nこの人は 何を 探していますか。",
+    "questionVi": "「Cái quần này hơi to một chút. Có cái nào nhỏ hơn không?」 Người này đang tìm cái gì?",
+    "choices": ["Cái to hơn", "Cái nhỏ hơn", "Cái đắt hơn", "Cái màu khác"],
+    "answer": 1,
+    "explanation": "Người này muốn tìm cái nhỏ hơn.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v150",
+    "question": "「弟は 大学生です。兄は 会社員です。」\n弟は 何を していますか。",
+    "questionVi": "「Em trai tôi là sinh viên đại học. Anh trai tôi là nhân viên công ty.」 Em trai làm gì?",
+    "choices": ["Nhân viên công ty", "Sinh viên", "Giáo viên", "Bác sĩ"],
+    "answer": 1,
+    "explanation": "Đoạn văn nói 弟は 大学生.",
+    "category": "reading",
+    "level": "N5"
+  },
+  {
+    "id": "n5v151",
+    "question": "どれが 正しい文ですか。",
+    "questionVi": "Câu nào đúng ngữ pháp?",
+    "choices": ["私は 公園で 走ります。", "私は 公園を 走ります。", "私は 公園に 走ります。", "私は 公園へ 走ります。"],
+    "answer": 1,
+    "explanation": "Chuyển động trên một phạm vi (chạy trong công viên) dùng trợ từ を.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v152",
+    "question": "どれが 間違っている文ですか。",
+    "questionVi": "Câu nào SAI ngữ pháp?",
+    "choices": ["テーブルの 上に 本が あります。", "公園の 中に 猫が います。", "私の うちに 車が あります。", "駅の 前に 人が います。"],
+    "answer": 2,
+    "explanation": "Khi nói "Tôi có xe" thì dùng cấu trúc N1にはN2があります, nhưng ở đây dùng うちに (trong nhà) là địa điểm nên phải là うちには.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v153",
+    "question": "どれが 正しい文ですか。",
+    "questionVi": "Câu nào đúng ngữ pháp?",
+    "choices": ["昨日、友達と 会いました。", "昨日、友達に 会いました。", "昨日、友達を 会いました。", "昨日、友達へ 会いました。"],
+    "answer": 1,
+    "explanation": "Gặp ai đó dùng trợ từ に.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v154",
+    "question": "どれが 間違っている文ですか。",
+    "questionVi": "Câu nào SAI ngữ pháp?",
+    "choices": ["コーヒーを 飲みます。", "紅茶を 飲みます。", "水を 飲みます。", "お酒に 飲みます。"],
+    "answer": 3,
+    "explanation": "Động từ tha động từ (飲みます) phải đi với を.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v155",
+    "question": "どれが 正しい文ですか。",
+    "questionVi": "Câu nào đúng ngữ pháp?",
+    "choices": ["どこへ 行きますか。", "どこを 行きますか。", "どこに 行きますか。", "Cả 0 và 2 đều đúng."],
+    "answer": 3,
+    "explanation": "Cả へ và に đều chấp nhận được khi đi với động từ di chuyển.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v156",
+    "question": "どれが 間違っている文ですか。",
+    "questionVi": "Câu nào SAI ngữ pháp?",
+    "choices": ["天気が いいです。", "天気が 悪いです。", "天気が 綺麗です。", "天気が 暑いです。"],
+    "answer": 2,
+    "explanation": "Thời tiết không dùng 綺麗 (đẹp/sạch) mà dùng いい (tốt).",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v157",
+    "question": "どれが 正しい文ですか。",
+    "questionVi": "Câu nào đúng ngữ pháp?",
+    "choices": ["ペンで 名前を 書きます。", "ペンに 名前を 書きます。", "ペンを 名前を 書きます。", "ペンへ 名前を 書きます。"],
+    "answer": 0,
+    "explanation": "Dùng công cụ, phương tiện thì dùng で.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v158",
+    "question": "どれが 間違っている文ですか。",
+    "questionVi": "Câu nào SAI ngữ pháp?",
+    "choices": ["早く 寝ます。", "静かに 勉強します。", "上手に 日本語を 話します。", "綺麗に 食べます。"],
+    "answer": 3,
+    "explanation": "綺麗に (một cách sạch sẽ) thường không đi với 食べます (ăn), trừ khi muốn nói ăn sạch hết bát đĩa.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v159",
+    "question": "どれが 正しい文ですか。",
+    "questionVi": "Câu nào đúng ngữ pháp?",
+    "choices": ["切手は どこで 買いますか。", "切手は どこに 買いますか。", "切手は どこを 買いますか。", "切手は どこへ 買いますか。"],
+    "answer": 0,
+    "explanation": "Mua hàng tại địa điểm thì dùng で.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v160",
+    "question": "どれが 間違っている文ですか。",
+    "questionVi": "Câu nào SAI ngữ pháp?",
+    "choices": ["先週、京都へ 行きました。", "先週、京都に 行きました。", "先週、京都へ 行きます。", "先週、京都へ 行きたかったです。"],
+    "answer": 2,
+    "explanation": "Đã nói 先週 (tuần trước) thì động từ phải ở quá khứ 行きました, không thể dùng hiện tại 行きます.",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v161",
+    "question": "「あしたの　てんきは　どうですか。」\n「＿＿＿＿＿＿。」",
+    "questionVi": "",
+    "choices": ["はい、そうです", "いいえ、ちがいます", "はれです", "１０じです"],
+    "answer": 2,
+    "explanation": "天気を聞く質問なので「はれ」が正しい。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v162",
+    "question": "「あしたは　テストが　ありますから、＿＿＿＿＿　勉強します。」",
+    "questionVi": "",
+    "choices": ["あまり", "ぜんぜん", "たくさん", "ちょっと"],
+    "answer": 2,
+    "explanation": "テストがあるため「たくさん」勉強する必要がある。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v163",
+    "question": "「この　ペンは　だれの　ですか。」\n「＿＿＿＿＿　です。」",
+    "questionVi": "",
+    "choices": ["わたしの", "わたしに", "わたしが", "わたしを"],
+    "answer": 0,
+    "explanation": "所有を表すので「の」を使う。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v164",
+    "question": "「きのう　なにを　しましたか。」\n「＿＿＿＿＿　を見ました。」",
+    "questionVi": "",
+    "choices": ["えいが", "てがみ", "おちゃ", "おとこ"],
+    "answer": 0,
+    "explanation": "「見る」の目的語として「えいが」が適切。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v165",
+    "question": "「きょうは　とても　＿＿＿＿＿　ですね。」\n「ええ、あついですね。」",
+    "questionVi": "",
+    "choices": ["さむい", "あつい", "わかい", "おおい"],
+    "answer": 1,
+    "explanation": "返事に「あつい」とあるので質問も「あつい」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v166",
+    "question": "「あの　人は　＿＿＿＿＿　です。」\n「私の　あにです。」",
+    "questionVi": "",
+    "choices": ["だれ", "なに", "どこ", "どれ"],
+    "answer": 0,
+    "explanation": "人を尋ねる疑問詞は「だれ」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v167",
+    "question": "「デパートへ　＿＿＿＿＿　に行きます。」",
+    "questionVi": "",
+    "choices": ["かいもの", "たべもの", "のりもの", "きもの"],
+    "answer": 0,
+    "explanation": "デパートですることは「かいもの」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v168",
+    "question": "「わたしは　まいあさ　６じに　＿＿＿＿＿。」",
+    "questionVi": "",
+    "choices": ["おきます", "ねます", "たべます", "のみます"],
+    "answer": 0,
+    "explanation": "朝の動作は「おきます」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v169",
+    "question": "「この　へやは　とても　＿＿＿＿＿　です。」",
+    "questionVi": "",
+    "choices": ["せまい", "きれいない", "あかるい", "おいしい"],
+    "answer": 2,
+    "explanation": "「きれいない」は間違い。「あかるい」が形容詞として正しい。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v170",
+    "question": "「おなかを　＿＿＿＿＿　から、ごはんを　たべます。」",
+    "questionVi": "",
+    "choices": ["すきました", "すきます", "すいて", "すく"],
+    "answer": 0,
+    "explanation": "空腹状態なので過去形「すきました」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v171",
+    "question": "「これは　日本語の　本では　ありません。＿＿＿＿＿　です。」",
+    "questionVi": "",
+    "choices": ["えいご", "にほんご", "いもうと", "おちゃ"],
+    "answer": 0,
+    "explanation": "本の内容として「えいご」が適切。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v172",
+    "question": "「あした　どこへ　いきますか。」\n「＿＿＿＿＿　へ　いきます。」",
+    "questionVi": "",
+    "choices": ["きのう", "まいにち", "くうこう", "おととい"],
+    "answer": 2,
+    "explanation": "場所を答える質問なので「くうこう」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v173",
+    "question": "「あまい　おちゃは　＿＿＿＿＿。」",
+    "questionVi": "",
+    "choices": ["きらいです", "すきです", "きれい", "せまい"],
+    "answer": 0,
+    "explanation": "味の好みは「きらい/すき」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v174",
+    "question": "「この　かばんは　＿＿＿＿＿　です。」",
+    "questionVi": "",
+    "choices": ["おもい", "はやい", "おいしい", "あかるい"],
+    "answer": 0,
+    "explanation": "重さを表すのは「おもい」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v175",
+    "question": "「テストが　＿＿＿＿＿　でした。」",
+    "questionVi": "",
+    "choices": ["むずかしかった", "むずかしい", "むずかしく", "むずかしくて"],
+    "answer": 0,
+    "explanation": "過去形なので「むずかしかった」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v176",
+    "question": "「きのうは　＿＿＿＿＿　でした。」",
+    "questionVi": "",
+    "choices": ["やすみ", "ひま", "きれい", "しずか"],
+    "answer": 0,
+    "explanation": "名詞の過去形「やすみでした」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v177",
+    "question": "「えんぴつで　＿＿＿＿＿　を　かきます。」",
+    "questionVi": "",
+    "choices": ["なまえ", "ほん", "おちゃ", "いす"],
+    "answer": 0,
+    "explanation": "鉛筆で書く対象は「なまえ」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v178",
+    "question": "「わたしの　ちちの　いもうとは　＿＿＿＿＿　です。」",
+    "questionVi": "",
+    "choices": ["おば", "おじ", "あに", "あね"],
+    "answer": 0,
+    "explanation": "父の妹は「おば」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v179",
+    "question": "「あかい　の　と　あおい　の、どっちが　＿＿＿＿＿　ですか。」",
+    "questionVi": "",
+    "choices": ["すき", "きれい", "せまい", "あつい"],
+    "answer": 0,
+    "explanation": "比較の質問として自然なのは「すき」。",
+    "category": "vocab",
+    "level": "N5"
+  },
+  {
+    "id": "n5v180",
+    "question": "「みぎの　＿＿＿＿＿　に　本が　あります。」",
+    "questionVi": "",
+    "choices": ["つくえ", "そら", "うみ", "やま"],
+    "answer": 0,
+    "explanation": "机の場所を表す。他は不自然。",
+    "category": "vocab",
+    "level": "N5"
+  },
+{
+    "id": "n5v181",
+    "question": "正しい文を　選んで　ください。",
+    "choices": ["私は　きのう　勉強しました。", "私は　きのう　勉強します。", "私は　きのう　勉強する。", "私は　きのう　勉強して。"],
+    "answer": 0,
+    "explanation": "「きのう」は過去なので「勉強しました」が正しい。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v182",
+    "question": "間違っている文を　選んで　ください。",
+    "choices": ["本を　読みます。", "パンを　食べます。", "公園へ　散歩します。", "テレビを　見ます。"],
+    "answer": 2,
+    "explanation": "「散歩する」は「公園を」または「公園で」を使うのが一般的。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v183",
+    "question": "正しい文を　選んで　ください。",
+    "choices": ["あそこに　猫が　います。", "あそこに　猫が　あります。", "あそこに　猫を　います。", "あそこに　猫に　います。"],
+    "answer": 0,
+    "explanation": "生き物（猫）の存在は「います」を使う。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v184",
+    "question": "間違っている文を　選んで　ください。",
+    "choices": ["テーブルの　上に　本が　あります。", "公園の　中に　猫が　います。", "私の　うちに　車が　あります。", "駅の　前に　人が　います。"],
+    "answer": 2,
+    "explanation": "「私には　車が　あります」が正しい。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v185",
+    "question": "正しい文を　選んで　ください。",
+    "choices": ["昨日、友達と　会いました。", "昨日、友達に　会いました。", "昨日、友達を　会いました。", "昨日、友達へ　会いました。"],
+    "answer": 1,
+    "explanation": "「会う」の相手は「に」を使う。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v186",
+    "question": "間違っている文を　選んで　ください。",
+    "choices": ["コーヒーを　飲みます。", "紅茶を　飲みます。", "水を　飲みます。", "お酒に　飲みます。"],
+    "answer": 3,
+    "explanation": "「飲む」の対象は「を」を使う。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v187",
+    "question": "正しい文を　選んで　ください。",
+    "choices": ["ペンで　名前を　書きます。", "ペンに　名前を　書きます。", "ペンを　名前を　書きます。", "ペンへ　名前を　書きます。"],
+    "answer": 0,
+    "explanation": "道具・手段は「で」を使う。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v188",
+    "question": "間違っている文を　選んで　ください。",
+    "choices": ["今日は　暑いです。", "この　料理は　美味しいです。", "天気が　綺麗です。", "すごく　寒いです。"],
+    "answer": 2,
+    "explanation": "「天気」は「いい/悪い」を使う。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v189",
+    "question": "正しい文を　選んで　ください。",
+    "choices": ["切手は　どこで　買いますか。", "切手は　どこに　買いますか。", "切手は　どこを　買いますか。", "切手は　どこへ　買いますか。"],
+    "answer": 0,
+    "explanation": "場所で動作を行う場合は「で」を使う。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v190",
+    "question": "間違っている文を　選んで　ください。",
+    "choices": ["先週、京都へ　行きました。", "先週、京都に　行きました。", "先週、京都へ　行きます。", "先週、京都へ　行きたかったです。"],
+    "answer": 2,
+    "explanation": "「先週」なので過去形の「行きました」が正しい。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v191",
+    "question": "正しい文を　選んで　ください。",
+    "choices": ["私は　日本語が　分かります。", "私は　日本語を　分かります。", "私は　日本語に　分かります。", "私は　日本語で　分かります。"],
+    "answer": 0,
+    "explanation": "「わかる/すき/じょうず」は「が」を使う。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v192",
+    "question": "間違っている文を　選んで　ください。",
+    "choices": ["昨日、デパートで　買い物を　しました。", "昨日、デパートへ　行きました。", "昨日、デパートに　いました。", "昨日、デパートを　行きました。"],
+    "answer": 3,
+    "explanation": "「行く」は「に/へ」を使う。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v193",
+    "question": "正しい文を　選んで　ください。",
+    "choices": ["私は　毎朝　パンを　食べます。", "私は　毎朝　パンに　食べます。", "私は　毎朝　パンが　食べます。", "私は　毎朝　パンで　食べます。"],
+    "answer": 0,
+    "explanation": "食べる対象は「を」を使う。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v194",
+    "question": "間違っている文を　選んで　ください。",
+    "choices": ["弟は　学生です。", "兄は　会社員です。", "私は　先生に　あります。", "母は　医者です。"],
+    "answer": 2,
+    "explanation": "「あります」は物、「います」は人。正しくは「先生が　います」。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v195",
+    "question": "正しい文を　選んで　ください。",
+    "choices": ["8時に　起きます。", "8時に　起きますか。", "8時を　起きます。", "8時で　起きます。"],
+    "answer": 0,
+    "explanation": "時刻を表す「に」が正しい。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v196",
+    "question": "間違っている文を　選んで　ください。",
+    "choices": ["もっと　小さいのを　見せて　ください。", "もっと　大きいのは　ありますか。", "もっと　安いのを　買いました。", "もっと　高いに　しました。"],
+    "answer": 3,
+    "explanation": "形容詞を名詞として使う場合「高いの」とする。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v197",
+    "question": "正しい文を　選んで　ください。",
+    "choices": ["すみません、もう　一度　言って　ください。", "すみません、もう　一度　言って　います。", "すみません、もう　一度　言って　もらいます。", "すみません、もう　一度　言って　きます。"],
+    "answer": 0,
+    "explanation": "依頼をする時は「〜て　ください」。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v198",
+    "question": "間違っている文を　選んで　ください。",
+    "choices": ["今日は　雨が　降ります。", "明日は　晴れます。", "昨日は　曇りに　なりました。", "先週は　雪を　降りました。"],
+    "answer": 3,
+    "explanation": "「雪が　降りました」が正しい。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v199",
+    "question": "正しい文を　選んで　ください。",
+    "choices": ["ここから　駅まで　何分　かかりますか。", "ここから　駅まで　何分　ありますか。", "ここから　駅まで　何分　いきますか。", "ここから　駅まで　何分　みますか。"],
+    "answer": 0,
+    "explanation": "時間が必要な時は「かかります」。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  {
+    "id": "n5v200",
+    "question": "間違っている文を　選んで　ください。",
+    "choices": ["私は　毎日　日本語を　勉強します。", "私は　毎日　日本語で　話します。", "私は　毎日　日本語に　書きます。", "私は　毎日　日本語を　読みます。"],
+    "answer": 2,
+    "explanation": "「日本語で　書きます」が正しい。",
+    "category": "grammar_error",
+    "level": "N5"
+  },
+  
 ]
