@@ -1,34 +1,271 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAPANESE EXAM ARENA</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Japanese Exam Arena</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <div id="app">
-        <!-- HEADER -->
-        <header class="app-header">
-            <div class="logo">ARENA N5-N4</div>
-            <div id="timer">30:00</div>
-        </header>
 
-        <!-- MÀN HÌNH CHÍNH -->
-        <main id="main-content">
-            <div id="menu-chon-level" class="screen active">
-                <h2>Chọn Cấp Độ Chiến</h2>
-                <button class="btn-level" onclick="startTest('N5')">N5 - KHỞI ĐỘNG</button>
-                <button class="btn-level" onclick="startTest('N4')">N4 - TĂNG TỐC</button>
+<div id="app">
+
+    <!-- HEADER -->
+    <header class="app-header">
+
+        <div class="logo">
+            🇯🇵 JAPANESE EXAM ARENA
+        </div>
+
+        <div class="player-info">
+            <span>🏆 Rank: Bronze</span>
+        </div>
+
+    </header>
+
+
+    <!-- ========================= -->
+    <!-- HOME SCREEN -->
+    <!-- ========================= -->
+
+    <section id="home-screen" class="screen active">
+
+        <div class="hero">
+
+            <h1>⚔️ Japanese Exam Arena</h1>
+
+            <p>
+                Chinh phục JLPT bằng sức mạnh luyện đề
+            </p>
+
+        </div>
+
+        <div class="level-grid">
+
+            <div class="level-card">
+
+                <h2>🌱 N5</h2>
+
+                <p>250+ câu hỏi</p>
+
+                <p>Tiến độ: 15%</p>
+
+                <button onclick="openLevel('N5')">
+                    Vào Đấu
+                </button>
+
             </div>
 
-            <!-- MÀN HÌNH LÀM BÀI (Ẩn mặc định) -->
-            <div id="man-hinh-test" class="screen">
-                <div id="cau-hoi-box">Đang tải câu hỏi...</div>
-                <div id="options-box"></div>
+            <div class="level-card">
+
+                <h2>🔥 N4</h2>
+
+                <p>300+ câu hỏi</p>
+
+                <p>Tiến độ: 0%</p>
+
+                <button onclick="openLevel('N4')">
+                    Vào Đấu
+                </button>
+
             </div>
-        </main>
-    </div>
-    <script src="app.js"></script>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- LEVEL SCREEN -->
+    <!-- ========================= -->
+
+    <section id="level-screen" class="screen">
+
+        <button class="back-btn"
+                onclick="showScreen('home-screen')">
+            ← Quay Lại
+        </button>
+
+        <h2 id="selected-level">
+            N5 Arena
+        </h2>
+
+        <div class="mode-grid">
+
+            <div class="mode-card">
+
+                <h3>📖 Mock Test</h3>
+
+                <button onclick="startMock(1)">
+                    Đề 1
+                </button>
+
+                <button onclick="startMock(2)">
+                    Đề 2
+                </button>
+
+                <button onclick="startMock(3)">
+                    Đề 3
+                </button>
+
+                <button onclick="startMock(4)">
+                    Đề 4
+                </button>
+
+            </div>
+
+            <div class="mode-card">
+
+                <h3>🎲 Random Exam</h3>
+
+                <p>Tạo đề ngẫu nhiên 60 câu</p>
+
+                <button onclick="startRandomExam()">
+                    Bắt Đầu
+                </button>
+
+            </div>
+
+            <div class="mode-card">
+
+                <h3>⚡ Quick Test</h3>
+
+                <p>10 câu siêu tốc</p>
+
+                <button onclick="startQuickTest()">
+                    Chơi Ngay
+                </button>
+
+            </div>
+
+            <div class="mode-card">
+
+                <h3>🔥 Survival Mode</h3>
+
+                <p>Sai 3 câu là Game Over</p>
+
+                <button onclick="startSurvival()">
+                    Thử Thách
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- TEST SCREEN -->
+    <!-- ========================= -->
+
+    <section id="test-screen" class="screen">
+
+        <div class="test-top">
+
+            <div id="timer">
+                ⏰ 30:00
+            </div>
+
+            <div id="progress">
+                Câu 1 / 60
+            </div>
+
+        </div>
+
+        <div class="progress-bar">
+
+            <div id="progress-fill"></div>
+
+        </div>
+
+        <div id="question-box">
+
+            Đang tải câu hỏi...
+
+        </div>
+
+        <div id="options-box">
+
+        </div>
+
+        <div class="test-actions">
+
+            <button id="prev-btn">
+                ⬅ Trước
+            </button>
+
+            <button id="next-btn">
+                Tiếp ➡
+            </button>
+
+            <button id="submit-btn">
+                ✅ Hoàn Thành
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- RESULT SCREEN -->
+    <!-- ========================= -->
+
+    <section id="result-screen" class="screen">
+
+        <h1>
+            🎉 Kết Quả
+        </h1>
+
+        <div class="score-card">
+
+            <h2 id="score-text">
+                48 / 60
+            </h2>
+
+            <p id="correct-count">
+                Đúng: 48
+            </p>
+
+            <p id="wrong-count">
+                Sai: 12
+            </p>
+
+            <p id="time-used">
+                Thời gian: 25 phút
+            </p>
+
+        </div>
+
+        <div class="result-actions">
+
+            <button onclick="reviewAnswers()">
+                📚 Xem Lại
+            </button>
+
+            <button onclick="restartExam()">
+                🔄 Làm Lại
+            </button>
+
+            <button onclick="showScreen('home-screen')">
+                🏠 Trang Chủ
+            </button>
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="app.js"></script>
+
 </body>
 </html>
