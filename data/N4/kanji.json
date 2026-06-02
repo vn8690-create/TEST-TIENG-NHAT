@@ -1,1 +1,543 @@
-
+[
+  {
+    "id": "k4g001",
+    "question": "「来週の　予定を　しらせて　ください。」の漢字は？",
+    "choices": ["教らせて", "知らせて", "聞らせて", "作らせて"],
+    "answer": 1,
+    "explanation": "知らせる (しらせる): Thông báo.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g002",
+    "question": "「この　料理は　にがいですね。」の漢字は？",
+    "choices": ["苦い", "辛い", "甘い", "重い"],
+    "answer": 0,
+    "explanation": "苦い (にがい): Đắng.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g003",
+    "question": "「かいしゃに　つとめます。」の漢字は？",
+    "choices": ["勤めます", "務めます", "連めます", "集めます"],
+    "answer": 0,
+    "explanation": "勤める (つとめる): Làm việc tại (công ty).",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g004",
+    "question": "「しんせつな　人ですね。」の漢字は？",
+    "choices": ["親切な", "心切な", "新切な", "信切な"],
+    "answer": 0,
+    "explanation": "親切 (しんせつ): Tử tế, tốt bụng.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g005",
+    "question": "「道を　わたります。」の漢字は？",
+    "choices": ["渡ります", "通ります", "運ります", "進ります"],
+    "answer": 0,
+    "explanation": "渡る (わたる): Băng qua (đường, cầu).",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g006",
+    "question": "「てんきが　くもりです。」の漢字は？",
+    "choices": ["曇り", "雲り", "晴り", "雨り"],
+    "answer": 0,
+    "explanation": "曇り (くもり): Trời nhiều mây.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g007",
+    "question": "「けいさつに　でんわしました。」の漢字は？",
+    "choices": ["警察", "警察", "計察", "係察"],
+    "answer": 0,
+    "explanation": "警察 (けいさつ): Cảnh sát.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g008",
+    "question": "「くすりを　のみます。」の漢字は？",
+    "choices": ["薬", "茶", "品", "毒"],
+    "answer": 0,
+    "explanation": "薬 (くすり): Thuốc.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g009",
+    "question": "「ねだんが　たかいです。」の漢字は？",
+    "choices": ["値段", "値段", "熱段", "練段"],
+    "answer": 0,
+    "explanation": "値段 (ねだん): Giá cả.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g010",
+    "question": "「きょうしつで　べんきょうします。」の漢字は？",
+    "choices": ["教室", "教会", "教授", "教室"],
+    "answer": 0,
+    "explanation": "教室 (きょうしつ): Lớp học.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g011",
+    "question": "「あしたは　じゅぎょうが　あります。」の漢字は？",
+    "choices": ["授業", "授行", "受業", "受行"],
+    "answer": 0,
+    "explanation": "授業 (じゅぎょう): Giờ học.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g012",
+    "question": "「じしょを　つかいます。」の漢字は？",
+    "choices": ["辞書", "字書", "事書", "自書"],
+    "answer": 0,
+    "explanation": "辞書 (じしょ): Từ điển.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g013",
+    "question": "「しんごうを　右へ　まがります。」の漢字は？",
+    "choices": ["信号", "信合", "心号", "心合"],
+    "answer": 0,
+    "explanation": "信号 (しんごう): Đèn tín hiệu giao thông.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g014",
+    "question": "「この　ビルは　たいへん　ふるいです。」の漢字は？",
+    "choices": ["古い", "枯い", "古う", "古しい"],
+    "answer": 0,
+    "explanation": "古い (ふるい): Cũ.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g015",
+    "question": "「ふねに　のります。」の漢字は？",
+    "choices": ["船", "舟", "羽", "色"],
+    "answer": 0,
+    "explanation": "船 (ふね): Con thuyền.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g016",
+    "question": "「しんせきが　あそびに　きます。」の漢字は？",
+    "choices": ["親戚", "親せき", "親しき", "真戚"],
+    "answer": 0,
+    "explanation": "親戚 (しんせき): Họ hàng.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g017",
+    "question": "「かじの　ときは、すぐ　にげてください。」の漢字は？",
+    "choices": ["火事", "火事", "火次", "家事"],
+    "answer": 0,
+    "explanation": "火事 (かじ): Hỏa hoạn.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g018",
+    "question": "「きゅうこうでんしゃに　のります。」の漢字は？",
+    "choices": ["急行", "急工", "久行", "給行"],
+    "answer": 0,
+    "explanation": "急行 (きゅうこう): Tàu tốc hành.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g019",
+    "question": "「しんごうを　わたって、まっすぐ　いきます。」の漢字は？",
+    "choices": ["渡って", "通って", "運って", "進って"],
+    "answer": 0,
+    "explanation": "渡る (わたる): Băng qua.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g020",
+    "question": "「にほんの　ぶんかを　べんきょうします。」の漢字は？",
+    "choices": ["文化", "文華", "文花", "文下"],
+    "answer": 0,
+    "explanation": "文化 (ぶんか): Văn hóa.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g021",
+    "question": "「この　へやは　ひろいですね。」の漢字は？",
+    "choices": ["広い", "広る", "広しい", "広う"],
+    "answer": 0,
+    "explanation": "広い (ひろい): Rộng.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g022",
+    "question": "「しんかんせんに　のります。」の漢字は？",
+    "choices": ["新幹線", "新干線", "新管線", "新肝線"],
+    "answer": 0,
+    "explanation": "新幹線 (しんかんせん): Tàu Shinkansen.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g023",
+    "question": "「けっこんして、よかったです。」の漢字は？",
+    "choices": ["結婚", "結婚", "婚結", "結婚"],
+    "answer": 0,
+    "explanation": "結婚 (けっこん): Kết hôn.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g024",
+    "question": "「この　もんだいは　むずかしいです。」の漢字は？",
+    "choices": ["問題", "問だい", "題だい", "題間"],
+    "answer": 0,
+    "explanation": "問題 (もんだい): Vấn đề / Câu hỏi.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g025",
+    "question": "「じどうしゃを　うんてんします。」の漢字は？",
+    "choices": ["自動車", "自働車", "動車", "自同車"],
+    "answer": 0,
+    "explanation": "自動車 (じどうしゃ): Ô tô.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g026",
+    "question": "「でんきを　けして　ください。」の漢字は？",
+    "choices": ["電気", "伝気", "電気", "転気"],
+    "answer": 0,
+    "explanation": "電気 (でんき): Điện.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g027",
+    "question": "「たべものに　ちゅういして　ください。」の漢字は？",
+    "choices": ["注意", "注意", "中意", "注異"],
+    "answer": 0,
+    "explanation": "注意 (ちゅうい): Chú ý.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g028",
+    "question": "「なつやすみに　りょこうします。」の漢字は？",
+    "choices": ["夏休み", "夏休", "夏やすみ", "なつ休み"],
+    "answer": 0,
+    "explanation": "夏休み (なつやすみ): Nghỉ hè.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g029",
+    "question": "「としょかんで　ほんを　かります。」の漢字は？",
+    "choices": ["図書館", "図書かん", "図所館", "図書館"],
+    "answer": 0,
+    "explanation": "図書館 (としょかん): Thư viện.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g030",
+    "question": "「これは　べんりな　どうぐです。」の漢字は？",
+    "choices": ["道具", "道具", "同具", "動具"],
+    "answer": 0,
+    "explanation": "道具 (どうぐ): Dụng cụ.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g031",
+    "question": "「まいにち　きょうかいへ　いきます。」の漢字は？",
+    "choices": ["教会", "教界", "教開", "教快"],
+    "answer": 0,
+    "explanation": "教会 (きょうかい): Nhà thờ.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g032",
+    "question": "「あしたは　かいぎが　あります。」の漢字は？",
+    "choices": ["会議", "会ぎ", "会義", "合議"],
+    "answer": 0,
+    "explanation": "会議 (かいぎ): Cuộc họp.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g033",
+    "question": "「この　おんがくは　ききやすいです。」の漢字は？",
+    "choices": ["音楽", "音楽", "音学", "温楽"],
+    "answer": 0,
+    "explanation": "音楽 (おんがく): Âm nhạc.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g034",
+    "question": "「びょういんへ　いきます。」の漢字は？",
+    "choices": ["病院", "病いん", "病医院", "病院"],
+    "answer": 0,
+    "explanation": "病院 (びょういん): Bệnh viện.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g035",
+    "question": "「らいねん　にほんへ　いきます。」の漢字は？",
+    "choices": ["来年", "来年", "来年", "来年"],
+    "answer": 0,
+    "explanation": "来年 (らいねん): Năm sau.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g036",
+    "question": "「この　まちは　とても　にぎやかです。」の漢字は？",
+    "choices": ["町", "村", "市", "区"],
+    "answer": 0,
+    "explanation": "町 (まち): Thị trấn / Phố.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g037",
+    "question": "「しゅくだいを　だしてください。」の漢字は？",
+    "choices": ["宿題", "宿だい", "宿題", "宿大"],
+    "answer": 0,
+    "explanation": "宿題 (しゅくだい): Bài tập về nhà.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g038",
+    "question": "「てがみを　だしました。」の漢字は？",
+    "choices": ["手紙", "手紙", "手紙", "手紙"],
+    "answer": 0,
+    "explanation": "手紙 (てがみ): Thư.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g039",
+    "question": "「こうえんを　さんぽします。」の漢字は？",
+    "choices": ["公園", "公円", "広園", "公園"],
+    "answer": 0,
+    "explanation": "公園 (こうえん): Công viên.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g040",
+    "question": "「あつい　おちゃを　のみます。」の漢字は？",
+    "choices": ["熱い", "暑い", "厚い", "温かい"],
+    "answer": 0,
+    "explanation": "熱い (あつい): Nóng (nhiệt độ đồ vật/chất lỏng).",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g041",
+    "question": "「きょうは　とても　あついですね。」(trời nóng) の漢字は？",
+    "choices": ["暑い", "熱い", "厚い", "温かい"],
+    "answer": 0,
+    "explanation": "暑い (あつい): Nóng (thời tiết).",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g042",
+    "question": "「この　ほんは　とても　あついですね。」(sách dày) の漢字は？",
+    "choices": ["厚い", "暑い", "熱い", "温かい"],
+    "answer": 0,
+    "explanation": "厚い (あつい): Dày (đồ vật).",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g043",
+    "question": "「あしたの　てんきは　はれです。」の漢字は？",
+    "choices": ["晴れ", "曇れ", "雨れ", "雪れ"],
+    "answer": 0,
+    "explanation": "晴れ (はれ): Trời nắng/quang đãng.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g044",
+    "question": "「しごとが　おわります。」の漢字は？",
+    "choices": ["終わります", "終わります", "仕わります", "仕ります"],
+    "answer": 0,
+    "explanation": "終わる (おわる): Kết thúc.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g045",
+    "question": "「あまい　おかしを　たべます。」の漢字は？",
+    "choices": ["甘い", "辛い", "苦い", "酸っぱい"],
+    "answer": 0,
+    "explanation": "甘い (あまい): Ngọt.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g046",
+    "question": "「この　いすは　おもいです。」の漢字は？",
+    "choices": ["重い", "軽い", "大い", "強い"],
+    "answer": 0,
+    "explanation": "重い (おもい): Nặng.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g047",
+    "question": "「ここの　くうきは　きれいです。」の漢字は？",
+    "choices": ["空気", "空気", "空気", "空気"],
+    "answer": 0,
+    "explanation": "空気 (くうき): Không khí.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g048",
+    "question": "「ひこうきで　にほんへ　いきます。」の漢字は？",
+    "choices": ["飛行機", "飛航機", "飛行機", "飛工機"],
+    "answer": 0,
+    "explanation": "飛行機 (ひこうき): Máy bay.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g049",
+    "question": "「しんぶんを　よみます。」の漢字は？",
+    "choices": ["新聞", "新文", "信聞", "信文"],
+    "answer": 0,
+    "explanation": "新聞 (しんぶん): Báo.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g050",
+    "question": "「まいにち　うんどうします。」の漢字は？",
+    "choices": ["運動", "運道", "雲動", "動運"],
+    "answer": 0,
+    "explanation": "運動 (うんどう): Vận động / Tập thể dục.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g051",
+    "question": "「かいしゃの　じむしょは　きれいです。」の漢字は？",
+    "choices": ["事務所", "事無所", "事務所", "時務所"],
+    "answer": 0,
+    "explanation": "事務所 (じむしょ): Văn phòng.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g052",
+    "question": "「かぜを　ひいて　ねつが　あります。」の漢字は？",
+    "choices": ["熱", "熱", "熱", "熱"],
+    "answer": 0,
+    "explanation": "熱 (ねつ): Sốt / Nhiệt độ.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g053",
+    "question": "「あねは　だいななかいに　すんで　います。」(tầng 7) の漢字は？",
+    "choices": ["第七階", "第七階", "第七階", "第七階"],
+    "answer": 0,
+    "explanation": "第七階 (だいななかい): Tầng thứ 7.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g054",
+    "question": "「この　にもつは　ちいさいです。」の漢字は？",
+    "choices": ["荷物", "荷物", "荷物", "荷物"],
+    "answer": 0,
+    "explanation": "荷物 (にもつ): Hành lý.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g055",
+    "question": "「きっぷを　かって　ください。」の漢字は？",
+    "choices": ["切符", "切符", "切符", "切符"],
+    "answer": 0,
+    "explanation": "切符 (きっぷ): Vé.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g056",
+    "question": "「この　どうぶつは　なんて　いうんですか。」の漢字は？",
+    "choices": ["動物", "動物", "動ぶつ", "動ぶつ"],
+    "answer": 0,
+    "explanation": "動物 (どうぶつ): Động vật.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g057",
+    "question": "「おじいさんは　としを　とって　います。」の漢字は？",
+    "choices": ["年", "歳", "才", "年"],
+    "answer": 0,
+    "explanation": "年 (とし): Tuổi / Năm.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g058",
+    "question": "「この　へやには　まどが　ふたつ　あります。」の漢字は？",
+    "choices": ["窓", "窓", "窓", "窓"],
+    "answer": 0,
+    "explanation": "窓 (まど): Cửa sổ.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g059",
+    "question": "「きのう　パーティーで　おさけを　のみました。」の漢字は？",
+    "choices": ["お酒", "お酒", "お酒", "お酒"],
+    "answer": 0,
+    "explanation": "お酒 (おさけ): Rượu.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "k4g060",
+    "question": "「この　へやは　とても　あかるいです。」の漢字は？",
+    "choices": ["明るい", "明るい", "明るい", "明るい"],
+    "answer": 0,
+    "explanation": "明るい (あかるい): Sáng / Tươi sáng.",
+    "category": "kanji",
+    "level": "N4"
+  }
+  
+]
