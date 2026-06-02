@@ -1,1 +1,902 @@
-
+[
+{
+    "id": "n4g001",
+    "question": "「先生、あしたは　学校へ　＿＿＿＿＿　か。」",
+    "choices": ["いらっしゃいます", "行きます", "行かれます", "おいでます"],
+    "answer": 0,
+    "explanation": "先生に対する動作なので、尊敬語の「いらっしゃいます」を使う。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g002",
+    "question": "「この　料理は　私が　＿＿＿＿＿　ものです。」",
+    "choices": ["作った", "作られた", "作れる", "作る"],
+    "answer": 0,
+    "explanation": "「〜もの」の修飾は普通形。過去の動作なので「作った」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g003",
+    "question": "「雨が　＿＿＿＿＿　ので、試合は　中止に　なりました。」",
+    "choices": ["ふった", "ふりそうな", "ふりそうな", "ふって"],
+    "answer": 0,
+    "explanation": "原因・理由を表す「ので」の前は普通形。過去なので「ふった」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g004",
+    "question": "「この　パソコンは　＿＿＿＿＿　方が　いいです。」",
+    "choices": ["買う", "買った", "買い", "買わない"],
+    "answer": 1,
+    "explanation": "「〜方がいい」の過去の助言は「〜た方がいい」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g005",
+    "question": "「もし　明日　晴れ＿＿＿＿＿、山へ　行きます。」",
+    "choices": ["たら", "ば", "なら", "と"],
+    "answer": 0,
+    "explanation": "仮定条件を表す「〜たら」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g006",
+    "question": "「私は　友達に　漫画を　＿＿＿＿＿。」",
+    "choices": ["貸しました", "借りました", "貸してあげました", "貸してもらいました"],
+    "answer": 0,
+    "explanation": "文脈的に「貸しました」が最も自然。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g007",
+    "question": "「この　本は　＿＿＿＿＿　書かれました。」",
+    "choices": ["夏目漱石に", "夏目漱石を", "夏目漱石で", "夏目漱石へ"],
+    "answer": 0,
+    "explanation": "受身文の動作主は「に」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g008",
+    "question": "「もう　遅いですから、＿＿＿＿＿　ください。」",
+    "choices": ["帰って", "帰る", "帰った", "帰らないで"],
+    "answer": 0,
+    "explanation": "依頼の「〜て　ください」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g009",
+    "question": "「テレビの　音が　大きいですよ。少し　＿＿＿＿＿。」",
+    "choices": ["小さくして　ください", "小さく　なります", "小さく　なりました", "小さく　します"],
+    "answer": 0,
+    "explanation": "状態を変える依頼は「〜て　ください」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g010",
+    "question": "「この　服は　＿＿＿＿＿　ばかりです。」",
+    "choices": ["高い", "高く", "高くして", "高さ"],
+    "answer": 0,
+    "explanation": "「〜ばかり」は名詞や動詞とつながる。ここでは「高い」という状態が続いていること。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g011",
+    "question": "「電車に　＿＿＿＿＿　とき、切符を　落としました。」",
+    "choices": ["乗る", "乗った", "乗って", "乗れ"],
+    "answer": 0,
+    "explanation": "「〜とき」の前は、後ろの動作が過去なら「る/た」形。動作中なので「乗る」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g012",
+    "question": "「田中さんは　今　＿＿＿＿＿　かもしれません。」",
+    "choices": ["忙しい", "忙しく", "忙しくて", "忙しいの"],
+    "answer": 0,
+    "explanation": "推量を表す「〜かもしれません」の前は普通形。イ形容詞はそのまま。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g013",
+    "question": "「早く　＿＿＿＿＿　なりたいです。」",
+    "choices": ["上手", "上手に", "上手な", "上手く"],
+    "answer": 1,
+    "explanation": "「〜になる」の前は「く/に」形。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g014",
+    "question": "「ここは　＿＿＿＿＿　いけません。」",
+    "choices": ["入っては", "入って", "入る", "入らない"],
+    "answer": 0,
+    "explanation": "禁止を表す「〜ては　いけません」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g015",
+    "question": "「お腹が　すきましたから、何か　＿＿＿＿＿　たいです。」",
+    "choices": ["食べ", "食べて", "食べた", "食べる"],
+    "answer": 0,
+    "explanation": "「〜たい」の接続は動詞の「ます」形から「ます」を取る。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g016",
+    "question": "「この　資料を　＿＿＿＿＿　おいて　ください。」",
+    "choices": ["コピーして", "コピーする", "コピーした", "コピーし"],
+    "answer": 0,
+    "explanation": "前準備の「〜て　おく」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g017",
+    "question": "「昨日　勉強した　＿＿＿＿＿、試験に　合格しました。」",
+    "choices": ["おかげで", "せいで", "こと", "もの"],
+    "answer": 0,
+    "explanation": "良い結果の理由には「おかげで」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g018",
+    "question": "「日本へ　行く　＿＿＿＿＿　に、航空券を　予約しました。」",
+    "choices": ["前", "時", "間", "まま"],
+    "answer": 0,
+    "explanation": "動作の前の順序は「動詞辞書形＋前に」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g019",
+    "question": "「友達が　来る　＿＿＿＿＿　に、掃除を　します。」",
+    "choices": ["まで", "前に", "あとで", "まま"],
+    "answer": 0,
+    "explanation": "状態が続く限界点「〜まで」。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+    "id": "n4g020",
+    "question": "「この　靴は　＿＿＿＿＿　やすいです。」",
+    "choices": ["歩き", "歩く", "歩いて", "歩いた"],
+    "answer": 0,
+    "explanation": "「〜やすい」の接続は「ます」形。",
+    "category": "grammar_n4",
+    "level": "N4"
+  },
+  {
+  "id": "n4g021",
+  "question": "「先生、あしたの　予定を　＿＿＿＿＿　ください。」",
+  "choices": ["教えて", "おっしゃって", "お知らせして", "教えられて"],
+  "answer": 2,
+  "explanation": "Dùng kính ngữ tự khiêm nhường (kenjougo) để nói về hành động của mình hướng tới bề trên: 「お知らせする」 (thông báo).",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g022",
+  "question": "「部長、資料を　＿＿＿＿＿　ましたか。」",
+  "choices": ["見られ", "ご覧になり", "お見せになり", "見られ"],
+  "answer": 1,
+  "explanation": "Dùng kính ngữ tôn kính (sonkeigo) cho hành động của cấp trên: 「見る」->「ご覧になる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g023",
+  "question": "「子供の　とき、母に　＿＿＿＿＿　られました。」",
+  "choices": ["叱（しか）", "叱ら", "叱り", "叱れ"],
+  "answer": 1,
+  "explanation": "Cấu trúc bị động: V-nai + れる. 「叱る」->「叱られる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g024",
+  "question": "「私は　弟に　パソコンを　＿＿＿＿＿　ました。」",
+  "choices": ["使われ", "使い", "使って", "使わせ"],
+  "answer": 0,
+  "explanation": "Bị động đặc biệt (bị động tiêu cực): bị người khác làm gì đó gây phiền phức. 「使う」->「使われる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g025",
+  "question": "「父は　私を　留学＿＿＿＿＿　ました。」",
+  "choices": ["させ", "され", "して", "させる"],
+  "answer": 0,
+  "explanation": "Cấu trúc sai khiến: V-nai + せる. Cho phép/bắt ai làm gì: 「留学させる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g026",
+  "question": "「お腹が　すきましたね。何か　＿＿＿＿＿　ませんか。」",
+  "choices": ["食べに行き", "食べる", "食べた", "食べに"],
+  "answer": 0,
+  "explanation": "Cấu trúc「〜に行く」bỏ masu, thêm に trước に行く. 「食べに行く」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g027",
+  "question": "「そんなに　急がなくても、＿＿＿＿＿　いいですよ。」",
+  "choices": ["いい", "よく", "いか", "いなくて"],
+  "answer": 0,
+  "explanation": "Cấu trúc「〜なくてもいい」: không cần phải làm gì đó.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g028",
+  "question": "「あの　人は　まるで　＿＿＿＿＿　ようです。」",
+  "choices": ["大人", "大人だ", "大人の", "大人に"],
+  "answer": 2,
+  "explanation": "Cấu trúc「まるで〜ようだ」: Giống như là... Danh từ nối với ようだ bằng 「の」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g029",
+  "question": "「この　料理は　＿＿＿＿＿　そうです。」",
+  "choices": ["おいしい", "おいし", "おいしくて", "おいしいの"],
+  "answer": 1,
+  "explanation": "Cấu trúc「〜そうです」phỏng đoán qua thị giác. Tính từ đuôi い bỏ い + そう.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g030",
+  "question": "「この　薬は　＿＿＿＿＿　に　飲んで　ください。」",
+  "choices": ["食前", "食前の", "食前に", "食前と"],
+  "answer": 2,
+  "explanation": "Chỉ thời điểm/trạng thái diễn ra hành động: 食前 + に.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g031",
+  "question": "「雨が　降る　＿＿＿＿＿　ですから、傘を　持って　いきます。」",
+  "choices": ["はず", "もの", "こと", "まま"],
+  "answer": 0,
+  "explanation": "Cấu trúc「〜はず」: chắc chắn là, dự đoán có căn cứ.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g032",
+  "question": "「田中さんは　今　＿＿＿＿＿　ようです。」",
+  "choices": ["寝て　いる", "寝る", "寝た", "寝て"],
+  "answer": 0,
+  "explanation": "Phỏng đoán trạng thái đang diễn ra: V-te iru + ようだ.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g033",
+  "question": "「この　歌を　聞くと、子供の　ときを　＿＿＿＿＿　出します。」",
+  "choices": ["思い", "思わ", "思って", "思える"],
+  "answer": 0,
+  "explanation": "Động từ ghép: 「思い出す」 (nhớ lại).",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g034",
+  "question": "「最近、少し　＿＿＿＿＿　ようになりました。」",
+  "choices": ["泳げる", "泳げ", "泳いだ", "泳ぐ"],
+  "answer": 0,
+  "explanation": "Cấu trúc「〜ようになりました」: thay đổi từ không thể sang có thể.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g035",
+  "question": "「明日、出張に　＿＿＿＿＿　ことに　なりました。」",
+  "choices": ["行く", "行かない", "行っている", "行ける"],
+  "answer": 0,
+  "explanation": "Quyết định từ bên ngoài (công ty, tập thể): V-辞書形 + ことになりました.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g036",
+  "question": "「そんなに　＿＿＿＿＿　ください。」",
+  "choices": ["泣かないで", "泣かなくて", "泣きないで", "泣かず"],
+  "answer": 0,
+  "explanation": "Cấu trúc cấm đoán nhẹ nhàng: V-nai + でください.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g037",
+  "question": "「宿題を　＿＿＿＿＿　しまいました。」",
+  "choices": ["終わって", "終わり", "終わる", "終わった"],
+  "answer": 1,
+  "explanation": "Cấu trúc「〜てしまいました」: hành động đã hoàn tất hoặc tiếc nuối. Kết hợp V-masu + しまう.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g038",
+  "question": "「これは　京都に　＿＿＿＿＿　ときに　買った　お土産です。」",
+  "choices": ["行った", "行く", "行こう", "行って"],
+  "answer": 0,
+  "explanation": "Hành động quá khứ xảy ra trước hành động chính: V-ta + とき.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g039",
+  "question": "「この　薬は　＿＿＿＿＿　くいです。」",
+  "choices": ["苦", "苦し", "苦く", "苦しんで"],
+  "answer": 0,
+  "explanation": "「〜にくい」 (khó làm gì đó): V-masu + にくい. Ở đây「苦い」(đắng) là tính từ đặc biệt dùng với cấu trúc này.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g040",
+  "question": "「明日　雨が　＿＿＿＿＿　は、出かけません。」",
+  "choices": ["降るなら", "降ったら", "降れば", "降るか"],
+  "answer": 0,
+  "explanation": "Cấu trúc「〜なら」: nếu là (giả định dựa trên thông tin đã biết/được nhắc tới).",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g041",
+  "question": "「社長が　戻ったら、すぐ　＿＿＿＿＿　ください。」",
+  "choices": ["お伝えして", "伝えて", "伝わって", "お伝えに"],
+  "answer": 0,
+  "explanation": "Dùng kính ngữ khiêm nhường (kenjougo) để nói về việc mình làm cho cấp trên: 「伝える」-> 「お伝えする」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g042",
+  "question": "「部長は　昨日から　京都へ　＿＿＿＿＿　て　います。」",
+  "choices": ["いらっしゃっ", "行かれ", "行っ", "おいで"],
+  "answer": 0,
+  "explanation": "Kính ngữ tôn kính (sonkeigo) của 「行く」 là 「いらっしゃる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g043",
+  "question": "「昨日の　パーティーで、知らない　人に　＿＿＿＿＿　ました。」",
+  "choices": ["話しかけられ", "話しかけ", "話しかけて", "話しかけさせ"],
+  "answer": 0,
+  "explanation": "Bị động: bị người lạ bắt chuyện. 「話しかける」->「話しかけられる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g044",
+  "question": "「父は　私に　ピアノを　＿＿＿＿＿　ました。」",
+  "choices": ["習わせ", "習われ", "習って", "習わせられ"],
+  "answer": 0,
+  "explanation": "Sai khiến: Bố cho/bắt tôi học piano. 「習う」->「習わせる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g045",
+  "question": "「この　本は　多くの　人に　＿＿＿＿＿　て　います。」",
+  "choices": ["読まれて", "読んで", "読ませて", "読まさせて"],
+  "answer": 0,
+  "explanation": "Câu bị động diễn tả trạng thái: cuốn sách được đọc bởi nhiều người.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g046",
+  "question": "「今日は　早く　帰らせて　＿＿＿＿＿　ませんか。」",
+  "choices": ["いただけ", "いただけれ", "させ", "くれ"],
+  "answer": 0,
+  "explanation": "Cấu trúc xin phép: 「〜(さ)せていただけませんか」(Cho phép tôi được làm... có được không ạ?).",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g047",
+  "question": "「田中さんに　＿＿＿＿＿　あげたいです。」",
+  "choices": ["手伝って", "手伝わせて", "手伝われて", "手伝い"],
+  "answer": 0,
+  "explanation": "Cấu trúc làm giúp cho ai đó: 「〜てあげる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g048",
+  "question": "「先生に　褒められて、＿＿＿＿＿　です。」",
+  "choices": ["嬉しかった", "嬉しい", "嬉しく", "嬉しさ"],
+  "explanation": "Câu bị động cảm xúc: Được thầy khen nên cảm thấy vui. Tính từ đuôi い giữ nguyên.",
+  "answer": 1,
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g049",
+  "question": "「この　料理は　＿＿＿＿＿　そうです。」",
+  "choices": ["辛そう", "辛いそう", "辛くそう", "辛い"],
+  "answer": 0,
+  "explanation": "Phỏng đoán qua thị giác: Tính từ đuôi い bỏ い + そう.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g050",
+  "question": "「そんなに　急ぐと、＿＿＿＿＿　ますよ。」",
+  "choices": ["転びそう", "転ぶそう", "転ばそう", "転んで"],
+  "answer": 0,
+  "explanation": "Dự đoán sự việc tiêu cực sắp xảy ra: 「V-masu + そう」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g051",
+  "question": "「来月　日本へ　＿＿＿＿＿　ことに　なりました。」",
+  "choices": ["行く", "行った", "行け", "行き"],
+  "answer": 0,
+  "explanation": "Sự việc đã được quyết định bởi người khác hoặc tập thể: V-辞書形 + ことになりました.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g052",
+  "question": "「この　仕事は　今日　中に　＿＿＿＿＿　なければ　なりません。」",
+  "choices": ["終わら", "終わり", "終わって", "終わる"],
+  "answer": 0,
+  "explanation": "Bắt buộc phải làm: V-ない (bỏ ない) + なければなりません.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g053",
+  "question": "「もう　雨は　＿＿＿＿＿　でしょう。」",
+  "choices": ["やむ", "やんだ", "やみ", "やめる"],
+  "answer": 0,
+  "explanation": "Phỏng đoán với độ tin cậy cao: V-辞書形 + でしょう.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g054",
+  "question": "「この　道は　＿＿＿＿＿　にくいです。」",
+  "choices": ["歩き", "歩く", "歩いて", "歩いた"],
+  "answer": 0,
+  "explanation": "Khó làm gì đó: V-masu (bỏ ます) + にくい.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g055",
+  "question": "「明日は　＿＿＿＿＿　から、出かけます。」",
+  "choices": ["晴れる", "晴れた", "晴れ", "晴れるの"],
+  "answer": 0,
+  "explanation": "Vì (lý do khách quan): V-辞書形/N/Na-adj + から.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g056",
+  "question": "「忙しい　ときに、子供に　＿＿＿＿＿　ました。」",
+  "choices": ["泣かれ", "泣き", "泣いて", "泣かせ"],
+  "answer": 0,
+  "explanation": "Bị động tiêu cực: bị con khóc (gây phiền). 「泣く」->「泣かれる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g057",
+  "question": "「田中さんは　＿＿＿＿＿　ようです。」",
+  "choices": ["風邪を　ひいた", "風邪を　ひく", "風邪が　ひいた", "風邪を　ひけ"],
+  "answer": 0,
+  "explanation": "Phỏng đoán dựa trên bằng chứng: V-た + ようだ.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g058",
+  "question": "「もっと　日本語が　＿＿＿＿＿　ように　なりたいです。」",
+  "choices": ["話せる", "話した", "話して", "話そう"],
+  "answer": 0,
+  "explanation": "Mong muốn thay đổi khả năng: 「話せるようになる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g059",
+  "question": "「昨日　食べた　＿＿＿＿＿、お腹が　痛くなりました。」",
+  "choices": ["せいで", "おかげで", "ために", "こと"],
+  "answer": 0,
+  "explanation": "Đổ lỗi (kết quả xấu): V-ta + せいで.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g060",
+  "question": "「先生に　＿＿＿＿＿　ました。」",
+  "choices": ["褒められ", "褒め", "褒めて", "褒めさせ"],
+  "answer": 0,
+  "explanation": "Bị động: được thầy khen. 「褒める」->「褒められる」.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g061",
+  "question": "「この　道は　あの　道より　＿＿＿＿＿　です。」",
+  "choices": ["狭い", "狭く", "狭くて", "狭い方"],
+  "answer": 0,
+  "explanation": "Cấu trúc so sánh: AよりBの方が〜 (B thì ... hơn A). Chỉ cần tính từ nguyên bản.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g062",
+  "question": "「日本語の　勉強は　毎日　続ける　＿＿＿＿＿　が　大切です。」",
+  "choices": ["こと", "もの", "ため", "とき"],
+  "answer": 0,
+  "explanation": "Danh từ hóa động từ: V-辞書形 + こと (Việc... thì...).",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g063",
+  "question": "「日本に　住んで　いる　＿＿＿＿＿、日本の　文化が　好きに　なりました。」",
+  "choices": ["間に", "間に", "中で", "うちに"],
+  "answer": 3,
+  "explanation": "Cấu trúc「〜うちに」: trong khi (trạng thái) còn... thì sự thay đổi diễn ra.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g064",
+  "question": "「この　時計は　＿＿＿＿＿　壊れやすいです。」",
+  "choices": ["落とし", "落とす", "落として", "落とした"],
+  "answer": 0,
+  "explanation": "Khó/Dễ làm gì: V-masu (bỏ ます) + やすい.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g065",
+  "question": "「駅に　＿＿＿＿＿　とき、友達に　会いました。」",
+  "choices": ["着いた", "着く", "着いて", "着こう"],
+  "answer": 0,
+  "explanation": "Hành động đã hoàn tất (quá khứ) trước khi gặp bạn: V-ta + とき.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g066",
+  "question": "「この　料理は　＿＿＿＿＿　作ります。」",
+  "choices": ["野菜で", "野菜に", "野菜を", "野菜の"],
+  "answer": 0,
+  "explanation": "Nguyên liệu làm ra món ăn: N + で.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g067",
+  "question": "「もっと　勉強＿＿＿＿＿　ば、合格したのに。」",
+  "choices": ["すれ", "する", "した", "し"],
+  "answer": 0,
+  "explanation": "Câu điều kiện tiếc nuối: V-ば + ...のに.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g068",
+  "question": "「明日、天気が　＿＿＿＿＿　なら、ピクニックに　行きます。」",
+  "choices": ["悪い", "悪く", "悪くて", "悪いの"],
+  "answer": 0,
+  "explanation": "Giả định: A-い + なら (Nếu là xấu).",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g069",
+  "question": "「忙しいのに、＿＿＿＿＿　来て　くれました。」",
+  "choices": ["わざわざ", "ずいぶん", "やっと", "すっかり"],
+  "answer": 0,
+  "explanation": "Phó từ「わざわざ」: cất công làm gì đó.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g070",
+  "question": "「ここは　禁煙ですから、＿＿＿＿＿　で　ください。」",
+  "choices": ["吸わない", "吸わなくて", "吸わず", "吸わん"],
+  "answer": 0,
+  "explanation": "Cấu trúc cấm đoán/yêu cầu: V-ない + でください.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g071",
+  "question": "「この　ペンは　＿＿＿＿＿　やすいです。」",
+  "choices": ["書き", "書く", "書いて", "書いた"],
+  "answer": 0,
+  "explanation": "V-masu + やすい (dễ làm gì).",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g072",
+  "question": "「子供に　＿＿＿＿＿　て　泣かれました。」",
+  "choices": ["叱っ", "叱り", "叱れ", "叱ら"],
+  "answer": 0,
+  "explanation": "Bị động tiêu cực: Tôi mắng con (và bị nó khóc làm phiền).",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g073",
+  "question": "「部長に　資料を　＿＿＿＿＿　ました。」",
+  "choices": ["持たせられ", "持たれ", "持って", "持たせ"],
+  "answer": 0,
+  "explanation": "Bị động sai khiến: bị sếp bắt phải cầm tài liệu.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g074",
+  "question": "「あの　人は　＿＿＿＿＿　そうです。」",
+  "choices": ["忙し", "忙しい", "忙しく", "忙しくて"],
+  "answer": 0,
+  "explanation": "Phỏng đoán qua thị giác: A-い (bỏ い) + そう.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g075",
+  "question": "「この　本は　＿＿＿＿＿　あります。」",
+  "choices": ["置いて", "置く", "置いた", "置き"],
+  "answer": 0,
+  "explanation": "Trạng thái sau hành động: V-te + あります.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g076",
+  "question": "「電気を　＿＿＿＿＿　おきます。」",
+  "choices": ["消して", "消す", "消した", "消し"],
+  "answer": 0,
+  "explanation": "Chuẩn bị sẵn: V-te + おきます.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g077",
+  "question": "「日本へ　行く　ために、＿＿＿＿＿　を　貯めて　います。」",
+  "choices": ["お金", "お湯", "お茶", "お酒"],
+  "answer": 0,
+  "explanation": "Dùng mục đích (ために) để chỉ hành động tiết kiệm.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g078",
+  "question": "「そんな　ことを　＿＿＿＿＿　方が　いいです。」",
+  "choices": ["言わない", "言う", "言った", "言って"],
+  "answer": 0,
+  "explanation": "Lời khuyên: V-ない + 方がいい.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g079",
+  "question": "「友達が　＿＿＿＿＿　そうです。」",
+  "choices": ["来る", "来て", "来た", "来"],
+  "answer": 0,
+  "explanation": "Nghe nói (truyền đạt): V-thể thường + そうだ.",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+{
+  "id": "n4g080",
+  "question": "「試験に　＿＿＿＿＿　ように、毎日　祈って　います。」",
+  "choices": ["合格する", "合格した", "合格して", "合格"],
+  "answer": 0,
+  "explanation": "Cấu trúc: V-辞書形/ない + ように (để cho...).",
+  "category": "grammar_n4",
+  "level": "N4"
+},
+  {
+    "id": "n4g081",
+    "question": "「この　本は　＿＿＿＿＿　ままに　して　あります。」",
+    "choices": ["置いた", "置く", "置いて", "置き"],
+    "answer": 0,
+    "explanation": "Cấu trúc 'V-ta + まま': giữ nguyên trạng thái. (Để nguyên như trạng thái đã đặt).",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g082",
+    "question": "「疲れたので、少し　＿＿＿＿＿　たいです。」",
+    "choices": ["休ませ", "休ま", "休んで", "休み"],
+    "answer": 3,
+    "explanation": "Cấu trúc 'V-masu + たい': muốn làm gì. (Muốn nghỉ ngơi).",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g083",
+    "question": "「明日は　休みですから、ゆっくり　＿＿＿＿＿　ことができます。」",
+    "choices": ["休む", "休んだ", "休んで", "休める"],
+    "answer": 0,
+    "explanation": "Cấu trúc 'V-辞書形 + ことができます': có thể làm gì.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g084",
+    "question": "「この　薬を　＿＿＿＿＿　と、元気に　なります。」",
+    "choices": ["飲む", "飲んだ", "飲んで", "飲まない"],
+    "answer": 0,
+    "explanation": "Cấu trúc 'V-辞書形 + と': hễ/khi làm gì thì kết quả tất yếu xảy ra.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g085",
+    "question": "「雨が　＿＿＿＿＿　ので、外へ　出ません。」",
+    "choices": ["降る", "降った", "降り", "降って"],
+    "answer": 0,
+    "explanation": "Cấu trúc 'V-辞書形/Na-adj-だ/N-だ + ので': vì (lý do khách quan).",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g086",
+    "question": "「田中さんは　今　＿＿＿＿＿　そうです。」",
+    "choices": ["忙しい", "忙し", "忙しく", "忙しくて"],
+    "answer": 1,
+    "explanation": "Phỏng đoán qua thị giác (A-い bỏ い + そう).",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g087",
+    "question": "「友達に　＿＿＿＿＿　て　もらいました。」",
+    "choices": ["手伝っ", "手伝う", "手伝った", "手伝わせ"],
+    "answer": 0,
+    "explanation": "Cấu trúc nhờ vả (được ai đó làm gì cho mình): 'V-te + もらう'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g088",
+    "question": "「この　料理は　＿＿＿＿＿　ます。」",
+    "choices": ["おいしくあり", "おいし", "おいしくない", "おいしく"],
+    "answer": 0,
+    "explanation": "Phủ định của tính từ đuôi い: 'A-い bỏ い + く + あります'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g089",
+    "question": "「試験に　＿＿＿＿＿　かもしれません。」",
+    "choices": ["合格する", "合格した", "合格して", "合格"],
+    "answer": 0,
+    "explanation": "Phỏng đoán: 'V-thường + かもしれません'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g090",
+    "question": "「ここから　駅まで　＿＿＿＿＿　くらい　かかります。」",
+    "choices": ["10分", "10分の", "10分で", "10分に"],
+    "answer": 0,
+    "explanation": "Cấu trúc 'khoảng bao lâu': 'Khoảng thời gian + くらい'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g091",
+    "question": "「明日の　会議は　＿＿＿＿＿　ことになりました。」",
+    "choices": ["中止する", "中止した", "中止に", "中止"],
+    "answer": 2,
+    "explanation": "Sự việc được quyết định: 'V-thường/N-danh từ + ことになりました'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g092",
+    "question": "「私は　日本料理を　＿＿＿＿＿　ことが　できます。」",
+    "choices": ["作る", "作った", "作って", "作り"],
+    "answer": 0,
+    "explanation": "Khả năng: 'V-辞書形 + ことができます'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g093",
+    "question": "「そんなに　＿＿＿＿＿　ないで　ください。」",
+    "choices": ["急ぐ", "急いで", "急いだ", "急が"],
+    "answer": 3,
+    "explanation": "Cấm đoán: 'V-ない + でください'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g094",
+    "question": "「この　傘は　＿＿＿＿＿　そうです。」",
+    "choices": ["壊れ", "壊れる", "壊れた", "壊"],
+    "answer": 0,
+    "explanation": "Phỏng đoán sắp xảy ra: 'V-masu + そう'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g095",
+    "question": "「母は　私に　毎日　野菜を　＿＿＿＿＿　ます。」",
+    "choices": ["食べさせ", "食べて", "食べた", "食べ"],
+    "answer": 0,
+    "explanation": "Sai khiến: 'V-させる' (Bắt/Cho ăn).",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g096",
+    "question": "「道に　迷った　＿＿＿＿＿、地図を　見ました。」",
+    "choices": ["ので", "ために", "こと", "もの"],
+    "answer": 0,
+    "explanation": "Vì (lý do): 'V-thường/N-danh từ + ので'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g097",
+    "question": "「この　料理は　＿＿＿＿＿　やすいです。」",
+    "choices": ["作り", "作る", "作って", "作った"],
+    "answer": 0,
+    "explanation": "V-masu + やすい (dễ làm).",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g098",
+    "question": "「田中さんは　＿＿＿＿＿　らしいです。」",
+    "choices": ["来る", "来た", "来て", "来"],
+    "answer": 0,
+    "explanation": "Nghe nói/Hình như: 'V-thường + らしい'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g099",
+    "question": "「この　本は　＿＿＿＿＿　ままに　なっています。」",
+    "choices": ["閉じた", "閉じる", "閉じて", "閉じ"],
+    "answer": 0,
+    "explanation": "Trạng thái: 'V-ta + まま'.",
+    "category": "grammar",
+    "level": "N4"
+  },
+  {
+    "id": "n4g100",
+    "question": "「明日、天気が　＿＿＿＿＿　なら、海へ　行きます。」",
+    "choices": ["良い", "良く", "良くて", "良いの"],
+    "answer": 0,
+    "explanation": "Giả định: 'A-い + なら'.",
+    "category": "grammar",
+    "level": "N4"
+  }
+]
