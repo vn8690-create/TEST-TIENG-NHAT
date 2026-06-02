@@ -1,38 +1,45 @@
-// Biến lưu trữ bài thi hiện tại
-let currentTest = [];
+let allQuestions = [];
 let userAnswers = [];
 let score = 0;
 let currentIndex = 0;
+const sections = ['vocab', 'grammar', 'reading'];
 
-// Hàm bắt đầu thi: Load file JSON tương ứng
 async function startTest(level, deSo) {
-    try {
-        // Load file từ thư mục exams/
-        const response = await fetch(`./exams/${level.toLowerCase()}_de${deSo}.json`);
-        currentTest = await response.json();
-        
-        // Reset trạng thái
-        userAnswers = [];
-        score = 0;
-        currentIndex = 0;
-        
-        // Chuyển màn hình
-        document.getElementById('menu-chon-level').style.display = 'none';
-        document.getElementById('man-hinh-test').style.display = 'flex';
-        
-        renderQuestion();
-    } catch (err) {
-        alert("Chưa có dữ liệu đề này bro ơi!");
+    allQuestions = [];
+    // Load lần lượt từng file JSON
+    for (let sec of sections) {
+        try {
+            const response = await fetch(`./exams/${level.toLowerCase()}_de${deSo}_${sec}.json`);
+            const data = await response.json();
+            allQuestions = allQuestions.concat(data);
+        } catch (e) {
+            console.error("Lỗi khi load phần " + sec, e);
+        }
     }
+
+    if (allQuestions.length === 0) {
+        alert("Chưa có dữ liệu bài thi!");
+        return;
+    }
+
+    userAnswers = new Array(allQuestions.length);
+    currentIndex = 0;
+    
+    document.getElementById('menu-chon-level').style.display = 'none';
+    document.getElementById('man-hinh-test').style.display = 'flex';
+    
+    renderQuestion();
 }
 
 function renderQuestion() {
-    if (currentIndex >= currentTest.length) {
+    if (currentIndex >= allQuestions.length) {
         submitTest();
         return;
     }
-    const q = currentTest[currentIndex];
-    document.getElementById('cau-hoi-box').innerText = q.question;
+    const q = allQuestions[currentIndex];
+    // Hiển thị câu hỏi kèm số thứ tự
+    document.getElementById('cau-hoi-box').innerHTML = `Câu ${currentIndex + 1}/${allQuestions.length}: ${q.question}`;
+    
     const optionsBox = document.getElementById('options-box');
     optionsBox.innerHTML = '';
     
@@ -51,12 +58,13 @@ function renderQuestion() {
 
 function submitTest() {
     score = 0;
-    currentTest.forEach((q, index) => {
+    allQuestions.forEach((q, index) => {
         if (userAnswers[index] === q.correct) score++;
     });
     
+    // Hiện kết quả tổng
     document.getElementById('man-hinh-test').innerHTML = `
-        <h2>Kết quả: ${score}/${currentTest.length}</h2>
-        <button class="btn-level" onclick="location.reload()">VỀ TRANG CHỦ</button>
+        <h2>Kết quả chung cuộc: ${score}/${allQuestions.length}</h2>
+        <button class="btn-level" onclick="location.reload()">LÀM LẠI TỪ ĐẦU</button>
     `;
 }
