@@ -1,70 +1,62 @@
-// Dữ liệu mẫu (sau này bro có thể thay bằng file JSON lớn hơn)
-const database = {
-    'N5': [
-        { q: "Chữ này đọc là gì: 日本?", a: ["Nihon", "Nihon", "Nippon", "Nichi"], correct: 0 },
-        { q: "Số 5 tiếng Nhật là gì?", a: ["San", "Go", "Roku", "Nana"], correct: 1 }
-    ],
-    'N4': [
-        { q: "Tiếng Nhật của 'Công ty' là?", a: ["Gakkou", "Kaisha", "Byouin", "Eki"], correct: 1 }
-    ]
-};
-
+// Biến lưu trữ bài thi hiện tại
 let currentTest = [];
+let userAnswers = [];
 let score = 0;
 let currentIndex = 0;
-let timeLeft = 1800; // 30 phút
 
-function startTest(level) {
-    currentTest = database[level];
-    score = 0;
-    currentIndex = 0;
-    document.getElementById('menu-chon-level').classList.remove('active');
-    document.getElementById('man-hinh-test').classList.add('active');
-    
-    batDauTimer();
-    renderQuestion();
+// Hàm bắt đầu thi: Load file JSON tương ứng
+async function startTest(level, deSo) {
+    try {
+        // Load file từ thư mục exams/
+        const response = await fetch(`./exams/${level.toLowerCase()}_de${deSo}.json`);
+        currentTest = await response.json();
+        
+        // Reset trạng thái
+        userAnswers = [];
+        score = 0;
+        currentIndex = 0;
+        
+        // Chuyển màn hình
+        document.getElementById('menu-chon-level').style.display = 'none';
+        document.getElementById('man-hinh-test').style.display = 'flex';
+        
+        renderQuestion();
+    } catch (err) {
+        alert("Chưa có dữ liệu đề này bro ơi!");
+    }
 }
 
 function renderQuestion() {
     if (currentIndex >= currentTest.length) {
-        ketThucTest();
+        submitTest();
         return;
     }
     const q = currentTest[currentIndex];
-    document.getElementById('cau-hoi-box').innerText = q.q;
+    document.getElementById('cau-hoi-box').innerText = q.question;
     const optionsBox = document.getElementById('options-box');
     optionsBox.innerHTML = '';
     
-    q.a.forEach((opt, index) => {
+    q.options.forEach((opt, index) => {
         const btn = document.createElement('button');
         btn.innerText = opt;
         btn.className = 'btn-level';
-        btn.onclick = () => checkAnswer(index);
+        btn.onclick = () => {
+            userAnswers[currentIndex] = index;
+            currentIndex++;
+            renderQuestion();
+        };
         optionsBox.appendChild(btn);
     });
 }
 
-function checkAnswer(index) {
-    if (index === currentTest[currentIndex].correct) score++;
-    currentIndex++;
-    renderQuestion();
-}
-
-function batDauTimer() {
-    const timerDisplay = document.getElementById('timer');
-    const interval = setInterval(() => {
-        timeLeft--;
-        let m = Math.floor(timeLeft / 60);
-        let s = timeLeft % 60;
-        timerDisplay.innerText = `${m}:${s < 10 ? '0' : ''}${s}`;
-        if (timeLeft <= 0) {
-            clearInterval(interval);
-            ketThucTest();
-        }
-    }, 1000);
-}
-
-function ketThucTest() {
-    document.getElementById('man-hinh-test').innerHTML = `<h2>Kết quả: ${score}/${currentTest.length}</h2>
-    <button class="btn-level" onclick="location.reload()">LÀM LẠI</button>`;
+function submitTest() {
+    score = 0;
+    currentTest.forEach((q, index) => {
+        if (userAnswers[index] === q.correct) score++;
+    });
+    
+    document.getElementById('man-hinh-test').innerHTML = `
+        <h2>Kết quả: ${score}/${currentTest.length}</h2>
+        <button class="btn-level" onclick="location.reload()">VỀ TRANG CHỦ</button>
+    `;
 }
