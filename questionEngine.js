@@ -38,7 +38,8 @@ const QuestionEngine = (() => {
     const levelData = {};
     for (const cat of categories) {
       try {
-        const res = await fetch(`data/${level}/${cat}.json`);
+        // Sửa dòng 34 thành:
+        const res = await fetch(`data/${cat}.json`);
         if (res.ok) levelData[cat] = await res.json();
         else levelData[cat] = [];
       } catch {
