@@ -1,1 +1,182 @@
-
+[
+  {
+    "id": "v4g001",
+    "question": "「あしたは　＿＿＿＿＿　から、早く　寝ます。」",
+    "choices": ["いそがしい", "ひまな", "やさしい", "むずかしい"],
+    "answer": 0,
+    "explanation": "忙しい (いそがしい): Bận rộn.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g002",
+    "question": "「この　料理は　＿＿＿＿＿　です。」",
+    "choices": ["おいしい", "いたい", "あつい", "わかい"],
+    "answer": 0,
+    "explanation": "美味しい (おいしい): Ngon.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g003",
+    "question": "「＿＿＿＿＿　を　かけて、出かけます。」",
+    "choices": ["めがね", "ぼうし", "シャツ", "ズボン"],
+    "answer": 0,
+    "explanation": "眼鏡 (めがね) を かける: Đeo kính.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g004",
+    "question": "「この　電車は　＿＿＿＿＿　です。」",
+    "choices": ["べんり", "しんせつ", "しずか", "じょうぶ"],
+    "answer": 0,
+    "explanation": "便利 (べんり): Tiện lợi.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g005",
+    "question": "「田中さんは　＿＿＿＿＿　な　人です。」",
+    "choices": ["しんせつ", "きれい", "ゆうめい", "げんき"],
+    "answer": 0,
+    "explanation": "親切 (しんせつ): Tốt bụng, tử tế.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g006",
+    "question": "「＿＿＿＿＿　で　手を　洗ってください。」",
+    "choices": ["せっけん", "はさみ", "でんわ", "かばん"],
+    "answer": 0,
+    "explanation": "石鹸 (せっけん): Xà phòng.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g007",
+    "question": "「仕事が　＿＿＿＿＿　ました。」",
+    "choices": ["おわり", "はじめ", "つづけ", "わすれ"],
+    "answer": 0,
+    "explanation": "終わる (おわる): Kết thúc.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g008",
+    "question": "「この　ビルは　＿＿＿＿＿　です。」",
+    "choices": ["たかい", "ひくい", "ふとい", "ほそい"],
+    "answer": 0,
+    "explanation": "高い (たかい): Cao.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g009",
+    "question": "「＿＿＿＿＿　を　はいて　います。」",
+    "choices": ["くつ", "てぶくろ", "ゆびわ", "ネクタイ"],
+    "answer": 0,
+    "explanation": "靴 (くつ): Giày.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g010",
+    "question": "「明日、＿＿＿＿＿　に　旅行に　行きます。」",
+    "choices": ["ひとり", "いちにん", "ひとびと", "ひとつ"],
+    "answer": 0,
+    "explanation": "一人 (ひとり): Một mình.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g011",
+    "question": "「＿＿＿＿＿　は　九月です。」",
+    "choices": ["らいげつ", "せんげつ", "こんげつ", "きょねん"],
+    "answer": 0,
+    "explanation": "来月 (らいげつ): Tháng sau.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g012",
+    "question": "「田中さんは　今　＿＿＿＿＿　に　住んで　います。」",
+    "choices": ["アパート", "ドア", "テラス", "ポーチ"],
+    "answer": 0,
+    "explanation": "アパート: Căn hộ (apartment).",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g013",
+    "question": "「＿＿＿＿＿　を　飲んで、薬を　飲みます。」",
+    "choices": ["おゆ", "おちゃ", "おさけ", "ジュース"],
+    "answer": 0,
+    "explanation": "お湯 (おゆ): Nước nóng.",
+    "category": "kanji",
+    "level": "N4"
+  },
+  {
+    "id": "v4g014",
+    "question": "「この　問題は　＿＿＿＿＿　です。」",
+    "choices": ["やさしい", "きびしい", "あたらしい", "ふるい"],
+    "answer": 0,
+    "explanation": "優しい (やさしい): Dễ dàng (hoặc tử tế).",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g015",
+    "question": "「＿＿＿＿＿　で　切符を　買いました。」",
+    "choices": ["じどうはんばいき", "でんわ", "れぞうこ", "テレビ"],
+    "answer": 0,
+    "explanation": "自動販売機 (じどうはんばいき): Máy bán hàng tự động.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g016",
+    "question": "「山田さんは　＿＿＿＿＿　が　長いです。」",
+    "choices": ["かみ", "あたま", "かお", "て"],
+    "answer": 0,
+    "explanation": "髪 (かみ): Tóc.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g017",
+    "question": "「＿＿＿＿＿　で　映画を　見ます。」",
+    "choices": ["えいがかん", "としょかん", "びょういん", "こうえん"],
+    "answer": 0,
+    "explanation": "映画館 (えいがかん): Rạp chiếu phim.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g018",
+    "question": "「父は　＿＿＿＿＿　が　大好きです。」",
+    "choices": ["やきゅう", "サッカー", "バスケ", "テニス"],
+    "answer": 0,
+    "explanation": "野球 (やきゅう): Bóng chày.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g019",
+    "question": "「＿＿＿＿＿　を　洗います。」",
+    "choices": ["さら", "くつ", "ズボン", "シャツ"],
+    "answer": 0,
+    "explanation": "皿 (さら): Đĩa.",
+    "category": "vocab",
+    "level": "N4"
+  },
+  {
+    "id": "v4g020",
+    "question": "「私は　＿＿＿＿＿　が　あります。」",
+    "choices": ["きょうだい", "りょうしん", "ともだち", "こいびと"],
+    "answer": 0,
+    "explanation": "兄弟 (きょうだい): Anh chị em.",
+    "category": "vocab",
+    "level": "N4"
+  }
+]
