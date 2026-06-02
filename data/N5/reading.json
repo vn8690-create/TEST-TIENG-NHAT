@@ -1,0 +1,281 @@
+[
+  {
+    "id": "n5r001",
+    "level": "N5",
+    "category": "reading",
+    "passage": "田中さんは毎日朝6時に起きます。そして、朝食を食べてから、学校に行きます。学校で、友達と勉強します。放課後、図書館で本を読みます。夜、家に帰って、宿題をしてから、寝ます。",
+    "passageVi": "Ông Tanaka thức dậy lúc 6 giờ sáng mỗi ngày. Sau đó, anh ăn sáng rồi đi học. Ở trường, anh học tập với bạn bè. Sau giờ học, anh đọc sách ở thư viện. Tối, anh về nhà, làm bài tập về nhà rồi đi ngủ.",
+    "passageTitle": "田中さんの一日",
+    "passageTitleVi": "Một ngày của ông Tanaka",
+    "questions": [
+      {
+        "questionId": "n5r001q01",
+        "question": "田中さんは何時に起きますか？",
+        "questionVi": "Ông Tanaka thức dậy lúc mấy giờ?",
+        "choices": ["5時", "6時", "7時", "8時"],
+        "choicesVi": ["5 giờ", "6 giờ", "7 giờ", "8 giờ"],
+        "answer": 1,
+        "explanation": "田中さんは毎日朝6時に起きます。",
+        "explanationVi": "Ông Tanaka thức dậy lúc 6 giờ sáng mỗi ngày."
+      },
+      {
+        "questionId": "n5r001q02",
+        "question": "田中さんは放課後どこで何をしますか？",
+        "questionVi": "Ông Tanaka làm gì ở đâu sau giờ học?",
+        "choices": ["図書館で本を読みます", "学校で勉強します", "図書館で友達と話します", "家で宿題をします"],
+        "choicesVi": ["Đọc sách ở thư viện", "Học ở trường", "Nói chuyện với bạn ở thư viện", "Làm bài tập ở nhà"],
+        "answer": 0,
+        "explanation": "放課後、図書館で本を読みます。",
+        "explanationVi": "Sau giờ học, anh đọc sách ở thư viện."
+      },
+      {
+        "questionId": "n5r001q03",
+        "question": "正しい順序は？",
+        "questionVi": "Thứ tự đúng là?",
+        "choices": [
+          "起きて、朝食を食べて、学校に行く",
+          "朝食を食べて、起きて、学校に行く",
+          "学校に行って、起きて、朝食を食べる",
+          "起きて、学校に行って、朝食を食べる"
+        ],
+        "choicesVi": [
+          "Thức dậy, ăn sáng, đi học",
+          "Ăn sáng, thức dậy, đi học",
+          "Đi học, thức dậy, ăn sáng",
+          "Thức dậy, đi học, ăn sáng"
+        ],
+        "answer": 0,
+        "explanation": "テキストによると：起きます → 朝食を食べます → 学校に行きます。",
+        "explanationVi": "Theo bài văn: thức dậy → ăn sáng → đi học."
+      }
+    ]
+  },
+  {
+    "id": "n5r002",
+    "level": "N5",
+    "category": "reading",
+    "passage": "私は東京に住んでいます。毎朝、駅の近くのカフェでコーヒーを飲みます。それから、電車で会社に行きます。会社は池袋にあります。仕事が終わると、友達と居酒屋で食事をします。週末は、公園を散歩したり、映画を見たりします。",
+    "passageVi": "Tôi sống ở Tokyo. Mỗi sáng, tôi uống cà phê ở quán cà phê gần nhà ga. Sau đó, tôi đi làm bằng tàu điện. Công ty tôi ở Ikebukuro. Khi công việc kết thúc, tôi ăn cơm với bạn bè ở quán rượu. Cuối tuần, tôi thích đi dạo ở công viên hoặc xem phim.",
+    "passageTitle": "私の毎日",
+    "passageTitleVi": "Ngày thường của tôi",
+    "questions": [
+      {
+        "questionId": "n5r002q01",
+        "question": "話者は毎朝何をしますか？",
+        "questionVi": "Người nói làm gì mỗi sáng?",
+        "choices": ["パンを食べます", "コーヒーを飲みます", "新聞を読みます", "テレビを見ます"],
+        "choicesVi": ["Ăn bánh mì", "Uống cà phê", "Đọc báo", "Xem tivi"],
+        "answer": 1,
+        "explanation": "毎朝、駅の近くのカフェでコーヒーを飲みます。",
+        "explanationVi": "Mỗi sáng, uống cà phê ở quán cà phê gần nhà ga."
+      },
+      {
+        "questionId": "n5r002q02",
+        "question": "会社はどこにありますか？",
+        "questionVi": "Công ty ở đâu?",
+        "choices": ["東京", "池袋", "駅の近く", "公園の隣"],
+        "choicesVi": ["Tokyo", "Ikebukuro", "Gần nhà ga", "Bên cạnh công viên"],
+        "answer": 1,
+        "explanation": "会社は池袋にあります。",
+        "explanationVi": "Công ty ở Ikebukuro."
+      },
+      {
+        "questionId": "n5r002q03",
+        "question": "週末、話者は何をしますか？（複数選択）",
+        "questionVi": "Vào cuối tuần, người nói làm gì? (Chọn nhiều)",
+        "choices": [
+          "公園を散歩します",
+          "映画を見ます",
+          "会社で仕事をします",
+          "友達と食事をします"
+        ],
+        "choicesVi": [
+          "Đi dạo ở công viên",
+          "Xem phim",
+          "Làm việc ở công ty",
+          "Ăn cơm với bạn"
+        ],
+        "answer": 0,
+        "explanation": "週末は、公園を散歩したり、映画を見たりします。",
+        "explanationVi": "Cuối tuần, đi dạo ở công viên hoặc xem phim."
+      }
+    ]
+  },
+  {
+    "id": "n5r003",
+    "level": "N5",
+    "category": "reading",
+    "passage": "春は花見の季節です。桜の木の下で、友達と一緒にお弁当を食べるのが好きです。昨年、京都の伏見稲荷大社へ行きました。そこは、赤い鳥居がたくさんあります。景色がとても美しいでした。今年も、また行きたいです。春のお祭りも楽しいです。",
+    "passageVi": "Mùa xuân là mùa ngắm hoa anh đào. Tôi thích ăn cơm hộp cùng bạn bè dưới cây anh đào. Năm ngoái, tôi đã đi đến đền Fushimi Inari ở Kyoto. Ở đó có rất nhiều cổng torii đỏ. Cảnh quan rất đẹp. Năm nay tôi muốn đi lại. Những lễ hội mùa xuân cũng rất vui.",
+    "passageTitle": "春が好きです",
+    "passageTitleVi": "Tôi yêu thích mùa xuân",
+    "questions": [
+      {
+        "questionId": "n5r003q01",
+        "question": "春は何の季節ですか？",
+        "questionVi": "Mùa xuân là mùa gì?",
+        "choices": ["雪の季節", "花見の季節", "紅葉の季節", "クリスマスの季節"],
+        "choicesVi": ["Mùa tuyết", "Mùa ngắm hoa anh đào", "Mùa lá chuyển màu", "Mùa Giáng sinh"],
+        "answer": 1,
+        "explanation": "春は花見の季節です。",
+        "explanationVi": "Mùa xuân là mùa ngắm hoa anh đào."
+      },
+      {
+        "questionId": "n5r003q02",
+        "question": "昨年、話者はどこへ行きましたか？",
+        "questionVi": "Năm ngoái, người nói đã đi đâu?",
+        "choices": ["東京", "大阪", "京都の伏見稲荷大社", "奈良"],
+        "choicesVi": ["Tokyo", "Osaka", "Đền Fushimi Inari ở Kyoto", "Nara"],
+        "answer": 2,
+        "explanation": "昨年、京都の伏見稲荷大社へ行きました。",
+        "explanationVi": "Năm ngoái, tôi đã đi đến đền Fushimi Inari ở Kyoto."
+      },
+      {
+        "questionId": "n5r003q03",
+        "question": "伏見稲荷大社の特徴は何ですか？",
+        "questionVi": "Đặc điểm của đền Fushimi Inari là gì?",
+        "choices": [
+          "古い寺院です",
+          "赤い鳥居がたくさんあります",
+          "大きい湖があります",
+          "温泉があります"
+        ],
+        "choicesVi": [
+          "Là ngôi chùa cũ",
+          "Có nhiều cổng torii đỏ",
+          "Có hồ lớn",
+          "Có suối nước nóng"
+        ],
+        "answer": 1,
+        "explanation": "そこは、赤い鳥居がたくさんあります。",
+        "explanationVi": "Ở đó có rất nhiều cổng torii đỏ."
+      }
+    ]
+  },
+  {
+    "id": "n5r004",
+    "level": "N5",
+    "category": "reading",
+    "passage": "李さんは中国から日本に来ました。今、東京の大学で日本語を勉強しています。李さんは毎日、学校で日本語の授業を受けます。授業の後、図書館で宿題をします。休みの日は、日本の文化を学びたいので、博物館や寺院を訪ねます。李さんは、日本文化が大好きです。来年、中国に帰りますが、また日本に来たいと言っています。",
+    "passageVi": "Anh Li đã đến Nhật Bản từ Trung Quốc. Hiện tại, anh ấy đang học tiếng Nhật tại một trường đại học ở Tokyo. Anh Li nhận lớp học tiếng Nhật hàng ngày ở trường. Sau giờ học, anh làm bài tập về nhà ở thư viện. Vào những ngày nghỉ, anh muốn học về văn hóa Nhật Bản, nên anh thăm các bảo tàng và đền chùa. Anh Li rất yêu thích văn hóa Nhật Bản. Năm tới, anh sẽ trở về Trung Quốc, nhưng anh nói rằng anh muốn quay lại Nhật Bản.",
+    "passageTitle": "李さんの日本での生活",
+    "passageTitleVi": "Cuộc sống của anh Li tại Nhật Bản",
+    "questions": [
+      {
+        "questionId": "n5r004q01",
+        "question": "李さんはどこから来ましたか？",
+        "questionVi": "Anh Li đến từ đâu?",
+        "choices": ["ベトナム", "タイ", "中国", "韓国"],
+        "choicesVi": ["Việt Nam", "Thái Lan", "Trung Quốc", "Hàn Quốc"],
+        "answer": 2,
+        "explanation": "李さんは中国から日本に来ました。",
+        "explanationVi": "Anh Li đã đến Nhật Bản từ Trung Quốc."
+      },
+      {
+        "questionId": "n5r004q02",
+        "question": "李さんは今何をしていますか？",
+        "questionVi": "Anh Li đang làm gì bây giờ?",
+        "choices": [
+          "会社で働いています",
+          "東京の大学で日本語を勉強しています",
+          "中国で仕事をしています",
+          "日本で日本企業の仕事をしています"
+        ],
+        "choicesVi": [
+          "Làm việc ở công ty",
+          "Học tiếng Nhật tại đại học Tokyo",
+          "Làm việc ở Trung Quốc",
+          "Làm việc cho công ty Nhật ở Nhật Bản"
+        ],
+        "answer": 1,
+        "explanation": "今、東京の大学で日本語を勉強しています。",
+        "explanationVi": "Hiện tại, anh ấy đang học tiếng Nhật tại trường đại học ở Tokyo."
+      },
+      {
+        "questionId": "n5r004q03",
+        "question": "李さんは何が好きですか？",
+        "questionVi": "Anh Li thích cái gì?",
+        "choices": ["中国文化", "アメリカ文化", "日本文化", "ヨーロッパ文化"],
+        "choicesVi": ["Văn hóa Trung Quốc", "Văn hóa Mỹ", "Văn hóa Nhật Bản", "Văn hóa Châu Âu"],
+        "answer": 2,
+        "explanation": "李さんは、日本文化が大好きです。",
+        "explanationVi": "Anh Li rất yêu thích văn hóa Nhật Bản."
+      },
+      {
+        "questionId": "n5r004q04",
+        "question": "休みの日、李さんは何をしますか？",
+        "questionVi": "Vào những ngày nghỉ, anh Li làm gì?",
+        "choices": [
+          "家で休みます",
+          "友達とカラオケに行きます",
+          "日本の文化を学ぶために、博物館や寺院を訪ねます",
+          "映画館に行きます"
+        ],
+        "choicesVi": [
+          "Nghỉ ở nhà",
+          "Đi hát karaoke với bạn",
+          "Thăm bảo tàng và đền chùa để học về văn hóa Nhật Bản",
+          "Đi rạp chiếu phim"
+        ],
+        "answer": 2,
+        "explanation": "休みの日は、日本の文化を学びたいので、博物館や寺院を訪ねます。",
+        "explanationVi": "Vào những ngày nghỉ, anh muốn học về văn hóa Nhật Bản, nên anh thăm các bảo tàng và đền chùa."
+      }
+    ]
+  },
+  {
+    "id": "n5r005",
+    "level": "N5",
+    "category": "reading",
+    "passage": "日本の冬は寒いです。12月から2月まで、気温は0度以下になることもあります。冬の食べ物は、おでん、すきやき、鍋などがあります。これらの食べ物は、体を温めます。また、冬は雪が降ることもあります。雪が降った時、子どもたちは雪だるまを作ったり、雪合戦をしたりして遊びます。日本人は冬が好きな人と嫌いな人がいます。",
+    "passageVi": "Mùa đông ở Nhật Bản rất lạnh. Từ tháng 12 đến tháng 2, nhiệt độ có thể xuống dưới 0 độ. Những thức ăn mùa đông bao gồm oden, sukiyaki, nabemono (lẩu), v.v. Những thức ăn này làm ấm cơ thể. Ngoài ra, tuyết có thể rơi vào mùa đông. Khi tuyết rơi, trẻ em tạo người tuyết hoặc chơi tung tóe tuyết. Người Nhật có những người yêu thích mùa đông và những người không thích.",
+    "passageTitle": "日本の冬",
+    "passageTitleVi": "Mùa đông ở Nhật Bản",
+    "questions": [
+      {
+        "questionId": "n5r005q01",
+        "question": "日本の冬はいつですか？",
+        "questionVi": "Mùa đông ở Nhật Bản là khi nào?",
+        "choices": ["9月から11月", "12月から2月", "3月から5月", "6月から8月"],
+        "choicesVi": ["Tháng 9 đến tháng 11", "Tháng 12 đến tháng 2", "Tháng 3 đến tháng 5", "Tháng 6 đến tháng 8"],
+        "answer": 1,
+        "explanation": "12月から2月まで、冬です。",
+        "explanationVi": "Từ tháng 12 đến tháng 2 là mùa đông."
+      },
+      {
+        "questionId": "n5r005q02",
+        "question": "冬の食べ物は何ですか？（複数）",
+        "questionVi": "Thức ăn mùa đông là gì? (Chọn nhiều)",
+        "choices": [
+          "おでん、すきやき、鍋",
+          "寿司、天ぷら、味噌汁",
+          "カレー、ハンバーグ、ピザ",
+          "サラダ、フルーツ、ジュース"
+        ],
+        "answer": 0,
+        "explanation": "冬の食べ物は、おでん、すきやき、鍋などがあります。",
+        "explanationVi": "Thức ăn mùa đông bao gồm oden, sukiyaki, nabemono."
+      },
+      {
+        "questionId": "n5r005q03",
+        "question": "雪が降った時、子どもたちは何をしますか？",
+        "questionVi": "Khi tuyết rơi, trẻ em làm gì?",
+        "choices": [
+          "家の中で勉強します",
+          "雪だるまを作ったり、雪合戦をしたりします",
+          "テレビを見ます",
+          "本を読みます"
+        ],
+        "choicesVi": [
+          "Học trong nhà",
+          "Tạo người tuyết hoặc chơi tung tóe tuyết",
+          "Xem tivi",
+          "Đọc sách"
+        ],
+        "answer": 1,
+        "explanation": "子どもたちは雪だるまを作ったり、雪合戦をしたりして遊びます。",
+        "explanationVi": "Trẻ em tạo người tuyết hoặc chơi tung tóe tuyết."
+      }
+    ]
+  }
+]
