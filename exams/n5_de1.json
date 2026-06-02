@@ -1,9 +1,0 @@
-[
-  {
-    "id": 1,
-    "question": "日本語は＿＿＿です。",
-    "options": ["むずかしい", "むずかし", "むずかしく", "むずかしや"],
-    "correct": 0,
-    "explanation": "Câu này dùng tính từ đuôi i bổ nghĩa cho danh từ/trạng thái. Đáp án đúng là むずかしい."
-  }
-]
