@@ -178,14 +178,21 @@ const App = (() => {
     // Question number
     $('q-number').textContent = `Q${state.currentIndex + 1}`;
 
-    // Question text - Display both Japanese and Vietnamese
-    let questionText = q.question || '';
+    // Question text - Display both Japanese and Vietnamese on separate lines
+    const questionTextEl = $('q-text');
+    questionTextEl.innerHTML = ''; // Clear previous content
+    
+    const jpQuestion = document.createElement('div');
+    jpQuestion.className = 'q-text-jp';
+    jpQuestion.textContent = q.question || '';
+    questionTextEl.appendChild(jpQuestion);
+    
     if (settings.language === 'vi' && q.questionVi) {
-      questionText = `${q.question}\n${q.questionVi}`;
-    } else if (settings.language === 'vi') {
-      questionText = q.questionVi || q.question;
+      const viQuestion = document.createElement('div');
+      viQuestion.className = 'q-text-vi';
+      viQuestion.textContent = q.questionVi;
+      questionTextEl.appendChild(viQuestion);
     }
-    $('q-text').textContent = questionText;
 
     // Kanji display (if present)
     if (q.kanji) {
@@ -258,16 +265,25 @@ const App = (() => {
       }
     }
 
-    // Show explanation - Display both Japanese and Vietnamese
+    // Show explanation - Display both Japanese and Vietnamese on separate lines
     if (settings.showExplanation) {
-      let explanationText = q.explanation || '';
+      const explanationBoxEl = $('explanation-box');
+      const explanationTextEl = $('explanation-text');
+      explanationTextEl.innerHTML = '';
+      
+      const jpExplanation = document.createElement('div');
+      jpExplanation.className = 'exp-text-jp';
+      jpExplanation.textContent = q.explanation || '';
+      explanationTextEl.appendChild(jpExplanation);
+      
       if (settings.language === 'vi' && q.explanationVi) {
-        explanationText = `${q.explanation}\n${q.explanationVi}`;
-      } else if (settings.language === 'vi') {
-        explanationText = q.explanationVi || q.explanation;
+        const viExplanation = document.createElement('div');
+        viExplanation.className = 'exp-text-vi';
+        viExplanation.textContent = q.explanationVi;
+        explanationTextEl.appendChild(viExplanation);
       }
-      $('explanation-text').textContent = explanationText;
-      $('explanation-box').classList.remove('hidden');
+      
+      explanationBoxEl.classList.remove('hidden');
     }
 
     updateProgress();
