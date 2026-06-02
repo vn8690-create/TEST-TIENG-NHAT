@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAPANESE EXAM ARENA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- HEADER -->
+        <header class="app-header">
+            <div class="logo">ARENA N5-N4</div>
+            <div id="timer">30:00</div>
+        </header>
+
+        <!-- MÀN HÌNH CHÍNH -->
+        <main id="main-content">
+            <div id="menu-chon-level" class="screen active">
+                <h2>Chọn Cấp Độ Chiến</h2>
+                <button class="btn-level" onclick="startTest('N5')">N5 - KHỞI ĐỘNG</button>
+                <button class="btn-level" onclick="startTest('N4')">N4 - TĂNG TỐC</button>
+            </div>
+
+            <!-- MÀN HÌNH LÀM BÀI (Ẩn mặc định) -->
+            <div id="man-hinh-test" class="screen">
+                <div id="cau-hoi-box">Đang tải câu hỏi...</div>
+                <div id="options-box"></div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
