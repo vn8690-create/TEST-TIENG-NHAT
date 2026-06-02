@@ -446,9 +446,23 @@ body::before {
 .q-text {
   font-family: var(--font-jp);
   font-size: clamp(1rem, 3vw, 1.25rem);
-  line-height: 1.7;
+  line-height: 1.8;
   color: var(--text);
   font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.q-text-jp {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(0,245,212,0.2);
+}
+
+.q-text-vi {
+  padding: 8px 0;
+  font-size: 0.95rem;
+  color: var(--text2);
 }
 
 /* Choices */
@@ -522,8 +536,29 @@ body::before {
   line-height: 1.6;
   color: var(--teal2);
   animation: fadeIn 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .explanation-box.hidden { display: none; }
+
+#explanation-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exp-text-jp {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,245,212,0.2);
+  padding-bottom: 10px;
+}
+
+.exp-text-vi {
+  padding: 6px 0;
+  font-size: 0.9rem;
+  color: rgba(127, 255, 234, 0.8);
+}
 
 /* Exam action buttons */
 .exam-actions {
@@ -1005,11 +1040,13 @@ select.setting-select {
   <section class="screen" id="screen-wronglist">
     <div class="screen-header">
       <button class="btn btn-secondary" id="wronglist-back-btn">← 戻る</button>
-      <span class="screen-title">✗ 間違いリスト (<span id="wronglist-count">0</span>問)</span>
-      <button class="btn btn-primary" style="margin-left:auto" id="wronglist-start-btn">▶ ôn tập</button>
+      <span class="screen-title">✗ 間違えた問題 (<span id="wronglist-count">0</span>)</span>
     </div>
     <div class="wronglist-items" id="wronglist-items"></div>
-    <button class="btn btn-danger" id="wronglist-clear-btn">🗑 全部削除</button>
+    <div style="display:flex; gap:12px; justify-content:center; margin-top:20px">
+      <button class="btn btn-primary" id="wronglist-start-btn">🔁 復習を開始</button>
+      <button class="btn btn-danger" id="wronglist-clear-btn">🗑 すべて削除</button>
+    </div>
   </section>
 
   <!-- ═══ SETTINGS SCREEN ═══ -->
@@ -1022,68 +1059,53 @@ select.setting-select {
     <div class="settings-list">
       <div class="setting-row">
         <div class="setting-info">
-          <div class="setting-label">解説を表示</div>
-          <div class="setting-desc">回答後に説明を見る</div>
+          <div class="setting-label">💡 解説を表示</div>
+          <div class="setting-desc">回答後に解説を表示します</div>
         </div>
         <label class="toggle">
-          <input type="checkbox" id="setting-explanation" checked>
+          <input type="checkbox" id="setting-explanation">
           <span class="toggle-slider"></span>
         </label>
       </div>
 
       <div class="setting-row">
         <div class="setting-info">
-          <div class="setting-label">タイマー有効</div>
-          <div class="setting-desc">制限時間カウントダウン</div>
+          <div class="setting-label">⏱ タイマーを有効化</div>
+          <div class="setting-desc">テストに時間制限を追加</div>
         </div>
         <label class="toggle">
-          <input type="checkbox" id="setting-timer" checked>
+          <input type="checkbox" id="setting-timer">
           <span class="toggle-slider"></span>
         </label>
       </div>
 
       <div class="setting-row">
         <div class="setting-info">
-          <div class="setting-label">表示言語 / Ngôn ngữ</div>
-          <div class="setting-desc">問題文・解説の言語</div>
+          <div class="setting-label">🌍 表示言語</div>
+          <div class="setting-desc">問題と解説の表示言語</div>
         </div>
         <select class="setting-select" id="setting-lang">
-          <option value="vi">Tiếng Việt</option>
-          <option value="ja">日本語</option>
+          <option value="ja">日本語のみ</option>
+          <option value="vi">日本語 + ベトナム語</option>
         </select>
       </div>
     </div>
 
-    <div style="display:flex;gap:12px;flex-wrap:wrap">
+    <div style="display:flex; gap:12px; justify-content:center; margin-top:24px">
       <button class="btn btn-primary" id="settings-save-btn">💾 保存</button>
-      <button class="btn btn-danger" id="settings-clear-btn">🗑 全データ削除</button>
+      <button class="btn btn-danger" id="settings-clear-btn">🗑 データ削除</button>
     </div>
   </section>
 
 </div>
 
-<!-- TOAST -->
+<!-- Toast notification -->
 <div class="toast" id="toast"></div>
 
-<script>
-// Create sakura petals
-(() => {
-  const petals = ['🌸','🌺','🌼','✿'];
-  for (let i = 0; i < 12; i++) {
-    const p = document.createElement('div');
-    p.className = 'petal';
-    p.textContent = petals[Math.floor(Math.random() * petals.length)];
-    p.style.left  = Math.random() * 100 + 'vw';
-    p.style.animationDuration  = (8 + Math.random() * 12) + 's';
-    p.style.animationDelay     = (-Math.random() * 15) + 's';
-    p.style.fontSize = (0.8 + Math.random() * 0.8) + 'rem';
-    document.body.appendChild(p);
-  }
-})();
-</script>
-
-<script src="storage.js"></script>
+<!-- Scripts -->
 <script src="questionEngine.js"></script>
+<script src="storage.js"></script>
 <script src="app.js"></script>
+
 </body>
 </html>
