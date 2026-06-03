@@ -20,7 +20,7 @@
   {
     "id": "n4g003",
     "question": "「雨が　＿＿＿＿＿　ので、試合は　中止に　なりました。」",
-    "choices": ["ふった", "ふりそうな", "ふりそうな", "ふって"],
+    "choices": ["ふった", "ふりそう", "ふりそうな", "ふって"],
     "answer": 0,
     "explanation": "原因・理由を表す「ので」の前は普通形。過去なので「ふった」。",
     "category": "grammar_n4",
@@ -46,7 +46,7 @@
   },
   {
     "id": "n4g006",
-    "question": "「私は　友達に　漫画を　＿＿＿＿＿。」",
+    "question": "「私は　友達に　漫画を　＿＿＿＿＿。友達はとても喜びました。」",
     "choices": ["貸しました", "借りました", "貸してあげました", "貸してもらいました"],
     "answer": 0,
     "explanation": "文脈的に「貸しました」が最も自然。",
@@ -82,7 +82,7 @@
   },
   {
     "id": "n4g010",
-    "question": "「この　服は　＿＿＿＿＿　ばかりです。」",
+    "question": "「この店の服は　＿＿＿＿＿ものばかりです。」",
     "choices": ["高い", "高く", "高くして", "高さ"],
     "answer": 0,
     "explanation": "「〜ばかり」は名詞や動詞とつながる。ここでは「高い」という状態が続いていること。",
@@ -164,8 +164,8 @@
   {
     "id": "n4g019",
     "question": "「友達が　来る　＿＿＿＿＿　に、掃除を　します。」",
-    "choices": ["まで", "前に", "あとで", "まま"],
-    "answer": 0,
+    "choices": [ "前に","まで", "あとで", "まま"],
+    "answer": 1,
     "explanation": "状態が続く限界点「〜まで」。",
     "category": "grammar_n4",
     "level": "N4"
@@ -182,9 +182,9 @@
   {
   "id": "n4g021",
   "question": "「先生、あしたの　予定を　＿＿＿＿＿　ください。」",
-  "choices": ["教えて", "おっしゃって", "お知らせして", "教えられて"],
+  "choices": ["おっしゃって", "お知らせして","教えて",  "教えられて"],
   "answer": 2,
-  "explanation": "Dùng kính ngữ tự khiêm nhường (kenjougo) để nói về hành động của mình hướng tới bề trên: 「お知らせする」 (thông báo).",
+  "explanation": "Không dùng kính ngữ tự khiêm nhường (kenjougo) để nói về hành động của mình hướng tới bề trên: 「お知らせする」 (thông báo).",
   "category": "grammar_n4",
   "level": "N4"
 },
@@ -271,7 +271,7 @@
 },
 {
   "id": "n4g031",
-  "question": "「雨が　降る　＿＿＿＿＿　ですから、傘を　持って　いきます。」",
+  "question": "「今日は雨が　降る　＿＿＿＿＿　ですから、傘を　持って　いきます。」",
   "choices": ["はず", "もの", "こと", "まま"],
   "answer": 0,
   "explanation": "Cấu trúc「〜はず」: chắc chắn là, dự đoán có căn cứ.",
@@ -326,7 +326,7 @@
 {
   "id": "n4g037",
   "question": "「宿題を　＿＿＿＿＿　しまいました。」",
-  "choices": ["終わって", "終わり", "終わる", "終わった"],
+  "choices": [ "終わり","終わって", "終わる", "終わった"],
   "answer": 1,
   "explanation": "Cấu trúc「〜てしまいました」: hành động đã hoàn tất hoặc tiếc nuối. Kết hợp V-masu + しまう.",
   "category": "grammar_n4",
@@ -343,10 +343,10 @@
 },
 {
   "id": "n4g039",
-  "question": "「この　薬は　＿＿＿＿＿　くいです。」",
-  "choices": ["苦", "苦し", "苦く", "苦しんで"],
+  "question": "「この　薬は　苦くて＿＿＿＿＿　にくいです。」",
+  "choices": ["飲み", "食べ", "すて", "買い"],
   "answer": 0,
-  "explanation": "「〜にくい」 (khó làm gì đó): V-masu + にくい. Ở đây「苦い」(đắng) là tính từ đặc biệt dùng với cấu trúc này.",
+  "explanation": "「〜にくい」 (khó làm gì đó): V-masu + にくい. Ở đây「飲み」(uống) là chính xác.",
   "category": "grammar_n4",
   "level": "N4"
 },
@@ -361,10 +361,10 @@
 },
 {
   "id": "n4g041",
-  "question": "「社長が　戻ったら、すぐ　＿＿＿＿＿　ください。」",
+  "question": "「社長が　戻ったら、すぐ　社長に＿＿＿＿＿　ください。」",
   "choices": ["お伝えして", "伝えて", "伝わって", "お伝えに"],
   "answer": 0,
-  "explanation": "Dùng kính ngữ khiêm nhường (kenjougo) để nói về việc mình làm cho cấp trên: 「伝える」-> 「お伝えする」.",
+  "explanation": "Dùng kính ngữ khiêm nhường (kenjougo) để nói với cấp trên: 「伝える」-> 「お伝えする」.",
   "category": "grammar_n4",
   "level": "N4"
 },
@@ -560,7 +560,7 @@
 {
   "id": "n4g063",
   "question": "「日本に　住んで　いる　＿＿＿＿＿、日本の　文化が　好きに　なりました。」",
-  "choices": ["間に", "間に", "中で", "うちに"],
+  "choices": ["間で", "間に", "中で", "うちに"],
   "answer": 3,
   "explanation": "Cấu trúc「〜うちに」: trong khi (trạng thái) còn... thì sự thay đổi diễn ra.",
   "category": "grammar_n4",
@@ -568,7 +568,7 @@
 },
 {
   "id": "n4g064",
-  "question": "「この　時計は　＿＿＿＿＿　壊れやすいです。」",
+  "question": "「この　時計は　＿＿＿＿＿　と　壊れやすいです。」",
   "choices": ["落とし", "落とす", "落として", "落とした"],
   "answer": 0,
   "explanation": "Khó/Dễ làm gì: V-masu (bỏ ます) + やすい.",
@@ -595,8 +595,8 @@
 },
 {
   "id": "n4g067",
-  "question": "「もっと　勉強＿＿＿＿＿　ば、合格したのに。」",
-  "choices": ["すれ", "する", "した", "し"],
+  "question": "「もっと　勉強＿＿＿＿＿　、合格したのに。」",
+  "choices": ["すれば", "する", "した", "し"],
   "answer": 0,
   "explanation": "Câu điều kiện tiếc nuối: V-ば + ...のに.",
   "category": "grammar_n4",
@@ -640,9 +640,9 @@
 },
 {
   "id": "n4g072",
-  "question": "「子供に　＿＿＿＿＿　て　泣かれました。」",
-  "choices": ["叱っ", "叱り", "叱れ", "叱ら"],
-  "answer": 0,
+  "question": "「子供を　＿＿＿＿＿　泣かれました。」",
+  "choices": [ "叱り", "叱れ", "叱ら","叱ったら",],
+  "answer": 3,
   "explanation": "Bị động tiêu cực: Tôi mắng con (và bị nó khóc làm phiền).",
   "category": "grammar_n4",
   "level": "N4"
@@ -786,8 +786,8 @@
     "id": "n4g088",
     "question": "「この　料理は　＿＿＿＿＿　ます。」",
     "choices": ["おいしくあり", "おいし", "おいしくない", "おいしく"],
-    "answer": 0,
-    "explanation": "Phủ định của tính từ đuôi い: 'A-い bỏ い + く + あります'.",
+    "answer": 2,
+    "explanation": "Phủ định của tính từ đuôi い: 'A-い bỏ い + くないです'.",
     "category": "grammar",
     "level": "N4"
   },
@@ -812,9 +812,9 @@
   {
     "id": "n4g091",
     "question": "「明日の　会議は　＿＿＿＿＿　ことになりました。」",
-    "choices": ["中止する", "中止した", "中止に", "中止"],
+    "choices": [ "中止した", "中止に","中止する", "中止"],
     "answer": 2,
-    "explanation": "Sự việc được quyết định: 'V-thường/N-danh từ + ことになりました'.",
+    "explanation": "Sự việc được quyết định: 'Vる + ことになりました'.",
     "category": "grammar",
     "level": "N4"
   },
