@@ -33,10 +33,8 @@ const QuestionEngine = (() => {
   // Thêm "reading" vào cấu trúc dữ liệu lưu trữ
   let dataPool = {}; // { N5: { kanji: [...], vocab: [...], grammar: [...], reading: [...] } }
 
-  const loadLevel = async (level) => {
+ const loadLevel = async (level) => {
     if (dataPool[level]) return dataPool[level];
-    
-    // 💡 ĐÃ SỬA: Thêm 'reading' vào mảng categories để hàm tự động fetch file reading.json
     const categories = ['kanji', 'vocab', 'grammar', 'reading'];
     const levelData = {};
     
@@ -44,8 +42,44 @@ const QuestionEngine = (() => {
       try {
         const res = await fetch(`data/${level}/${cat}.json`);
         
-        if (res.ok) levelData[cat] = await res.json();
-        else levelData[cat] = [];
+        if (res.ok) {
+          const rawData = await res.json();
+          
+          // 💡 NẾU LÀ FILE READING: Biến đổi cấu trúc mảng lồng nhau thành mảng phẳng
+          if (cat === 'reading') {
+            const flatReading = [];
+            rawData.forEach(item => {
+              if (item.questions && Array.isArray(item.questions)) {
+                item.questions.forEach(q => {
+                  flatReading.push({
+                    id: q.questionId,
+                    level: item.level,
+                    category: item.category,
+                    // Đính kèm đoạn văn và tiêu đề vào từng câu hỏi con để app.js hiển thị
+                    passage: item.passage,
+                    passageVi: item.passageVi,
+                    passageTitle: item.passageTitle,
+                    passageTitleVi: item.passageTitleVi,
+                    // Dữ liệu câu hỏi con
+                    question: q.question,
+                    questionVi: q.questionVi,
+                    choices: q.choices,
+                    choicesVi: q.choicesVi,
+                    answer: q.answer,
+                    explanation: q.explanation,
+                    explanationVi: q.explanationVi
+                  });
+                });
+              }
+            });
+            levelData[cat] = flatReading;
+          } else {
+            // Các môn khác giữ nguyên
+            levelData[cat] = rawData;
+          }
+        } else {
+          levelData[cat] = [];
+        }
       } catch {
         levelData[cat] = [];
       }
@@ -53,7 +87,6 @@ const QuestionEngine = (() => {
     dataPool[level] = levelData;
     return levelData;
   };
-
   const getAllQuestions = (level) => {
     const data = dataPool[level] || {};
     return [
