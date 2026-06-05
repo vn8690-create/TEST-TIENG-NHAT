@@ -30,10 +30,9 @@ const QuestionEngine = (() => {
   const generateSeed = () => Math.floor(Math.random() * 99999) + 1;
 
   // ── Pool management ───────────────────────────────────────
-  // Thêm "reading" vào cấu trúc dữ liệu lưu trữ
   let dataPool = {}; // { N5: { kanji: [...], vocab: [...], grammar: [...], reading: [...] } }
 
- const loadLevel = async (level) => {
+  const loadLevel = async (level) => {
     if (dataPool[level]) return dataPool[level];
     const categories = ['kanji', 'vocab', 'grammar', 'reading'];
     const levelData = {};
@@ -45,7 +44,7 @@ const QuestionEngine = (() => {
         if (res.ok) {
           const rawData = await res.json();
           
-          // 💡 NẾU LÀ FILE READING: Biến đổi cấu trúc mảng lồng nhau thành mảng phẳng
+          // NẾU LÀ FILE READING: Biến đổi cấu trúc mảng lồng nhau thành mảng phẳng
           if (cat === 'reading') {
             const flatReading = [];
             rawData.forEach(item => {
@@ -55,12 +54,10 @@ const QuestionEngine = (() => {
                     id: q.questionId,
                     level: item.level,
                     category: item.category,
-                    // Đính kèm đoạn văn và tiêu đề vào từng câu hỏi con để app.js hiển thị
                     passage: item.passage,
                     passageVi: item.passageVi,
                     passageTitle: item.passageTitle,
                     passageTitleVi: item.passageTitleVi,
-                    // Dữ liệu câu hỏi con
                     question: q.question,
                     questionVi: q.questionVi,
                     choices: q.choices,
@@ -87,20 +84,21 @@ const QuestionEngine = (() => {
     dataPool[level] = levelData;
     return levelData;
   };
+
   const getAllQuestions = (level) => {
     const data = dataPool[level] || {};
     return [
       ...(data.kanji   || []),
       ...(data.vocab   || []),
       ...(data.grammar || []),
-      ...(data.reading || []), // 💡 ĐÃ SỬA: Gộp bài đọc hiểu vào tổng kho câu hỏi chung
+      ...(data.reading || []),
     ];
   };
 
   // ── Exam builders ─────────────────────────────────────────
 
   /**
-   * Mock Test: 70 questions (20 kanji + 20 vocab + 20 grammar + 10 reading)
+   * Thi thử: 70 questions (20 kanji + 20 vocab + 20 grammar + 10 reading)
    * Uses seed for reproducibility
    */
   const buildMockTest = (level, seed) => {
@@ -108,12 +106,11 @@ const QuestionEngine = (() => {
     const data = dataPool[level] || {};
     const pick = (pool, n) => seededShuffle(pool, rng).slice(0, n);
 
-    // 💡 ĐÃ SỬA: Bốc thêm 10 câu đọc hiểu từ dữ liệu reading.json
     const questions = [
       ...pick(data.kanji   || [], 20),
       ...pick(data.vocab   || [], 20),
       ...pick(data.grammar || [], 20),
-      ...pick(data.reading || [], 10), 
+      ...pick(data.reading || [], 10),
     ];
 
     return {
@@ -166,7 +163,7 @@ const QuestionEngine = (() => {
   const buildSurvival = (level, seed) => {
     const rng = mulberry32(seed);
     const all = getAllQuestions(level);
-    const questions = seededShuffle(all, rng); // All, served one-by-one
+    const questions = seededShuffle(all, rng);
     return {
       type: 'survival',
       examId: seedToExamId(seed),
