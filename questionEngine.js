@@ -30,16 +30,20 @@ const QuestionEngine = (() => {
   const generateSeed = () => Math.floor(Math.random() * 99999) + 1;
 
   // ── Pool management ───────────────────────────────────────
-  let dataPool = {}; // { N5: { kanji: [...], vocab: [...], grammar: [...] } }
+  // Thêm "reading" vào cấu trúc dữ liệu lưu trữ
+  let dataPool = {}; // { N5: { kanji: [...], vocab: [...], grammar: [...], reading: [...] } }
 
   const loadLevel = async (level) => {
     if (dataPool[level]) return dataPool[level];
-    const categories = ['kanji', 'vocab', 'grammar'];
+    
+    // 💡 ĐÃ SỬA: Thêm 'reading' vào mảng categories để hàm tự động fetch file reading.json
+    const categories = ['kanji', 'vocab', 'grammar', 'reading'];
     const levelData = {};
+    
     for (const cat of categories) {
       try {
-// Sửa lại đúng dòng này trong questionEngine.js:
-const res = await fetch(`data/${level}/${cat}.json`);
+        const res = await fetch(`data/${level}/${cat}.json`);
+        
         if (res.ok) levelData[cat] = await res.json();
         else levelData[cat] = [];
       } catch {
@@ -53,16 +57,17 @@ const res = await fetch(`data/${level}/${cat}.json`);
   const getAllQuestions = (level) => {
     const data = dataPool[level] || {};
     return [
-      ...(data.kanji  || []),
-      ...(data.vocab  || []),
-      ...(data.grammar|| []),
+      ...(data.kanji   || []),
+      ...(data.vocab   || []),
+      ...(data.grammar || []),
+      ...(data.reading || []), // 💡 ĐÃ SỬA: Gộp bài đọc hiểu vào tổng kho câu hỏi chung
     ];
   };
 
   // ── Exam builders ─────────────────────────────────────────
 
   /**
-   * Mock Test: 60 questions (20 kanji + 20 vocab + 20 grammar)
+   * Mock Test: 70 questions (20 kanji + 20 vocab + 20 grammar + 10 reading)
    * Uses seed for reproducibility
    */
   const buildMockTest = (level, seed) => {
@@ -70,10 +75,12 @@ const res = await fetch(`data/${level}/${cat}.json`);
     const data = dataPool[level] || {};
     const pick = (pool, n) => seededShuffle(pool, rng).slice(0, n);
 
+    // 💡 ĐÃ SỬA: Bốc thêm 10 câu đọc hiểu từ dữ liệu reading.json
     const questions = [
-      ...pick(data.kanji  || [], 20),
-      ...pick(data.vocab  || [], 20),
-      ...pick(data.grammar|| [], 20),
+      ...pick(data.kanji   || [], 20),
+      ...pick(data.vocab   || [], 20),
+      ...pick(data.grammar || [], 20),
+      ...pick(data.reading || [], 10), 
     ];
 
     return {
