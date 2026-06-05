@@ -175,9 +175,45 @@ const App = (() => {
     catEl.textContent = q.category.toUpperCase();
     catEl.style.background = catColors[q.category] || '#888';
 
-    // Question number
+// Question number
     $('q-number').textContent = `Q${state.currentIndex + 1}`;
 
+    // Question text - Display both Japanese and Vietnamese on separate lines
+    const questionTextEl = $('q-text');
+    questionTextEl.innerHTML = ''; // Clear previous content
+    
+    // 💡 TỰ ĐỘNG KIỂM TRA BÀI ĐỌC HIỂU: Nếu có đoạn văn dài (context / story / passage) thì hiện lên trước
+    if (q.context || q.story || q.passage) {
+      const contextDiv = document.createElement('div');
+      contextDiv.className = 'q-context';
+      contextDiv.style.marginBottom = '20px';
+      contextDiv.style.padding = '15px';
+      contextDiv.style.borderLeft = '4px solid #FF9F43'; // Viền màu cam neon cho chuẩn bộ nhận diện Reading
+      contextDiv.style.background = 'rgba(255, 159, 67, 0.08)';
+      contextDiv.style.borderRadius = '4px';
+      contextDiv.style.whiteSpace = 'pre-wrap'; // Giữ nguyên các dấu xuống dòng của đoạn văn bản gốc
+      contextDiv.style.fontSize = '1.05rem';
+      contextDiv.style.lineHeight = '1.6';
+      contextDiv.textContent = q.context || q.story || q.passage;
+      questionTextEl.appendChild(contextDiv);
+    }
+    
+    // Tạo phần hiển thị câu hỏi tiếng Nhật
+    const jpQuestion = document.createElement('div');
+    jpQuestion.className = 'q-text-jp';
+    if (q.context || q.story || q.passage) jpQuestion.style.fontWeight = 'bold'; // Làm đậm câu hỏi nếu có đoạn văn ở trên
+    jpQuestion.textContent = q.question || '';
+    questionTextEl.appendChild(jpQuestion);
+    
+    // Tạo phần hiển thị câu hỏi tiếng Việt (Nếu người dùng chọn ngôn ngữ dịch)
+    if (settings.language === 'vi' && q.questionVi) {
+      const viQuestion = document.createElement('div');
+      viQuestion.className = 'q-text-vi';
+      viQuestion.style.marginTop = '8px';
+      viQuestion.style.color = '#aaa';
+      viQuestion.textContent = q.questionVi;
+      questionTextEl.appendChild(viQuestion);
+    }
     // Question text - Display both Japanese and Vietnamese on separate lines
     const questionTextEl = $('q-text');
     questionTextEl.innerHTML = ''; // Clear previous content
