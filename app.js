@@ -170,7 +170,7 @@ const App = (() => {
     const settings = Storage.getSettings();
 
     // Category badge
-    const catColors = { kanji:'#FF6B6B', vocab:'#4ECDC4', grammar:'#45B7D1' };
+    const catColors = { kanji:'#FF6B6B', vocab:'#4ECDC4', grammar:'#45B7D1', reading:'#FF9F43' };
     const catEl = $('q-category');
     catEl.textContent = q.category.toUpperCase();
     catEl.style.background = catColors[q.category] || '#888';
