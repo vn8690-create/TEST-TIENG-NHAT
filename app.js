@@ -175,7 +175,7 @@ const App = (() => {
     catEl.textContent = q.category.toUpperCase();
     catEl.style.background = catColors[q.category] || '#888';
 
-// Question number
+    // Question number
     $('q-number').textContent = `Q${state.currentIndex + 1}`;
 
     // Question text - Display both Japanese and Vietnamese on separate lines
@@ -211,21 +211,6 @@ const App = (() => {
       viQuestion.className = 'q-text-vi';
       viQuestion.style.marginTop = '8px';
       viQuestion.style.color = '#aaa';
-      viQuestion.textContent = q.questionVi;
-      questionTextEl.appendChild(viQuestion);
-    }
-    // Question text - Display both Japanese and Vietnamese on separate lines
-    const questionTextEl = $('q-text');
-    questionTextEl.innerHTML = ''; // Clear previous content
-    
-    const jpQuestion = document.createElement('div');
-    jpQuestion.className = 'q-text-jp';
-    jpQuestion.textContent = q.question || '';
-    questionTextEl.appendChild(jpQuestion);
-    
-    if (settings.language === 'vi' && q.questionVi) {
-      const viQuestion = document.createElement('div');
-      viQuestion.className = 'q-text-vi';
       viQuestion.textContent = q.questionVi;
       questionTextEl.appendChild(viQuestion);
     }
