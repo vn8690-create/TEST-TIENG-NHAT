@@ -47,7 +47,7 @@
   {
     "id": "n4g006",
     "question": "「私は　友達に　漫画を　＿＿＿＿＿。友達はとても喜びました。」",
-    "choices": ["貸しました", "借りました", "貸してあげました", "貸してもらいました"],
+    "choices": ["貸しました", "借りました", "貸て", "貸してもらいました"],
     "answer": 0,
     "explanation": "文脈的に「貸しました」が最も自然。",
     "category": "grammar_n4",
@@ -641,7 +641,7 @@
 {
   "id": "n4g072",
   "question": "「子供を　＿＿＿＿＿　泣かれました。」",
-  "choices": [ "叱り", "叱れ", "叱ら","叱ったら",],
+  "choices": [  "叱れ", "叱ら","叱ったら","叱り"],
   "answer": 3,
   "explanation": "Bị động tiêu cực: Tôi mắng con (và bị nó khóc làm phiền).",
   "category": "grammar_n4",
@@ -784,7 +784,7 @@
   },
   {
     "id": "n4g088",
-    "question": "「この　料理は　＿＿＿＿＿　ます。」",
+    "question": "「この　料理は　＿＿＿＿＿　です。」",
     "choices": ["おいしくあり", "おいし", "おいしくない", "おいしく"],
     "answer": 2,
     "explanation": "Phủ định của tính từ đuôi い: 'A-い bỏ い + くないです'.",
