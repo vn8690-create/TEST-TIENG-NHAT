@@ -263,7 +263,7 @@
   {
     "id": "k4g030",
     "question": "「これは　べんりな　どうぐです。」の漢字は？",
-    "choices": ["動具", "同具", "道具", "道具"],
+    "choices": ["動具", "同具", "道具", "道倶"],
     "answer": 2,
     "explanation": "道具 (どうぐ): Dụng cụ.",
     "category": "kanji",
