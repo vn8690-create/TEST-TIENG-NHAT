@@ -164,8 +164,8 @@
     "id": "n4-053",
     "type": "kanji_reading",
     "question": "この　[説明]　は　分かりやすいです。",
-    "choices": ["せつめい", "せつめい", "せつめ", "せつみょう"],
-    "answer": 0,
+    "choices": ["せづめい", "せつめい", "せつめ", "せつみょう"],
+    "answer": 1,
     "explanation": "説明 (せつめい): Giải thích.",
     "category": "kanji",
     "level": "N4"
