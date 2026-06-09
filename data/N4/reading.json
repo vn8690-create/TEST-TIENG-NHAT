@@ -1,23 +1,214 @@
+```json
 {
-  "id": "n4r004",
-  "title": "週末のデパート",
-  "passage": "昨日、私はデパートへ買い物に行きました。先週、会社で使う新しい靴を買おうと思っていましたが、時間がなくて行けませんでした。やっと昨日、休みの日になったのでデパートに行きました。靴売り場にはたくさんの靴がありましたが、どれも少し高かったです。結局、靴は買わずに、ずっと探していた黄色い傘を買いました。店を出た時、雨が降り始めましたが、新しい傘があったので、嬉しかったです。",
-  "passageVi": "Hôm qua, tôi đi mua sắm ở trung tâm thương mại. Tuần trước, tôi định mua đôi giày mới để dùng ở công ty nhưng vì không có thời gian nên đã không đi được. Cuối cùng, hôm qua là ngày nghỉ nên tôi đã đi. Ở quầy giày có rất nhiều đôi, nhưng đôi nào cũng hơi đắt. Kết quả là, tôi đã không mua giày mà mua chiếc ô màu vàng mà tôi đã tìm kiếm bấy lâu nay. Lúc bước ra khỏi cửa hàng, trời bắt đầu đổ mưa, nhưng vì có chiếc ô mới nên tôi cảm thấy rất vui.",
-  "question": "筆者が昨日デパートへ行った目的はどれですか。",
-  "questionVi": "Mục đích mà tác giả đến trung tâm thương mại hôm qua là gì?",
-  "choices": [
-    "会社で使う靴を買うため",
-    "黄色い傘を探すため",
-    "雨が降ったから傘を買うため",
-    "デパートで友達と会うため"
-  ],
-  "choicesVi": [
-    "Để mua giày dùng ở công ty",
-    "Để tìm chiếc ô màu vàng",
-    "Để mua ô vì trời mưa",
-    "Để gặp bạn ở trung tâm thương mại"
-  ],
-  "answer": 0,
-  "explanation": "文中に「先週、会社で使う新しい靴を買おうと思っていました」「休みの日になったのでデパートに行きました」とあります。傘を買うのは結果的な出来事です。",
-  "explanationVi": "Trong bài có câu 'Tuần trước, tôi định mua đôi giày mới để dùng ở công ty' và 'Vì là ngày nghỉ nên tôi đã đi trung tâm thương mại'. Việc mua ô là sự kiện xảy ra sau đó."
-}
+  "id": "n4r001",
+  "level": "N4",
+  "category": "reading",
+  "passage": "昨日、私は仕事が終わったあと、スーパーへ行きました。牛乳とパンを買う予定でしたが、お店で友達に会いました。友達と話していたので、牛乳だけ買って帰りました。",
+  "passageVi": "Hôm qua, sau khi tan làm tôi đã đi siêu thị. Tôi định mua sữa và bánh mì, nhưng đã gặp một người bạn ở cửa hàng. Vì mải nói chuyện với bạn nên tôi chỉ mua sữa rồi về nhà.",
+  "passageTitle": "スーパーでの買い物",
+  "passageTitleVi": "Mua sắm ở siêu thị",
+  "questions": [
+    {
+      "questionId": "n4r001q01",
+      "question": "私はどこへ行きましたか。",
+      "questionVi": "Tôi đã đi đâu?",
+      "choices": [
+        "銀行",
+        "スーパー",
+        "病院",
+        "学校"
+      ],
+      "choicesVi": [
+        "Ngân hàng",
+        "Siêu thị",
+        "Bệnh viện",
+        "Trường học"
+      ],
+      "answer": 1,
+      "explanation": "仕事のあと、スーパーへ行きました。",
+      "explanationVi": "Sau giờ làm, tôi đã đi siêu thị."
+    },
+    {
+      "questionId": "n4r001q02",
+      "question": "買ったものは何ですか。",
+      "questionVi": "Tôi đã mua gì?",
+      "choices": [
+        "パン",
+        "牛乳",
+        "パンと牛乳",
+        "弁当"
+      ],
+      "choicesVi": [
+        "Bánh mì",
+        "Sữa",
+        "Bánh mì và sữa",
+        "Cơm hộp"
+      ],
+      "answer": 1,
+      "explanation": "友達と話していたので、牛乳だけ買いました。",
+      "explanationVi": "Vì nói chuyện với bạn nên chỉ mua sữa."
+    }
+  ]
+},
+  {
+    "id": "n4r002",
+    "level": "N4",
+    "category": "reading",
+    "passage": "田中さんは毎朝6時に起きます。朝ご飯を食べてから、犬と散歩します。しかし、今日は朝から雨が降っていたので、散歩に行きませんでした。",
+    "passageVi": "Anh Tanaka thức dậy lúc 6 giờ mỗi sáng. Sau khi ăn sáng, anh đi dạo cùng con chó. Tuy nhiên hôm nay trời mưa từ sáng nên anh không đi dạo.",
+    "passageTitle": "雨の日の朝",
+    "passageTitleVi": "Buổi sáng ngày mưa",
+    "questions": [
+      {
+        "questionId": "n4r002q01",
+        "question": "田中さんは普段何時に起きますか。",
+        "questionVi": "Thông thường anh Tanaka thức dậy lúc mấy giờ?",
+        "choices": ["5時", "6時", "7時", "8時"],
+        "choicesVi": ["5 giờ", "6 giờ", "7 giờ", "8 giờ"],
+        "answer": 1,
+        "explanation": "田中さんは毎朝6時に起きます。",
+        "explanationVi": "Anh Tanaka thức dậy lúc 6 giờ mỗi sáng."
+      },
+      {
+        "questionId": "n4r002q02",
+        "question": "今日はなぜ散歩に行きませんでしたか。",
+        "questionVi": "Hôm nay tại sao anh ấy không đi dạo?",
+        "choices": ["忙しかったから", "雨だったから", "犬がいなかったから", "病気だったから"],
+        "choicesVi": ["Vì bận", "Vì trời mưa", "Vì không có chó", "Vì bị bệnh"],
+        "answer": 1,
+        "explanation": "雨が降っていたので散歩に行きませんでした。",
+        "explanationVi": "Vì trời mưa nên anh ấy không đi dạo."
+      }
+    ]
+  },
+
+  {
+    "id": "n4r003",
+    "level": "N4",
+    "category": "reading",
+    "passage": "私は先週、新しいスマートフォンを買いました。前のスマートフォンは電池がすぐになくなってしまうので、不便でした。新しいスマートフォンは写真もきれいに撮れます。",
+    "passageVi": "Tuần trước tôi đã mua điện thoại mới. Điện thoại cũ rất bất tiện vì pin hết rất nhanh. Điện thoại mới còn chụp ảnh đẹp nữa.",
+    "passageTitle": "新しいスマートフォン",
+    "passageTitleVi": "Điện thoại thông minh mới",
+    "questions": [
+      {
+        "questionId": "n4r003q01",
+        "question": "前のスマートフォンはどうでしたか。",
+        "questionVi": "Điện thoại cũ như thế nào?",
+        "choices": ["高かった", "重かった", "電池がすぐなくなった", "新しかった"],
+        "choicesVi": ["Đắt", "Nặng", "Pin nhanh hết", "Mới"],
+        "answer": 2,
+        "explanation": "電池がすぐになくなっていました。",
+        "explanationVi": "Pin hết rất nhanh."
+      },
+      {
+        "questionId": "n4r003q02",
+        "question": "新しいスマートフォンについて正しいものはどれですか。",
+        "questionVi": "Điều nào đúng về điện thoại mới?",
+        "choices": ["写真がきれい", "古い", "壊れている", "使いにくい"],
+        "choicesVi": ["Ảnh đẹp", "Cũ", "Bị hỏng", "Khó sử dụng"],
+        "answer": 0,
+        "explanation": "写真もきれいに撮れます。",
+        "explanationVi": "Có thể chụp ảnh đẹp."
+      }
+    ]
+  },
+
+  {
+    "id": "n4r004",
+    "level": "N4",
+    "category": "reading",
+    "passage": "山田さんは日本語を勉強しています。毎日30分ぐらい単語を覚えて、週末には日本人の友達と話しています。今では簡単な会話ができるようになりました。",
+    "passageVi": "Anh Yamada đang học tiếng Nhật. Mỗi ngày anh học từ vựng khoảng 30 phút và cuối tuần nói chuyện với bạn người Nhật. Hiện nay anh đã có thể giao tiếp những cuộc hội thoại đơn giản.",
+    "passageTitle": "日本語の勉強",
+    "passageTitleVi": "Học tiếng Nhật",
+    "questions": [
+      {
+        "questionId": "n4r004q01",
+        "question": "山田さんは毎日何をしていますか。",
+        "questionVi": "Mỗi ngày anh Yamada làm gì?",
+        "choices": ["運動", "単語を覚える", "料理", "映画を見る"],
+        "choicesVi": ["Tập thể dục", "Học từ vựng", "Nấu ăn", "Xem phim"],
+        "answer": 1,
+        "explanation": "毎日30分ぐらい単語を覚えています。",
+        "explanationVi": "Mỗi ngày anh ấy học từ vựng khoảng 30 phút."
+      },
+      {
+        "questionId": "n4r004q02",
+        "question": "今の山田さんはどうですか。",
+        "questionVi": "Hiện tại anh Yamada thế nào?",
+        "choices": ["会話できない", "勉強していない", "簡単な会話ができる", "日本語を忘れた"],
+        "choicesVi": ["Không giao tiếp được", "Không học nữa", "Có thể hội thoại đơn giản", "Quên tiếng Nhật"],
+        "answer": 2,
+        "explanation": "簡単な会話ができるようになりました。",
+        "explanationVi": "Anh ấy đã có thể giao tiếp đơn giản."
+      }
+    ]
+  },
+
+  {
+    "id": "n4r005",
+    "level": "N4",
+    "category": "reading",
+    "passage": "昨日、私は友達と映画館へ行きました。本当は午後2時の映画を見る予定でしたが、道が混んでいたので間に合いませんでした。そのため、次の映画を見ました。",
+    "passageVi": "Hôm qua tôi đi rạp chiếu phim với bạn. Ban đầu tôi định xem suất chiếu lúc 2 giờ chiều nhưng vì đường đông nên không kịp. Vì vậy tôi đã xem suất chiếu tiếp theo.",
+    "passageTitle": "映画館で",
+    "passageTitleVi": "Ở rạp chiếu phim",
+    "questions": [
+      {
+        "questionId": "n4r005q01",
+        "question": "私はどこへ行きましたか。",
+        "questionVi": "Tôi đã đi đâu?",
+        "choices": ["図書館", "映画館", "病院", "学校"],
+        "choicesVi": ["Thư viện", "Rạp chiếu phim", "Bệnh viện", "Trường học"],
+        "answer": 1,
+        "explanation": "友達と映画館へ行きました。",
+        "explanationVi": "Tôi đã đi rạp chiếu phim với bạn."
+      },
+      {
+        "questionId": "n4r005q02",
+        "question": "なぜ予定の映画を見られませんでしたか。",
+        "questionVi": "Tại sao không xem được suất phim dự định?",
+        "choices": ["お金がなかった", "映画が中止になった", "遅れた", "友達が来なかった"],
+        "choicesVi": ["Không có tiền", "Phim bị hủy", "Đến muộn", "Bạn không đến"],
+        "answer": 2,
+        "explanation": "道が混んでいて間に合いませんでした。",
+        "explanationVi": "Vì đường đông nên không kịp giờ."
+      }
+    ]
+  },
+
+  {
+    "id": "n4r006",
+    "level": "N4",
+    "category": "reading",
+    "passage": "先月、会社で健康診断がありました。私は少し太ったと言われました。それから毎日30分歩くようにしています。最近は体の調子が良くなりました。",
+    "passageVi": "Tháng trước công ty có khám sức khỏe. Tôi được nói là đã tăng cân một chút. Từ đó tôi cố gắng đi bộ 30 phút mỗi ngày. Gần đây sức khỏe của tôi đã tốt hơn.",
+    "passageTitle": "健康診断",
+    "passageTitleVi": "Khám sức khỏe",
+    "questions": [
+      {
+        "questionId": "n4r006q01",
+        "question": "私は何を言われましたか。",
+        "questionVi": "Tôi đã được nói điều gì?",
+        "choices": ["背が高くなった", "太った", "病気だった", "痩せた"],
+        "choicesVi": ["Cao hơn", "Tăng cân", "Bị bệnh", "Giảm cân"],
+        "answer": 1,
+        "explanation": "少し太ったと言われました。",
+        "explanationVi": "Tôi được nói là đã tăng cân."
+      },
+      {
+        "questionId": "n4r006q02",
+        "question": "最近どうなりましたか。",
+        "questionVi": "Gần đây đã như thế nào?",
+        "choices": ["体の調子が悪い", "忙しくなった", "体の調子が良くなった", "歩かなくなった"],
+        "choicesVi": ["Sức khỏe xấu đi", "Bận hơn", "Sức khỏe tốt hơn", "Không đi bộ nữa"],
+        "answer": 2,
+        "explanation": "最近は体の調子が良くなりました。",
+        "explanationVi": "Gần đây sức khỏe đã tốt hơn."
+      }
+    ]
+  }
+]
+
+
