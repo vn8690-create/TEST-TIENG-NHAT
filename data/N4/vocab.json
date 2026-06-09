@@ -18,7 +18,7 @@
   { "id": "n4-017", "question": "「＿＿＿＿＿　で　映画を　見ます。」", "choices": ["えいがかん", "としょかん", "びょういん", "こうえん"], "answer": 0, "explanation": "映画館 (えいがかん): Rạp chiếu phim.", "category": "vocab", "level": "N4" },
   { "id": "n4-018", "question": "「父は　＿＿＿＿＿　が　大好きです。」", "choices": ["やきゅう", "サッカー", "バスケ", "テニス"], "answer": 0, "explanation": "野球 (やきゅう): Bóng chày.", "category": "vocab", "level": "N4" },
   { "id": "n4-019", "question": "「＿＿＿＿＿　を　洗います。」", "choices": ["さら", "くつ", "ズボン", "シャツ"], "answer": 0, "explanation": "皿 (さら): Đĩa.", "category": "vocab", "level": "N4" },
-  { "id": "n4-020", "question": "「私は　＿＿＿＿＿　が　あります。」", "choices": ["きょうだい", "りょうしん", "ともだち", "こいびと"], "answer": 0, "explanation": "兄弟 (きょうだい): Anh chị em.", "category": "vocab", "level": "N4" },
+  { "id": "n4-020", "question": "「私は　＿＿＿＿＿　が　あります。」", "choices": ["車", "りょうしん", "ともだち", "こいびと"], "answer": 0, "explanation": "兄弟 (きょうだい): Anh chị em.", "category": "vocab", "level": "N4" },
   { "id": "n4-021", "type": "kanji_reading", "question": "あした、新しい　[発表]　の　じゅんびを　します。", "choices": ["はっぽう", "はつびょう", "はっぴょう", "はつひょう"], "answer": 2, "explanation": "発表 (はっぴょう): Bài phát biểu/Công bố." },
   { "id": "n4-022", "type": "kana_lookup", "question": "あついので、[エアコン]　を　つけてください。", "choices": ["エヤコン", "エアコン", "エアーコン", "エコン"], "answer": 1, "explanation": "エアコン: Điều hòa (Air conditioner)." },
   { "id": "n4-023", "type": "kanji_reading", "question": "この　[問題]　は　とても　むずかしいです。", "choices": ["もんたい", "もんだい", "もんてい", "もんだい"], "answer": 1, "explanation": "問題 (もんだい): Vấn đề/Câu hỏi." },
