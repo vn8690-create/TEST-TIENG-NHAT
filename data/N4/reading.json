@@ -1,1 +1,23 @@
-
+{
+  "id": "n4r004",
+  "title": "週末のデパート",
+  "passage": "昨日、私はデパートへ買い物に行きました。先週、会社で使う新しい靴を買おうと思っていましたが、時間がなくて行けませんでした。やっと昨日、休みの日になったのでデパートに行きました。靴売り場にはたくさんの靴がありましたが、どれも少し高かったです。結局、靴は買わずに、ずっと探していた黄色い傘を買いました。店を出た時、雨が降り始めましたが、新しい傘があったので、嬉しかったです。",
+  "passageVi": "Hôm qua, tôi đi mua sắm ở trung tâm thương mại. Tuần trước, tôi định mua đôi giày mới để dùng ở công ty nhưng vì không có thời gian nên đã không đi được. Cuối cùng, hôm qua là ngày nghỉ nên tôi đã đi. Ở quầy giày có rất nhiều đôi, nhưng đôi nào cũng hơi đắt. Kết quả là, tôi đã không mua giày mà mua chiếc ô màu vàng mà tôi đã tìm kiếm bấy lâu nay. Lúc bước ra khỏi cửa hàng, trời bắt đầu đổ mưa, nhưng vì có chiếc ô mới nên tôi cảm thấy rất vui.",
+  "question": "筆者が昨日デパートへ行った目的はどれですか。",
+  "questionVi": "Mục đích mà tác giả đến trung tâm thương mại hôm qua là gì?",
+  "choices": [
+    "会社で使う靴を買うため",
+    "黄色い傘を探すため",
+    "雨が降ったから傘を買うため",
+    "デパートで友達と会うため"
+  ],
+  "choicesVi": [
+    "Để mua giày dùng ở công ty",
+    "Để tìm chiếc ô màu vàng",
+    "Để mua ô vì trời mưa",
+    "Để gặp bạn ở trung tâm thương mại"
+  ],
+  "answer": 0,
+  "explanation": "文中に「先週、会社で使う新しい靴を買おうと思っていました」「休みの日になったのでデパートに行きました」とあります。傘を買うのは結果的な出来事です。",
+  "explanationVi": "Trong bài có câu 'Tuần trước, tôi định mua đôi giày mới để dùng ở công ty' và 'Vì là ngày nghỉ nên tôi đã đi trung tâm thương mại'. Việc mua ô là sự kiện xảy ra sau đó."
+}
