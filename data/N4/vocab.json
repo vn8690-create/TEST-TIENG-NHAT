@@ -94,8 +94,8 @@
     "id": "n4-046",
     "type": "kanji_reading",
     "question": "この　[建物]　は　とても　古いです。",
-    "choices": ["たたもの", "だてもの", "たてもん", "たちもの"],
-    "answer": 0,
+    "choices": ["たたもの", "だてもの", "たてもの", "たちもの"],
+    "answer": 2,
     "explanation": "建物 (たてもの): Tòa nhà.",
     "category": "kanji",
     "level": "N4"
